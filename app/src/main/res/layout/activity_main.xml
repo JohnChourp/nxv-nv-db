@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="wrap_content"
     android:orientation="vertical"
     tools:context=".MainActivity">
 
@@ -15,7 +15,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
-            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
             android:orientation="vertical">
 
             <ImageView
@@ -165,8 +165,8 @@
                 android:layout_width="80dp"
                 android:layout_height="80dp"
                 android:layout_marginTop="16dp"
-                app:srcCompat="@drawable/temari"
-                android:contentDescription="@string/todo"/>
+                android:contentDescription="@string/todo"
+                app:srcCompat="@drawable/temari" />
 
             <ImageView
                 android:id="@+id/shizune_id"
@@ -174,8 +174,8 @@
                 android:layout_height="80dp"
                 android:layout_marginStart="96dp"
                 android:layout_marginTop="-80dp"
-                app:srcCompat="@drawable/shizune"
-                android:contentDescription="@string/todo"/>
+                android:contentDescription="@string/todo"
+                app:srcCompat="@drawable/shizune" />
 
             <ImageView
                 android:id="@+id/asuma_sarutobi_id"
@@ -183,8 +183,8 @@
                 android:layout_height="80dp"
                 android:layout_marginStart="192dp"
                 android:layout_marginTop="-80dp"
-                app:srcCompat="@drawable/asuma_sarutobi"
-                android:contentDescription="@string/todo"/>
+                android:contentDescription="@string/todo"
+                app:srcCompat="@drawable/asuma_sarutobi" />
 
             <ImageView
                 android:id="@+id/sarada_uchiha_id"
@@ -192,8 +192,8 @@
                 android:layout_height="80dp"
                 android:layout_marginStart="288dp"
                 android:layout_marginTop="-80dp"
-                app:srcCompat="@drawable/sarada_uchiha"
-                android:contentDescription="@string/todo"/>
+                android:contentDescription="@string/todo"
+                app:srcCompat="@drawable/sarada_uchiha" />
 
             <ImageView
                 android:id="@+id/might_guy_id"
@@ -369,6 +369,462 @@
                 android:layout_marginTop="-80dp"
                 android:contentDescription="@string/todo"
                 app:srcCompat="@drawable/sarada_uchiha__genin_" />
+
+            <ImageView
+                android:id="@+id/itachi_uchiha__vs_sasuke__id"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginTop="16dp"
+                android:contentDescription="@string/todo"
+                app:srcCompat="@drawable/itachi_uchiha__vs_sasuke_" />
+
+            <ImageView
+                android:id="@+id/suigetsu_hozuki_id"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginStart="96dp"
+                android:layout_marginTop="-80dp"
+                android:contentDescription="@string/todo"
+                app:srcCompat="@drawable/suigetsu_hozuki" />
+
+            <ImageView
+                android:id="@+id/jugo_id"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginStart="192dp"
+                android:layout_marginTop="-80dp"
+                android:contentDescription="@string/todo"
+                app:srcCompat="@drawable/jugo" />
+
+            <ImageView
+                android:id="@+id/karin_id"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginStart="288dp"
+                android:layout_marginTop="-80dp"
+                android:contentDescription="@string/todo"
+                app:srcCompat="@drawable/karin" />
+
+            <ImageView
+                android:id="@+id/sasuke_uchiha__vs_itachi__id"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginTop="16dp"
+                android:contentDescription="@string/todo"
+                app:srcCompat="@drawable/sasuke_uchiha__vs_itachi_" />
+
+            <ImageView
+                android:id="@+id/naruto_uzumaki__7th_hokage__id"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginStart="96dp"
+                android:layout_marginTop="-80dp"
+                android:contentDescription="@string/todo"
+                app:srcCompat="@drawable/naruto_uzumaki__7th_hokage_" />
+
+            <ImageView
+                android:id="@+id/hanabi_hyuga_id"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginStart="192dp"
+                android:layout_marginTop="-80dp"
+                android:contentDescription="@string/todo"
+                app:srcCompat="@drawable/hanabi_hyuga" />
+
+            <ImageView
+                android:id="@+id/sasuke_uchiha__wandering_ninja__id"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginStart="288dp"
+                android:layout_marginTop="-80dp"
+                android:contentDescription="@string/todo"
+                app:srcCompat="@drawable/sasuke_uchiha__wandering_ninja_" />
+
+            <ImageView
+                android:id="@+id/pain__tendo_id"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginTop="16dp"
+                android:contentDescription="@string/todo"
+                app:srcCompat="@drawable/pain__tendo_" />
+
+            <ImageView
+                android:id="@+id/konan_id"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginStart="96dp"
+                android:layout_marginTop="-80dp"
+                android:contentDescription="@string/todo"
+                app:srcCompat="@drawable/konan" />
+
+            <ImageView
+                android:id="@+id/naruto_uzumaki__sage_mode__id"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginStart="192dp"
+                android:layout_marginTop="-80dp"
+                android:contentDescription="@string/todo"
+                app:srcCompat="@drawable/naruto_uzumaki__sage_mode_" />
+
+            <ImageView
+                android:id="@+id/hiruzen_sarutobi_id"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginStart="288dp"
+                android:layout_marginTop="-80dp"
+                android:contentDescription="@string/todo"
+                app:srcCompat="@drawable/hiruzen_sarutobi" />
+
+            <ImageView
+                android:id="@+id/tobirama_senju_id"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginTop="16dp"
+                android:contentDescription="@string/todo"
+                app:srcCompat="@drawable/tobirama_senju" />
+
+            <ImageView
+                android:id="@+id/hashirama_senju_id"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginStart="96dp"
+                android:layout_marginTop="-80dp"
+                android:contentDescription="@string/todo"
+                app:srcCompat="@drawable/hashirama_senju" />
+
+            <ImageView
+                android:id="@+id/madara_uchiha_id"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginStart="192dp"
+                android:layout_marginTop="-80dp"
+                android:contentDescription="@string/todo"
+                app:srcCompat="@drawable/madara_uchiha" />
+
+            <ImageView
+                android:id="@+id/obito_uchiha_id"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginStart="288dp"
+                android:layout_marginTop="-80dp"
+                android:contentDescription="@string/todo"
+                app:srcCompat="@drawable/obito_uchiha" />
+
+            <ImageView
+                android:id="@+id/kakashi_hatake__double_sharingan__id"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginTop="16dp"
+                android:contentDescription="@string/todo"
+                app:srcCompat="@drawable/kakashi_hatake__double_sharingan_" />
+
+            <ImageView
+                android:id="@+id/killer_bee_id"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginStart="96dp"
+                android:layout_marginTop="-80dp"
+                android:contentDescription="@string/todo"
+                app:srcCompat="@drawable/killer_bee" />
+
+            <ImageView
+                android:id="@+id/shisui_uchiha_id"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginStart="192dp"
+                android:layout_marginTop="-80dp"
+                android:contentDescription="@string/todo"
+                app:srcCompat="@drawable/shisui_uchiha" />
+
+            <ImageView
+                android:id="@+id/kabuto_yakushi__snake_cloak__id"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginStart="288dp"
+                android:layout_marginTop="-80dp"
+                android:contentDescription="@string/todo"
+                app:srcCompat="@drawable/kabuto_yakushi__snake_cloak_" />
+
+            <ImageView
+                android:id="@+id/sasuke_uchiha__eternal_mangekyo_sharingan__id"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginTop="16dp"
+                android:contentDescription="@string/todo"
+                app:srcCompat="@drawable/sasuke_uchiha__eternal_mangekyo_sharingan_" />
+
+            <ImageView
+                android:id="@+id/naruto_uzumaki__kurama_link_mode__id"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginStart="96dp"
+                android:layout_marginTop="-80dp"
+                android:contentDescription="@string/todo"
+                app:srcCompat="@drawable/naruto_uzumaki__kurama_link_mode_" />
+
+            <ImageView
+                android:id="@+id/ohnoki_id"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginStart="192dp"
+                android:layout_marginTop="-80dp"
+                android:contentDescription="@string/todo"
+                app:srcCompat="@drawable/ohnoki" />
+
+            <ImageView
+                android:id="@+id/danzo_shimura_id"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginStart="288dp"
+                android:layout_marginTop="-80dp"
+                android:contentDescription="@string/todo"
+                app:srcCompat="@drawable/danzo_shimura" />
+
+            <ImageView
+                android:id="@+id/darui_id"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginTop="16dp"
+                android:contentDescription="@string/todo"
+                app:srcCompat="@drawable/darui" />
+
+            <ImageView
+                android:id="@+id/rin_nohara_id"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginStart="96dp"
+                android:layout_marginTop="-80dp"
+                android:contentDescription="@string/todo"
+                app:srcCompat="@drawable/rin_nohara" />
+
+            <ImageView
+                android:id="@+id/minato_namikaze__reanimation__id"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginStart="192dp"
+                android:layout_marginTop="-80dp"
+                android:contentDescription="@string/todo"
+                app:srcCompat="@drawable/minato_namikaze__reanimation_" />
+
+            <ImageView
+                android:id="@+id/naruto_uzumaki__six_paths_sage_mode__id"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginStart="288dp"
+                android:layout_marginTop="-80dp"
+                android:contentDescription="@string/todo"
+                app:srcCompat="@drawable/naruto_uzumaki__six_paths_sage_mode_" />
+
+            <ImageView
+                android:id="@+id/sasuke_uchiha__rinne_sharingan__id"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginTop="16dp"
+                android:contentDescription="@string/todo"
+                app:srcCompat="@drawable/sasuke_uchiha__rinne_sharingan_" />
+
+            <ImageView
+                android:id="@+id/obito_uchiha__ten_tails_jinchuriki__id"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginStart="96dp"
+                android:layout_marginTop="-80dp"
+                android:contentDescription="@string/todo"
+                app:srcCompat="@drawable/obito_uchiha__ten_tails_jinchuriki_" />
+
+            <ImageView
+                android:id="@+id/gaara__allied_shinobi_forces_commander__id"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginStart="192dp"
+                android:layout_marginTop="-80dp"
+                android:contentDescription="@string/todo"
+                app:srcCompat="@drawable/gaara__allied_shinobi_forces_commander_" />
+
+            <ImageView
+                android:id="@+id/itachi_uchiha__reanimation__id"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginStart="288dp"
+                android:layout_marginTop="-80dp"
+                android:contentDescription="@string/todo"
+                app:srcCompat="@drawable/itachi_uchiha__reanimation_" />
+
+            <ImageView
+                android:id="@+id/naruto_uzumaki__nine_tails_chakra_mode__id"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginTop="16dp"
+                android:contentDescription="@string/todo"
+                app:srcCompat="@drawable/naruto_uzumaki__nine_tails_chakra_mode_" />
+
+            <ImageView
+                android:id="@+id/sasuke_uchiha__hebi__id"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginStart="96dp"
+                android:layout_marginTop="-80dp"
+                android:contentDescription="@string/todo"
+                app:srcCompat="@drawable/sasuke_uchiha__hebi_" />
+
+            <ImageView
+                android:id="@+id/nagato__reanimation__id"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginStart="192dp"
+                android:layout_marginTop="-80dp"
+                android:contentDescription="@string/todo"
+                app:srcCompat="@drawable/nagato__reanimation_" />
+
+            <ImageView
+                android:id="@+id/tsunade__great_ninja_war__id"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginStart="288dp"
+                android:layout_marginTop="-80dp"
+                android:contentDescription="@string/todo"
+                app:srcCompat="@drawable/tsunade__great_ninja_war_" />
+
+            <ImageView
+                android:id="@+id/indra_otsutsuki_id"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginTop="16dp"
+                android:contentDescription="@string/todo"
+                app:srcCompat="@drawable/indra_otsutsuki"
+                tools:ignore="TooManyViews" />
+
+            <ImageView
+                android:id="@+id/raikage_ay_id"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginStart="96dp"
+                android:layout_marginTop="-80dp"
+                android:contentDescription="@string/todo"
+                app:srcCompat="@drawable/raikage_ay" />
+
+            <ImageView
+                android:id="@+id/mei_terumi_id"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginStart="192dp"
+                android:layout_marginTop="-80dp"
+                android:contentDescription="@string/todo"
+                app:srcCompat="@drawable/mei_terumi" />
+
+            <ImageView
+                android:id="@+id/ashura_otsutsuki_id"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginStart="288dp"
+                android:layout_marginTop="-80dp"
+                android:contentDescription="@string/todo"
+                app:srcCompat="@drawable/ashura_otsutsuki" />
+
+            <ImageView
+                android:id="@+id/kimimaro__reanimation__id"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginTop="16dp"
+                android:contentDescription="@string/todo"
+                app:srcCompat="@drawable/kimimaro__reanimation_" />
+
+            <ImageView
+                android:id="@+id/madara_uchiha__reanimation__id"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginStart="96dp"
+                android:layout_marginTop="-80dp"
+                android:contentDescription="@string/todo"
+                app:srcCompat="@drawable/madara_uchiha__reanimation_" />
+
+            <ImageView
+                android:id="@+id/hinata_hyuga__summer_break__id"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginStart="192dp"
+                android:layout_marginTop="-80dp"
+                android:contentDescription="@string/todo"
+                app:srcCompat="@drawable/hinata_hyuga__summer_break_" />
+
+            <ImageView
+                android:id="@+id/sakura_haruno__summer_break__id"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginStart="288dp"
+                android:layout_marginTop="-80dp"
+                android:contentDescription="@string/todo"
+                app:srcCompat="@drawable/sakura_haruno__summer_break_" />
+
+            <ImageView
+                android:id="@+id/minato_namikaze__reanimation_kurama_link_mode__id"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginTop="16dp"
+                android:contentDescription="@string/todo"
+                app:srcCompat="@drawable/minato_namikaze__reanimation_kurama_link_mode_" />
+
+            <ImageView
+                android:id="@+id/kinkaku__reanimation__id"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginStart="96dp"
+                android:layout_marginTop="-80dp"
+                android:contentDescription="@string/todo"
+                app:srcCompat="@drawable/kinkaku__reanimation_" />
+
+            <ImageView
+                android:id="@+id/utakata__reanimation__id"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginStart="192dp"
+                android:layout_marginTop="-80dp"
+                android:contentDescription="@string/todo"
+                app:srcCompat="@drawable/utakata__reanimation_" />
+
+            <ImageView
+                android:id="@+id/madara_uchiha__six_paths__id"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginStart="288dp"
+                android:layout_marginTop="-80dp"
+                android:contentDescription="@string/todo"
+                app:srcCompat="@drawable/madara_uchiha__six_paths_" />
+
+            <ImageView
+                android:id="@+id/madara_uchiha__white_mask__id"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginTop="16dp"
+                android:contentDescription="@string/todo"
+                app:srcCompat="@drawable/madara_uchiha__white_mask_" />
+
+            <ImageView
+                android:id="@+id/hashirama_senju__reanimation_sage_mode__id"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginStart="96dp"
+                android:layout_marginTop="-80dp"
+                android:contentDescription="@string/todo"
+                app:srcCompat="@drawable/hashirama_senju__reanimation_sage_mode_" />
+
+            <ImageView
+                android:id="@+id/sakura_haruno__great_ninja_war__id"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginStart="192dp"
+                android:layout_marginTop="-80dp"
+                android:contentDescription="@string/todo"
+                app:srcCompat="@drawable/sakura_haruno__great_ninja_war_" />
+
+            <ImageView
+                android:id="@+id/sasuke_uchiha__rinne_sharingan_shadow__id"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginStart="288dp"
+                android:layout_marginTop="-80dp"
+                android:contentDescription="@string/todo"
+                app:srcCompat="@drawable/sasuke_uchiha__rinne_sharingan_shadow_" />
 
         </LinearLayout>
     </ScrollView>
