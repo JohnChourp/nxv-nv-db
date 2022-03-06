@@ -1,18 +1,376 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context=".MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/naruto_uzumaki_Id"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:contentDescription="@string/todo"
+                app:srcCompat="@drawable/naruto_uzumaki" />
+
+            <ImageView
+                android:id="@+id/sasuke_uchiha_Id"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginStart="96dp"
+                android:layout_marginTop="-80dp"
+                android:contentDescription="@string/todo"
+                app:srcCompat="@drawable/sasuke_uchiha" />
+
+            <ImageView
+                android:id="@+id/sakura_haruno_Id"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginStart="192dp"
+                android:layout_marginTop="-80dp"
+                android:contentDescription="@string/todo"
+                app:srcCompat="@drawable/sakura_haruno" />
+
+            <ImageView
+                android:id="@+id/kakashi_hatake_Id"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginStart="288dp"
+                android:layout_marginTop="-80dp"
+                android:contentDescription="@string/todo"
+                app:srcCompat="@drawable/kakashi_hatake" />
+
+            <ImageView
+                android:id="@+id/hinata_hyuga_id"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginTop="16dp"
+                android:contentDescription="@string/todo"
+                app:srcCompat="@drawable/hinata_hyuga" />
+
+            <ImageView
+                android:id="@+id/gaara_id"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginStart="96dp"
+                android:layout_marginTop="-80dp"
+                android:layout_marginEnd="16dp"
+                android:contentDescription="@string/todo"
+                app:srcCompat="@drawable/gaara" />
+
+            <ImageView
+                android:id="@+id/kisame_hoshigaki_id"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginStart="192dp"
+                android:layout_marginTop="-80dp"
+                android:layout_marginEnd="16dp"
+                android:contentDescription="@string/todo"
+                app:srcCompat="@drawable/kisame_hoshigaki" />
+
+            <ImageView
+                android:id="@+id/rock_lee_id"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginStart="288dp"
+                android:layout_marginTop="-80dp"
+                android:contentDescription="@string/todo"
+                app:srcCompat="@drawable/rock_lee" />
+
+            <ImageView
+                android:id="@+id/boruto_uzumaki_id"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginTop="16dp"
+                android:contentDescription="@string/todo"
+                app:srcCompat="@drawable/boruto_uzumaki" />
+
+            <ImageView
+                android:id="@+id/konohamaru_sarutobi_id"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginStart="96dp"
+                android:layout_marginTop="-80dp"
+                android:contentDescription="@string/todo"
+                app:srcCompat="@drawable/konohamaru_sarutobi" />
+
+            <ImageView
+                android:id="@+id/kankuro_id"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginStart="192dp"
+                android:layout_marginTop="-80dp"
+                android:contentDescription="@string/todo"
+                app:srcCompat="@drawable/kankuro" />
+
+            <ImageView
+                android:id="@+id/ino_yamanaka_id"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginStart="288dp"
+                android:layout_marginTop="-80dp"
+                android:contentDescription="@string/todo"
+                app:srcCompat="@drawable/ino_yamanaka"
+                tools:ignore="ImageContrastCheck" />
+
+            <ImageView
+                android:id="@+id/choji_akimichi_id"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginTop="16dp"
+                android:contentDescription="@string/todo"
+                app:srcCompat="@drawable/choji_akimichi" />
+
+            <ImageView
+                android:id="@+id/kiba_inuzuka_id"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginStart="96dp"
+                android:layout_marginTop="-80dp"
+                android:contentDescription="@string/todo"
+                app:srcCompat="@drawable/kiba_inuzuka" />
+
+            <ImageView
+                android:id="@+id/shino_aburame_id"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginStart="192dp"
+                android:layout_marginTop="-80dp"
+                android:contentDescription="@string/todo"
+                app:srcCompat="@drawable/shino_aburame" />
+
+            <ImageView
+                android:id="@+id/tenten_id"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginStart="288dp"
+                android:layout_marginTop="-80dp"
+                android:contentDescription="@string/todo"
+                app:srcCompat="@drawable/tenten" />
+
+            <ImageView
+                android:id="@+id/temari_id"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginTop="16dp"
+                app:srcCompat="@drawable/temari"
+                android:contentDescription="@string/todo"/>
+
+            <ImageView
+                android:id="@+id/shizune_id"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginStart="96dp"
+                android:layout_marginTop="-80dp"
+                app:srcCompat="@drawable/shizune"
+                android:contentDescription="@string/todo"/>
+
+            <ImageView
+                android:id="@+id/asuma_sarutobi_id"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginStart="192dp"
+                android:layout_marginTop="-80dp"
+                app:srcCompat="@drawable/asuma_sarutobi"
+                android:contentDescription="@string/todo"/>
+
+            <ImageView
+                android:id="@+id/sarada_uchiha_id"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginStart="288dp"
+                android:layout_marginTop="-80dp"
+                app:srcCompat="@drawable/sarada_uchiha"
+                android:contentDescription="@string/todo"/>
+
+            <ImageView
+                android:id="@+id/might_guy_id"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginTop="16dp"
+                android:contentDescription="@string/todo"
+                app:srcCompat="@drawable/might_guy" />
+
+            <ImageView
+                android:id="@+id/neji_hyuga_id"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginStart="96dp"
+                android:layout_marginTop="-80dp"
+                android:contentDescription="@string/todo"
+                app:srcCompat="@drawable/neji_hyuga" />
+
+            <ImageView
+                android:id="@+id/deidara_id"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginStart="192dp"
+                android:layout_marginTop="-80dp"
+                android:contentDescription="@string/todo"
+                app:srcCompat="@drawable/deidara" />
+
+            <ImageView
+                android:id="@+id/haku_id"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginStart="288dp"
+                android:layout_marginTop="-80dp"
+                android:contentDescription="@string/todo"
+                app:srcCompat="@drawable/haku" />
+
+            <ImageView
+                android:id="@+id/itachi_uchiha_id"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginTop="16dp"
+                android:contentDescription="@string/todo"
+                app:srcCompat="@drawable/itachi_uchiha" />
+
+            <ImageView
+                android:id="@+id/orochimaru_id"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginStart="96dp"
+                android:layout_marginTop="-80dp"
+                android:contentDescription="@string/todo"
+                app:srcCompat="@drawable/orochimaru" />
+
+            <ImageView
+                android:id="@+id/sasori_id"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginStart="192dp"
+                android:layout_marginTop="-80dp"
+                android:contentDescription="@string/todo"
+                app:srcCompat="@drawable/sasori" />
+
+            <ImageView
+                android:id="@+id/tobi_id"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginStart="288dp"
+                android:layout_marginTop="-80dp"
+                android:contentDescription="@string/todo"
+                app:srcCompat="@drawable/tobi" />
+
+            <ImageView
+                android:id="@+id/shikamaru_nara_id"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginTop="16dp"
+                android:contentDescription="@string/todo"
+                app:srcCompat="@drawable/shikamaru_nara" />
+
+            <ImageView
+                android:id="@+id/zabuza_momochi_id"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginStart="96dp"
+                android:layout_marginTop="-80dp"
+                android:contentDescription="@string/todo"
+                app:srcCompat="@drawable/zabuza_momochi" />
+
+            <ImageView
+                android:id="@+id/tsunade_id"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginStart="192dp"
+                android:layout_marginTop="-80dp"
+                android:contentDescription="@string/todo"
+                app:srcCompat="@drawable/tsunade" />
+
+            <ImageView
+                android:id="@+id/sai_id"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginStart="288dp"
+                android:layout_marginTop="-80dp"
+                android:contentDescription="@string/todo"
+                app:srcCompat="@drawable/sai" />
+
+            <ImageView
+                android:id="@+id/minato_namikaze_id"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginTop="16dp"
+                android:contentDescription="@string/todo"
+                app:srcCompat="@drawable/minato_namikaze" />
+
+            <ImageView
+                android:id="@+id/hidan_id"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginStart="96dp"
+                android:layout_marginTop="-80dp"
+                android:contentDescription="@string/todo"
+                app:srcCompat="@drawable/hidan" />
+
+            <ImageView
+                android:id="@+id/kakuzu_id"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginStart="192dp"
+                android:layout_marginTop="-80dp"
+                android:contentDescription="@string/todo"
+                app:srcCompat="@drawable/kakuzu" />
+
+            <ImageView
+                android:id="@+id/jiraiya_id"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginStart="288dp"
+                android:layout_marginTop="-80dp"
+                android:contentDescription="@string/todo"
+                app:srcCompat="@drawable/jiraiya" />
+
+            <ImageView
+                android:id="@+id/mitsuki_id"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginTop="16dp"
+                android:contentDescription="@string/todo"
+                app:srcCompat="@drawable/mitsuki" />
+
+            <ImageView
+                android:id="@+id/boruto_uzumaki__genin__id"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginStart="96dp"
+                android:layout_marginTop="-80dp"
+                android:contentDescription="@string/todo"
+                app:srcCompat="@drawable/boruto_uzumaki__genin_" />
+
+            <ImageView
+                android:id="@+id/yamato_id"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginStart="192dp"
+                android:layout_marginTop="-80dp"
+                android:contentDescription="@string/todo"
+                app:srcCompat="@drawable/yamato" />
+
+            <ImageView
+                android:id="@+id/sarada_uchiha__genin__id"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginStart="288dp"
+                android:layout_marginTop="-80dp"
+                android:contentDescription="@string/todo"
+                app:srcCompat="@drawable/sarada_uchiha__genin_" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
