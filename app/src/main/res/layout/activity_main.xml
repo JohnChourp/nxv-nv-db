@@ -826,6 +826,198 @@
                 android:contentDescription="@string/todo"
                 app:srcCompat="@drawable/sasuke_uchiha__rinne_sharingan_shadow_" />
 
+            <ImageView
+                android:id="@+id/naruto_uzumaki__six_paths_sage_mode_light__id"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginTop="16dp"
+                android:contentDescription="@string/todo"
+                app:srcCompat="@drawable/naruto_uzumaki__six_paths_sage_mode_light_" />
+
+            <ImageView
+                android:id="@+id/kabuto_yakushi__sage_mode__id"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginStart="96dp"
+                android:layout_marginTop="-80dp"
+                android:contentDescription="@string/todo"
+                app:srcCompat="@drawable/kabuto_yakushi__sage_mode_" />
+
+            <ImageView
+                android:id="@+id/might_guy__eight_inner_gates__id"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginStart="192dp"
+                android:layout_marginTop="-80dp"
+                android:contentDescription="@string/todo"
+                app:srcCompat="@drawable/might_guy__eight_inner_gates_" />
+
+            <ImageView
+                android:id="@+id/kaguya_otsutsuki_id"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginStart="288dp"
+                android:layout_marginTop="-80dp"
+                android:contentDescription="@string/todo"
+                app:srcCompat="@drawable/kaguya_otsutsuki" />
+
+            <ImageView
+                android:id="@+id/sakura_uchiha__new_year_s_games__id"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginTop="16dp"
+                android:contentDescription="@string/todo"
+                app:srcCompat="@drawable/sakura_uchiha__new_year_s_games_" />
+
+            <ImageView
+                android:id="@+id/shikamaru_nara__bestowed_outfit__id"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginStart="96dp"
+                android:layout_marginTop="-80dp"
+                android:contentDescription="@string/todo"
+                app:srcCompat="@drawable/shikamaru_nara__bestowed_outfit_" />
+
+            <ImageView
+                android:id="@+id/naruto_uzumaki__warrior_spirit__id"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginStart="192dp"
+                android:layout_marginTop="-80dp"
+                android:contentDescription="@string/todo"
+                app:srcCompat="@drawable/naruto_uzumaki__warrior_spirit_" />
+
+            <ImageView
+                android:id="@+id/jiraiya__warrior_spirit__id"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginStart="288dp"
+                android:layout_marginTop="-80dp"
+                android:contentDescription="@string/todo"
+                app:srcCompat="@drawable/jiraiya__warrior_spirit_" />
+
+            <ImageView
+                android:id="@+id/boruto_uzumaki__warrior_spirit__id"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginTop="16dp"
+                android:contentDescription="@string/todo"
+                app:srcCompat="@drawable/boruto_uzumaki__warrior_spirit_" />
+
+            <ImageView
+                android:id="@+id/sasuke_uchiha__warrior_spirit__id"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginStart="96dp"
+                android:layout_marginTop="-80dp"
+                android:contentDescription="@string/todo"
+                app:srcCompat="@drawable/sasuke_uchiha__warrior_spirit_" />
+
+            <ImageView
+                android:id="@+id/konan__summer_break__id"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginStart="192dp"
+                android:layout_marginTop="-80dp"
+                android:contentDescription="@string/todo"
+                app:srcCompat="@drawable/konan__summer_break_" />
+
+            <ImageView
+                android:id="@+id/obito_uchiha__illusionary_world_outfit__id"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginStart="288dp"
+                android:layout_marginTop="-80dp"
+                android:contentDescription="@string/todo"
+                app:srcCompat="@drawable/obito_uchiha__illusionary_world_outfit_" />
+
+            <ImageView
+                android:id="@+id/sasuke_uchiha__illusionary_world_outfit__id"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginTop="16dp"
+                android:contentDescription="@string/todo"
+                app:srcCompat="@drawable/sasuke_uchiha__illusionary_world_outfit_" />
+
+            <ImageView
+                android:id="@+id/madara_uchiha__illusionary_world_outfit__thumb_id"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginStart="96dp"
+                android:layout_marginTop="-80dp"
+                android:contentDescription="@string/todo"
+                app:srcCompat="@drawable/madara_uchiha__illusionary_world_outfit__thumb" />
+
+            <ImageView
+                android:id="@+id/itachi_uchiha__illusionary_world_outfit__thumb_id"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginStart="192dp"
+                android:layout_marginTop="-80dp"
+                android:contentDescription="@string/todo"
+                app:srcCompat="@drawable/itachi_uchiha__illusionary_world_outfit__thumb" />
+
+            <ImageView
+                android:id="@+id/naruto_uzumaki__the_final_showdown__thumb_id"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginStart="288dp"
+                android:layout_marginTop="-80dp"
+                android:contentDescription="@string/todo"
+                app:srcCompat="@drawable/naruto_uzumaki__the_final_showdown__thumb" />
+
+            <ImageView
+                android:id="@+id/sasuke_uchiha__the_final_showdown__thumb_id"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginTop="16dp"
+                android:contentDescription="@string/todo"
+                app:srcCompat="@drawable/sasuke_uchiha__the_final_showdown__thumb" />
+
+            <ImageView
+                android:id="@+id/kakashi_hatake__sixth_hokage__thumb_id"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginStart="96dp"
+                android:layout_marginTop="-80dp"
+                android:contentDescription="@string/todo"
+                app:srcCompat="@drawable/kakashi_hatake__sixth_hokage__thumb" />
+
+            <ImageView
+                android:id="@+id/boruto_uzumaki__karma__thumb_id"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginStart="192dp"
+                android:layout_marginTop="-80dp"
+                android:contentDescription="@string/todo"
+                app:srcCompat="@drawable/boruto_uzumaki__karma__thumb" />
+
+            <ImageView
+                android:id="@+id/kawaki_thumb_id"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginStart="288dp"
+                android:layout_marginTop="-80dp"
+                android:contentDescription="@string/todo"
+                app:srcCompat="@drawable/kawaki_thumb" />
+
+            <ImageView
+                android:id="@+id/itachi_uchiha__anbu__thumb_id"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginTop="16dp"
+                android:contentDescription="@string/todo"
+                app:srcCompat="@drawable/itachi_uchiha__anbu__thumb" />
+
+            <ImageView
+                android:id="@+id/kushina_uzumaki_thumb_id"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginStart="96dp"
+                android:layout_marginTop="-80dp"
+                android:contentDescription="@string/todo"
+                app:srcCompat="@drawable/kushina_uzumaki_thumb" />
+
         </LinearLayout>
     </ScrollView>
 
