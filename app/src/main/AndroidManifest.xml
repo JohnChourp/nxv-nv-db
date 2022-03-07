@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyApplication">
         <activity
+            android:name=".cards_tools.naruto_uzumaki.ultimate_jutsus_5_star.ARampagingPower"
+            android:exported="false" />
+        <activity
             android:name=".characters.NarutoUzumaki"
             android:exported="false" />
         <activity

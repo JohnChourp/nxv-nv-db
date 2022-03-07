@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0E191A"
+    android:orientation="vertical"
+    tools:context=".cards_tools.naruto_uzumaki.ultimate_jutsus_5_star.ARampagingPower">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TableLayout
+                android:layout_width="410dp"
+                android:layout_height="500dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="16dp">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp">
+
+                    <TextView
+                        android:id="@+id/ninjutsu_id"
+                        android:layout_width="205dp"
+                        android:layout_height="30dp"
+                        android:layout_column="1"
+                        android:layout_span="4"
+                        android:background="#EE3E19"
+                        android:gravity="center"
+                        android:text="@string/ninjutsu"
+                        android:textColor="@color/white"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:id="@+id/max_card_stats_id"
+                        android:layout_width="205dp"
+                        android:layout_height="30dp"
+                        android:layout_column="2"
+                        android:layout_span="4"
+                        android:background="#EE3E19"
+                        android:gravity="center"
+                        android:text="@string/max_card_stats"
+                        android:textColor="@color/white"
+                        android:textSize="20sp" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/attack_id"
+                        android:layout_width="60dp"
+                        android:layout_height="30dp"
+                        android:layout_column="1"
+                        android:background="#F49907"
+                        android:gravity="center"
+                        android:text="@string/attack"
+                        android:textColor="@color/white"
+                        android:textSize="20sp"
+                        tools:ignore="TextContrastCheck" />
+
+                    <ImageView
+                        android:id="@+id/attack_Image_id"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_gravity="center_horizontal"
+                        android:contentDescription="@string/todo"
+                        app:srcCompat="@drawable/attack" />
+
+                    <TextView
+                        android:id="@+id/lv_70_70_id"
+                        android:layout_width="60dp"
+                        android:layout_height="30dp"
+                        android:layout_column="3"
+                        android:background="#F49907"
+                        android:gravity="center"
+                        android:text="@string/lv_70_70"
+                        android:textColor="@color/white"
+                        android:textSize="20sp"
+                        tools:ignore="TextContrastCheck" />
+
+                    <ImageView
+                        android:id="@+id/icon6star_id"
+                        android:layout_width="95dp"
+                        android:layout_height="14dp"
+                        android:layout_marginTop="7dp"
+                        android:contentDescription="@string/todo"
+                        app:srcCompat="@drawable/icon6star" />
+
+                    <TextView
+                        android:id="@+id/hp_id"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_column="5"
+                        android:background="#F49907"
+                        android:gravity="center"
+                        android:text="@string/hp"
+                        android:textColor="@color/white"
+                        android:textSize="20sp"
+                        tools:ignore="TextContrastCheck" />
+
+                    <TextView
+                        android:id="@+id/hp1128_id"
+                        android:layout_width="50dp"
+                        android:layout_height="30dp"
+                        android:layout_column="6"
+                        android:background="#F49907"
+                        android:gravity="center"
+                        android:text="@string/_1128"
+                        android:textColor="@color/white"
+                        android:textSize="20sp"
+                        tools:ignore="TextContrastCheck" />
+
+                    <TextView
+                        android:id="@+id/cp_id"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_column="7"
+                        android:background="#F49907"
+                        android:gravity="center"
+                        android:text="@string/cp"
+                        android:textColor="@color/white"
+                        android:textSize="20sp"
+                        tools:ignore="TextContrastCheck" />
+
+                    <TextView
+                        android:id="@+id/cp102_id"
+                        android:layout_width="50dp"
+                        android:layout_height="30dp"
+                        android:layout_column="8"
+                        android:background="#F49907"
+                        android:gravity="center"
+                        android:text="@string/_102"
+                        android:textColor="@color/white"
+                        android:textSize="20sp"
+                        tools:ignore="TextContrastCheck" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"></TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"></TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"></TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"></TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"></TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"></TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"></TableRow>
+            </TableLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
