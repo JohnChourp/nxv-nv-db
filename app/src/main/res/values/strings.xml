@@ -37,4 +37,14 @@
     <string name="equippable_by">Equippable By</string>
     <string name="naruto_uzumaki">Naruto Uzumaki</string>
     <string name="charges_ahead_and_strikes_with_rasengan_blows_enemies_back_and_causes_a_large_amount_of_damage">Charges ahead and strikes with Rasengan. Blows enemies back and causes a large amount of damage.</string>
+    <string name="impact">Impact</string>
+    <string name="_350">350</string>
+    <string name="_9820">9820</string>
+    <string name="_53">53</string>
+    <string name="a_swarm_of_naruto_shadow_clones_pummel_the_enemy_causing_a_huge_amount_of_damage">A swarm of Naruto shadow clones pummel the enemy causing a huge amount of damage.</string>
+    <string name="naruto_uzumaki_2k_barrage">Naruto Uzumaki 2K Barrage</string>
+    <string name="wild_rampaging_blast">Wild Rampaging Blast</string>
+    <string name="_250">250</string>
+    <string name="_5100">5100</string>
+    <string name="sends_out_a_shock_wave_causing_a_medium_amount_of_damage_and_inflicting_damage_over_time_effect_medium_also_increases_user_s_attack_power_and_critical_hit_rate_effect_large">Sends out a shock wave, causing a medium amount of damage and inflicting damage over time [Effect: Medium], Also increases user\'s attack power and critical hit rate [Effect: Large].</string>
 </resources>
