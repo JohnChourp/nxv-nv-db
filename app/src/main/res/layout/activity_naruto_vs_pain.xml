@@ -37,46 +37,42 @@
             android:background="#F49907">
 
             <TextView
-                android:id="@+id/attack_id"
+                android:id="@+id/type_id"
                 android:layout_width="100dp"
                 android:layout_height="30dp"
                 android:layout_column="1"
                 android:background="@drawable/border"
                 android:gravity="center"
-                android:text="@string/attack"
                 android:textColor="@color/white"
                 android:textSize="20sp"
                 tools:ignore="TextContrastCheck" />
 
             <ImageView
-                android:id="@+id/attack_Image_id"
+                android:id="@+id/type_image_id"
                 android:layout_width="100dp"
                 android:layout_height="30dp"
                 android:layout_column="2"
                 android:background="@drawable/border"
-                android:contentDescription="@string/todo"
-                app:srcCompat="@drawable/attack" />
+                android:contentDescription="@string/todo" />
 
             <TextView
-                android:id="@+id/lv_70_70_id"
+                android:id="@+id/lvl_ninjutsu_id"
                 android:layout_width="100dp"
                 android:layout_height="30dp"
                 android:layout_column="3"
                 android:background="@drawable/border"
                 android:gravity="center"
-                android:text="@string/lv_70_70"
                 android:textColor="@color/white"
                 android:textSize="20sp"
                 tools:ignore="TextContrastCheck" />
 
             <ImageView
-                android:id="@+id/icon6star_id"
+                android:id="@+id/rank_image_id"
                 android:layout_width="100dp"
                 android:layout_height="30dp"
                 android:layout_column="4"
                 android:background="@drawable/border"
-                android:contentDescription="@string/todo"
-                app:srcCompat="@drawable/icon6star" />
+                android:contentDescription="@string/todo" />
         </TableRow>
 
         <TableRow
@@ -85,7 +81,7 @@
             android:background="#F49907">
 
             <ImageView
-                android:id="@+id/naruto_uzumaki_ult1_artwork_id"
+                android:id="@+id/card_image_id"
                 android:layout_width="400dp"
                 android:layout_height="300dp"
                 android:layout_column="1"
@@ -132,13 +128,12 @@
                 tools:ignore="TextContrastCheck" />
 
             <TextView
-                android:id="@+id/hp1128_id"
+                android:id="@+id/hp_value_id"
                 android:layout_width="100dp"
                 android:layout_height="30dp"
                 android:layout_column="2"
                 android:background="@drawable/border"
                 android:gravity="center"
-                android:text="@string/_1128"
                 android:textColor="@color/white"
                 android:textSize="20sp"
                 tools:ignore="TextContrastCheck" />
@@ -156,13 +151,12 @@
                 tools:ignore="TextContrastCheck" />
 
             <TextView
-                android:id="@+id/cp102_id"
+                android:id="@+id/cp_value_id"
                 android:layout_width="100dp"
                 android:layout_height="30dp"
                 android:layout_column="4"
                 android:background="@drawable/border"
                 android:gravity="center"
-                android:text="@string/_102"
                 android:textColor="@color/white"
                 android:textSize="20sp"
                 tools:ignore="TextContrastCheck" />
@@ -186,13 +180,12 @@
                 tools:ignore="TextContrastCheck" />
 
             <TextView
-                android:id="@+id/atk829_id"
+                android:id="@+id/atk_value_id"
                 android:layout_width="100dp"
                 android:layout_height="30dp"
                 android:layout_column="2"
                 android:background="@drawable/border"
                 android:gravity="center"
-                android:text="@string/_829"
                 android:textColor="@color/white"
                 android:textSize="20sp"
                 tools:ignore="TextContrastCheck" />
@@ -210,13 +203,12 @@
                 tools:ignore="TextContrastCheck" />
 
             <TextView
-                android:id="@+id/def534_id"
+                android:id="@+id/def_value_id"
                 android:layout_width="100dp"
                 android:layout_height="30dp"
                 android:layout_column="4"
                 android:background="@drawable/border"
                 android:gravity="center"
-                android:text="@string/_534"
                 android:textColor="@color/white"
                 android:textSize="20sp"
                 tools:ignore="TextContrastCheck" />
@@ -240,13 +232,12 @@
                 tools:ignore="TextContrastCheck" />
 
             <TextView
-                android:id="@+id/cri130_id"
+                android:id="@+id/cri_value_id"
                 android:layout_width="100dp"
                 android:layout_height="30dp"
                 android:layout_column="2"
                 android:background="@drawable/border"
                 android:gravity="center"
-                android:text="@string/_1_30"
                 android:textColor="@color/white"
                 android:textSize="20sp"
                 tools:ignore="TextContrastCheck" />
@@ -264,13 +255,12 @@
                 tools:ignore="TextContrastCheck" />
 
             <TextView
-                android:id="@+id/eva130_id"
+                android:id="@+id/eva_value_id"
                 android:layout_width="100dp"
                 android:layout_height="30dp"
                 android:layout_column="4"
                 android:background="@drawable/border"
                 android:gravity="center"
-                android:text="@string/_1_30"
                 android:textColor="@color/white"
                 android:textSize="20sp"
                 tools:ignore="TextContrastCheck" />
@@ -300,7 +290,7 @@
             android:background="#F49907">
 
             <TextView
-                android:id="@+id/rasengan_id"
+                android:id="@+id/ninjutsu_name_id"
                 android:layout_width="400dp"
                 android:layout_height="30dp"
                 android:layout_column="1"
@@ -319,25 +309,23 @@
             android:background="#F49907">
 
             <TextView
-                android:id="@+id/release_id"
+                android:id="@+id/nature_id"
                 android:layout_width="100dp"
                 android:layout_height="30dp"
                 android:layout_column="1"
                 android:background="@drawable/border"
                 android:gravity="center"
-                android:text="@string/release"
                 android:textColor="@color/white"
                 android:textSize="20sp"
                 tools:ignore="TextContrastCheck" />
 
             <ImageView
-                android:id="@+id/releaseImage_id"
+                android:id="@+id/nature_image_id"
                 android:layout_width="100dp"
                 android:layout_height="30dp"
                 android:layout_column="1"
                 android:background="@drawable/border"
-                android:contentDescription="@string/todo"
-                app:srcCompat="@drawable/release" />
+                android:contentDescription="@string/todo" />
 
             <TextView
                 android:id="@+id/lvl_id"
@@ -352,13 +340,12 @@
                 tools:ignore="TextContrastCheck" />
 
             <TextView
-                android:id="@+id/lvl88_id"
+                android:id="@+id/lvl_jutsu_id"
                 android:layout_width="100dp"
                 android:layout_height="30dp"
                 android:layout_column="4"
                 android:background="@drawable/border"
                 android:gravity="center"
-                android:text="@string/_8_8"
                 android:textColor="@color/white"
                 android:textSize="20sp"
                 tools:ignore="TextContrastCheck" />
@@ -370,7 +357,7 @@
             android:background="#F49907">
 
             <ImageView
-                android:id="@+id/naruto_uzumaki_ult1_jutsu_id"
+                android:id="@+id/card_image_jutsu_id"
                 android:layout_width="100dp"
                 android:layout_height="70dp"
                 android:layout_column="1"
@@ -392,13 +379,12 @@
                 tools:ignore="TextContrastCheck" />
 
             <TextView
-                android:id="@+id/cpcost300_id"
+                android:id="@+id/cpcost_value_id"
                 android:layout_width="100dp"
                 android:layout_height="70dp"
                 android:layout_column="3"
                 android:background="@drawable/border"
                 android:gravity="center"
-                android:text="@string/_300"
                 android:textColor="@color/white"
                 android:textSize="20sp"
                 tools:ignore="TextContrastCheck" />
@@ -410,7 +396,7 @@
             android:background="#F49907">
 
             <TextView
-                android:id="@+id/criJutsu_id"
+                android:id="@+id/cri_jutsu_id"
                 android:layout_width="100dp"
                 android:layout_height="30dp"
                 android:layout_column="1"
@@ -422,19 +408,18 @@
                 tools:ignore="TextContrastCheck" />
 
             <TextView
-                android:id="@+id/cri36_id"
+                android:id="@+id/cri_jutsu_value_id"
                 android:layout_width="100dp"
                 android:layout_height="30dp"
                 android:layout_column="2"
                 android:background="@drawable/border"
                 android:gravity="center"
-                android:text="@string/_36_00"
                 android:textColor="@color/white"
                 android:textSize="20sp"
                 tools:ignore="TextContrastCheck" />
 
             <TextView
-                android:id="@+id/powJutsu_id"
+                android:id="@+id/pow_jutsu_id"
                 android:layout_width="100dp"
                 android:layout_height="30dp"
                 android:layout_column="3"
@@ -446,13 +431,12 @@
                 tools:ignore="TextContrastCheck" />
 
             <TextView
-                android:id="@+id/pow_id"
+                android:id="@+id/pow_jutsu_value_id"
                 android:layout_width="100dp"
                 android:layout_height="30dp"
                 android:layout_column="4"
                 android:background="@drawable/border"
                 android:gravity="center"
-                android:text="@string/_9320"
                 android:textColor="@color/white"
                 android:textSize="20sp"
                 tools:ignore="TextContrastCheck" />
@@ -464,22 +448,20 @@
             android:background="#F49907">
 
             <ImageView
-                android:id="@+id/recharge_time_id"
+                android:id="@+id/rt_image_id"
                 android:layout_width="100dp"
                 android:layout_height="30dp"
                 android:layout_column="1"
                 android:background="@drawable/border"
-                android:contentDescription="@string/todo"
-                app:srcCompat="@drawable/recharge_time" />
+                android:contentDescription="@string/todo" />
 
             <TextView
-                android:id="@+id/rt60_id"
+                android:id="@+id/rt_value_id"
                 android:layout_width="100dp"
                 android:layout_height="30dp"
                 android:layout_column="2"
                 android:background="@drawable/border"
                 android:gravity="center"
-                android:text="@string/_60"
                 android:textColor="@color/white"
                 android:textSize="20sp"
                 tools:ignore="TextContrastCheck" />
@@ -504,14 +486,13 @@
             android:background="#F49907">
 
             <TextView
-                android:id="@+id/naruto_uzumaki_id"
+                android:id="@+id/equip_id"
                 android:layout_width="100dp"
                 android:layout_height="30dp"
                 android:layout_column="1"
                 android:layout_span="4"
                 android:background="@drawable/border"
                 android:gravity="center"
-                android:text="@string/naruto_uzumaki"
                 android:textColor="@color/white"
                 android:textSize="20sp"
                 tools:ignore="TextContrastCheck" />
