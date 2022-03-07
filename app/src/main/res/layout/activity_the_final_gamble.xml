@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -8,543 +8,532 @@
     android:orientation="vertical"
     tools:context=".cards_tools.naruto_uzumaki.ultimate_jutsus_5_star.TheFinalGamble">
 
-    <ScrollView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
+    <TableLayout
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal">
 
-        <LinearLayout
+        <TableRow
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="vertical">
+            android:layout_height="30dp"
+            android:background="#EE3E19">
 
-            <TableLayout
+            <TextView
+                android:id="@+id/ninjutsu_id"
                 android:layout_width="400dp"
-                android:layout_height="match_parent"
-                android:layout_gravity="center_horizontal"
-                android:layout_marginTop="16dp">
+                android:layout_height="30dp"
+                android:layout_column="1"
+                android:layout_span="4"
+                android:background="@drawable/border"
+                android:gravity="center"
+                android:text="@string/ninjutsu"
+                android:textColor="@color/white"
+                android:textSize="20sp" />
+        </TableRow>
 
-                <TableRow
-                    android:layout_width="match_parent"
-                    android:layout_height="30dp"
-                    android:background="#EE3E19">
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:background="#F49907">
 
-                    <TextView
-                        android:id="@+id/ninjutsu_id"
-                        android:layout_width="400dp"
-                        android:layout_height="30dp"
-                        android:layout_column="1"
-                        android:layout_span="4"
-                        android:background="@drawable/border"
-                        android:gravity="center"
-                        android:text="@string/ninjutsu"
-                        android:textColor="@color/white"
-                        android:textSize="20sp" />
-                </TableRow>
+            <TextView
+                android:id="@+id/attack_id"
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:layout_column="1"
+                android:background="@drawable/border"
+                android:gravity="center"
+                android:text="@string/attack"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                tools:ignore="TextContrastCheck" />
 
-                <TableRow
-                    android:layout_width="match_parent"
-                    android:layout_height="30dp"
-                    android:background="#F49907">
+            <ImageView
+                android:id="@+id/attack_Image_id"
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:layout_column="2"
+                android:background="@drawable/border"
+                android:contentDescription="@string/todo"
+                app:srcCompat="@drawable/attack" />
 
-                    <TextView
-                        android:id="@+id/attack_id"
-                        android:layout_width="100dp"
-                        android:layout_height="30dp"
-                        android:layout_column="1"
-                        android:background="@drawable/border"
-                        android:gravity="center"
-                        android:text="@string/attack"
-                        android:textColor="@color/white"
-                        android:textSize="20sp"
-                        tools:ignore="TextContrastCheck" />
+            <TextView
+                android:id="@+id/lv_70_70_id"
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:layout_column="3"
+                android:background="@drawable/border"
+                android:gravity="center"
+                android:text="@string/lv_70_70"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                tools:ignore="TextContrastCheck" />
 
-                    <ImageView
-                        android:id="@+id/attack_Image_id"
-                        android:layout_width="100dp"
-                        android:layout_height="30dp"
-                        android:layout_column="2"
-                        android:background="@drawable/border"
-                        android:contentDescription="@string/todo"
-                        app:srcCompat="@drawable/attack" />
+            <ImageView
+                android:id="@+id/icon6star_id"
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:layout_column="4"
+                android:background="@drawable/border"
+                android:contentDescription="@string/todo"
+                app:srcCompat="@drawable/icon6star" />
+        </TableRow>
 
-                    <TextView
-                        android:id="@+id/lv_70_70_id"
-                        android:layout_width="100dp"
-                        android:layout_height="30dp"
-                        android:layout_column="3"
-                        android:background="@drawable/border"
-                        android:gravity="center"
-                        android:text="@string/lv_70_70"
-                        android:textColor="@color/white"
-                        android:textSize="20sp"
-                        tools:ignore="TextContrastCheck" />
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:background="#F49907">
 
-                    <ImageView
-                        android:id="@+id/icon6star_id"
-                        android:layout_width="100dp"
-                        android:layout_height="30dp"
-                        android:layout_column="4"
-                        android:background="@drawable/border"
-                        android:contentDescription="@string/todo"
-                        app:srcCompat="@drawable/icon6star" />
-                </TableRow>
+            <ImageView
+                android:id="@+id/naruto_uzumaki_ult2_artwork_id"
+                android:layout_width="400dp"
+                android:layout_height="300dp"
+                android:layout_column="1"
+                android:layout_span="4"
+                android:background="@drawable/border"
+                android:contentDescription="@string/todo"
+                app:srcCompat="@drawable/naruto_uzumaki_ult2_artwork"
+                tools:ignore="ImageContrastCheck" />
+        </TableRow>
 
-                <TableRow
-                    android:layout_width="match_parent"
-                    android:layout_height="400dp"
-                    android:background="#F49907">
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:background="#EE3E19">
 
-                    <ImageView
-                        android:id="@+id/naruto_uzumaki_ult2_artwork_id"
-                        android:layout_width="400dp"
-                        android:layout_height="300dp"
-                        android:layout_column="1"
-                        android:layout_span="4"
-                        android:background="@drawable/border"
-                        android:contentDescription="@string/todo"
-                        app:srcCompat="@drawable/naruto_uzumaki_ult2_artwork"
-                        tools:ignore="ImageContrastCheck" />
-                </TableRow>
+            <TextView
+                android:id="@+id/max_card_stats_id"
+                android:layout_width="400dp"
+                android:layout_height="30dp"
+                android:layout_column="1"
+                android:layout_span="4"
+                android:background="@drawable/border"
+                android:gravity="center"
+                android:text="@string/max_card_stats"
+                android:textColor="@color/white"
+                android:textSize="20sp" />
+        </TableRow>
 
-                <TableRow
-                    android:layout_width="match_parent"
-                    android:layout_height="30dp"
-                    android:background="#EE3E19">
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:background="#F49907">
 
-                    <TextView
-                        android:id="@+id/max_card_stats_id"
-                        android:layout_width="400dp"
-                        android:layout_height="30dp"
-                        android:layout_column="1"
-                        android:layout_span="4"
-                        android:background="@drawable/border"
-                        android:gravity="center"
-                        android:text="@string/max_card_stats"
-                        android:textColor="@color/white"
-                        android:textSize="20sp" />
-                </TableRow>
+            <TextView
+                android:id="@+id/hp_id"
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:layout_column="1"
+                android:background="@drawable/border"
+                android:gravity="center"
+                android:text="@string/hp"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                tools:ignore="TextContrastCheck" />
 
-                <TableRow
-                    android:layout_width="match_parent"
-                    android:layout_height="30dp"
-                    android:background="#F49907">
+            <TextView
+                android:id="@+id/hp1128_id"
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:layout_column="2"
+                android:background="@drawable/border"
+                android:gravity="center"
+                android:text="@string/_1128"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                tools:ignore="TextContrastCheck" />
 
-                    <TextView
-                        android:id="@+id/hp_id"
-                        android:layout_width="100dp"
-                        android:layout_height="30dp"
-                        android:layout_column="1"
-                        android:background="@drawable/border"
-                        android:gravity="center"
-                        android:text="@string/hp"
-                        android:textColor="@color/white"
-                        android:textSize="20sp"
-                        tools:ignore="TextContrastCheck" />
+            <TextView
+                android:id="@+id/cp_id"
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:layout_column="3"
+                android:background="@drawable/border"
+                android:gravity="center"
+                android:text="@string/cp"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                tools:ignore="TextContrastCheck" />
 
-                    <TextView
-                        android:id="@+id/hp1128_id"
-                        android:layout_width="100dp"
-                        android:layout_height="30dp"
-                        android:layout_column="2"
-                        android:background="@drawable/border"
-                        android:gravity="center"
-                        android:text="@string/_1128"
-                        android:textColor="@color/white"
-                        android:textSize="20sp"
-                        tools:ignore="TextContrastCheck" />
+            <TextView
+                android:id="@+id/cp102_id"
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:layout_column="4"
+                android:background="@drawable/border"
+                android:gravity="center"
+                android:text="@string/_102"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                tools:ignore="TextContrastCheck" />
+        </TableRow>
 
-                    <TextView
-                        android:id="@+id/cp_id"
-                        android:layout_width="100dp"
-                        android:layout_height="30dp"
-                        android:layout_column="3"
-                        android:background="@drawable/border"
-                        android:gravity="center"
-                        android:text="@string/cp"
-                        android:textColor="@color/white"
-                        android:textSize="20sp"
-                        tools:ignore="TextContrastCheck" />
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:background="#F49907">
 
-                    <TextView
-                        android:id="@+id/cp102_id"
-                        android:layout_width="100dp"
-                        android:layout_height="30dp"
-                        android:layout_column="4"
-                        android:background="@drawable/border"
-                        android:gravity="center"
-                        android:text="@string/_102"
-                        android:textColor="@color/white"
-                        android:textSize="20sp"
-                        tools:ignore="TextContrastCheck" />
-                </TableRow>
+            <TextView
+                android:id="@+id/atk_id"
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:layout_column="1"
+                android:background="@drawable/border"
+                android:gravity="center"
+                android:text="@string/atk"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                tools:ignore="TextContrastCheck" />
 
-                <TableRow
-                    android:layout_width="match_parent"
-                    android:layout_height="30dp"
-                    android:background="#F49907">
+            <TextView
+                android:id="@+id/atk829_id"
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:layout_column="2"
+                android:background="@drawable/border"
+                android:gravity="center"
+                android:text="@string/_829"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                tools:ignore="TextContrastCheck" />
 
-                    <TextView
-                        android:id="@+id/atk_id"
-                        android:layout_width="100dp"
-                        android:layout_height="30dp"
-                        android:layout_column="1"
-                        android:background="@drawable/border"
-                        android:gravity="center"
-                        android:text="@string/atk"
-                        android:textColor="@color/white"
-                        android:textSize="20sp"
-                        tools:ignore="TextContrastCheck" />
+            <TextView
+                android:id="@+id/def_id"
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:layout_column="3"
+                android:background="@drawable/border"
+                android:gravity="center"
+                android:text="@string/def"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                tools:ignore="TextContrastCheck" />
 
-                    <TextView
-                        android:id="@+id/atk829_id"
-                        android:layout_width="100dp"
-                        android:layout_height="30dp"
-                        android:layout_column="2"
-                        android:background="@drawable/border"
-                        android:gravity="center"
-                        android:text="@string/_829"
-                        android:textColor="@color/white"
-                        android:textSize="20sp"
-                        tools:ignore="TextContrastCheck" />
+            <TextView
+                android:id="@+id/def534_id"
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:layout_column="4"
+                android:background="@drawable/border"
+                android:gravity="center"
+                android:text="@string/_534"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                tools:ignore="TextContrastCheck" />
+        </TableRow>
 
-                    <TextView
-                        android:id="@+id/def_id"
-                        android:layout_width="100dp"
-                        android:layout_height="30dp"
-                        android:layout_column="3"
-                        android:background="@drawable/border"
-                        android:gravity="center"
-                        android:text="@string/def"
-                        android:textColor="@color/white"
-                        android:textSize="20sp"
-                        tools:ignore="TextContrastCheck" />
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:background="#F49907">
 
-                    <TextView
-                        android:id="@+id/def534_id"
-                        android:layout_width="100dp"
-                        android:layout_height="30dp"
-                        android:layout_column="4"
-                        android:background="@drawable/border"
-                        android:gravity="center"
-                        android:text="@string/_534"
-                        android:textColor="@color/white"
-                        android:textSize="20sp"
-                        tools:ignore="TextContrastCheck" />
-                </TableRow>
+            <TextView
+                android:id="@+id/cri_id"
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:layout_column="1"
+                android:background="@drawable/border"
+                android:gravity="center"
+                android:text="@string/cri"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                tools:ignore="TextContrastCheck" />
 
-                <TableRow
-                    android:layout_width="match_parent"
-                    android:layout_height="30dp"
-                    android:background="#F49907">
+            <TextView
+                android:id="@+id/cri130_id"
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:layout_column="2"
+                android:background="@drawable/border"
+                android:gravity="center"
+                android:text="@string/_1_30"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                tools:ignore="TextContrastCheck" />
 
-                    <TextView
-                        android:id="@+id/cri_id"
-                        android:layout_width="100dp"
-                        android:layout_height="30dp"
-                        android:layout_column="1"
-                        android:background="@drawable/border"
-                        android:gravity="center"
-                        android:text="@string/cri"
-                        android:textColor="@color/white"
-                        android:textSize="20sp"
-                        tools:ignore="TextContrastCheck" />
+            <TextView
+                android:id="@+id/eva_id"
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:layout_column="3"
+                android:background="@drawable/border"
+                android:gravity="center"
+                android:text="@string/eva"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                tools:ignore="TextContrastCheck" />
 
-                    <TextView
-                        android:id="@+id/cri130_id"
-                        android:layout_width="100dp"
-                        android:layout_height="30dp"
-                        android:layout_column="2"
-                        android:background="@drawable/border"
-                        android:gravity="center"
-                        android:text="@string/_1_30"
-                        android:textColor="@color/white"
-                        android:textSize="20sp"
-                        tools:ignore="TextContrastCheck" />
+            <TextView
+                android:id="@+id/eva130_id"
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:layout_column="4"
+                android:background="@drawable/border"
+                android:gravity="center"
+                android:text="@string/_1_30"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                tools:ignore="TextContrastCheck" />
+        </TableRow>
 
-                    <TextView
-                        android:id="@+id/eva_id"
-                        android:layout_width="100dp"
-                        android:layout_height="30dp"
-                        android:layout_column="3"
-                        android:background="@drawable/border"
-                        android:gravity="center"
-                        android:text="@string/eva"
-                        android:textColor="@color/white"
-                        android:textSize="20sp"
-                        tools:ignore="TextContrastCheck" />
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:background="#EE3E19">
 
-                    <TextView
-                        android:id="@+id/eva130_id"
-                        android:layout_width="100dp"
-                        android:layout_height="30dp"
-                        android:layout_column="4"
-                        android:background="@drawable/border"
-                        android:gravity="center"
-                        android:text="@string/_1_30"
-                        android:textColor="@color/white"
-                        android:textSize="20sp"
-                        tools:ignore="TextContrastCheck" />
-                </TableRow>
+            <TextView
+                android:id="@+id/max_jutsu_stats_id"
+                android:layout_width="400dp"
+                android:layout_height="30dp"
+                android:layout_column="1"
+                android:layout_span="4"
+                android:background="@drawable/border"
+                android:gravity="center"
+                android:text="@string/max_jutsu_stats"
+                android:textColor="@color/white"
+                android:textSize="20sp" />
+        </TableRow>
 
-                <TableRow
-                    android:layout_width="match_parent"
-                    android:layout_height="30dp"
-                    android:background="#EE3E19">
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:background="#F49907">
 
-                    <TextView
-                        android:id="@+id/max_jutsu_stats_id"
-                        android:layout_width="400dp"
-                        android:layout_height="30dp"
-                        android:layout_column="1"
-                        android:layout_span="4"
-                        android:background="@drawable/border"
-                        android:gravity="center"
-                        android:text="@string/max_jutsu_stats"
-                        android:textColor="@color/white"
-                        android:textSize="20sp" />
-                </TableRow>
+            <TextView
+                android:id="@+id/rasengan_id"
+                android:layout_width="400dp"
+                android:layout_height="30dp"
+                android:layout_column="1"
+                android:layout_span="4"
+                android:background="@drawable/border"
+                android:gravity="center"
+                android:text="@string/naruto_uzumaki_2k_barrage"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                tools:ignore="TextContrastCheck" />
+        </TableRow>
 
-                <TableRow
-                    android:layout_width="match_parent"
-                    android:layout_height="30dp"
-                    android:background="#F49907">
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:background="#F49907">
 
-                    <TextView
-                        android:id="@+id/rasengan_id"
-                        android:layout_width="400dp"
-                        android:layout_height="30dp"
-                        android:layout_column="1"
-                        android:layout_span="4"
-                        android:background="@drawable/border"
-                        android:gravity="center"
-                        android:text="@string/naruto_uzumaki_2k_barrage"
-                        android:textColor="@color/white"
-                        android:textSize="20sp" />
-                </TableRow>
+            <TextView
+                android:id="@+id/impact_id"
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:layout_column="1"
+                android:background="@drawable/border"
+                android:gravity="center"
+                android:text="@string/impact"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                tools:ignore="TextContrastCheck" />
 
-                <TableRow
-                    android:layout_width="match_parent"
-                    android:layout_height="30dp"
-                    android:background="#F49907">
+            <ImageView
+                android:id="@+id/impactImage_id"
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:layout_column="1"
+                android:background="@drawable/border"
+                android:contentDescription="@string/todo"
+                app:srcCompat="@drawable/impact" />
 
-                    <TextView
-                        android:id="@+id/impact_id"
-                        android:layout_width="100dp"
-                        android:layout_height="30dp"
-                        android:layout_column="1"
-                        android:background="@drawable/border"
-                        android:gravity="center"
-                        android:text="@string/impact"
-                        android:textColor="@color/white"
-                        android:textSize="20sp"
-                        tools:ignore="TextContrastCheck" />
+            <TextView
+                android:id="@+id/lvl_id"
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:layout_column="3"
+                android:background="@drawable/border"
+                android:gravity="center"
+                android:text="@string/lvl"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                tools:ignore="TextContrastCheck" />
 
-                    <ImageView
-                        android:id="@+id/impactImage_id"
-                        android:layout_width="100dp"
-                        android:layout_height="30dp"
-                        android:layout_column="1"
-                        android:background="@drawable/border"
-                        android:contentDescription="@string/todo"
-                        app:srcCompat="@drawable/impact" />
+            <TextView
+                android:id="@+id/lvl88_id"
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:layout_column="4"
+                android:background="@drawable/border"
+                android:gravity="center"
+                android:text="@string/_8_8"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                tools:ignore="TextContrastCheck" />
+        </TableRow>
 
-                    <TextView
-                        android:id="@+id/lvl_id"
-                        android:layout_width="100dp"
-                        android:layout_height="30dp"
-                        android:layout_column="3"
-                        android:background="@drawable/border"
-                        android:gravity="center"
-                        android:text="@string/lvl"
-                        android:textColor="@color/white"
-                        android:textSize="20sp"
-                        tools:ignore="TextContrastCheck" />
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:background="#F49907">
 
-                    <TextView
-                        android:id="@+id/lvl88_id"
-                        android:layout_width="100dp"
-                        android:layout_height="30dp"
-                        android:layout_column="4"
-                        android:background="@drawable/border"
-                        android:gravity="center"
-                        android:text="@string/_8_8"
-                        android:textColor="@color/white"
-                        android:textSize="20sp"
-                        tools:ignore="TextContrastCheck" />
-                </TableRow>
+            <ImageView
+                android:id="@+id/naruto_uzumaki_ult2_jutsu_id"
+                android:layout_width="100dp"
+                android:layout_height="70dp"
+                android:layout_column="1"
+                android:layout_span="2"
+                android:background="@drawable/border"
+                android:contentDescription="@string/todo"
+                app:srcCompat="@drawable/naruto_uzumaki_ult2_jutsu" />
 
-                <TableRow
-                    android:layout_width="match_parent"
-                    android:layout_height="70dp"
-                    android:background="#F49907">
+            <TextView
+                android:id="@+id/cpcost_id"
+                android:layout_width="100dp"
+                android:layout_height="70dp"
+                android:layout_column="2"
+                android:background="@drawable/border"
+                android:gravity="center"
+                android:text="@string/cp_cost"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                tools:ignore="TextContrastCheck" />
 
-                    <ImageView
-                        android:id="@+id/naruto_uzumaki_ult2_jutsu_id"
-                        android:layout_width="100dp"
-                        android:layout_height="70dp"
-                        android:layout_column="1"
-                        android:layout_span="2"
-                        android:background="@drawable/border"
-                        android:contentDescription="@string/todo"
-                        app:srcCompat="@drawable/naruto_uzumaki_ult2_jutsu" />
+            <TextView
+                android:id="@+id/cpcost350_id"
+                android:layout_width="100dp"
+                android:layout_height="70dp"
+                android:layout_column="3"
+                android:background="@drawable/border"
+                android:gravity="center"
+                android:text="@string/_350"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                tools:ignore="TextContrastCheck" />
+        </TableRow>
 
-                    <TextView
-                        android:id="@+id/cpcost_id"
-                        android:layout_width="100dp"
-                        android:layout_height="70dp"
-                        android:layout_column="2"
-                        android:background="@drawable/border"
-                        android:gravity="center"
-                        android:text="@string/cp_cost"
-                        android:textColor="@color/white"
-                        android:textSize="20sp"
-                        tools:ignore="TextContrastCheck" />
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:background="#F49907">
 
-                    <TextView
-                        android:id="@+id/cpcost350_id"
-                        android:layout_width="100dp"
-                        android:layout_height="70dp"
-                        android:layout_column="3"
-                        android:background="@drawable/border"
-                        android:gravity="center"
-                        android:text="@string/_350"
-                        android:textColor="@color/white"
-                        android:textSize="20sp"
-                        tools:ignore="TextContrastCheck" />
-                </TableRow>
+            <TextView
+                android:id="@+id/criJutsu_id"
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:layout_column="1"
+                android:background="@drawable/border"
+                android:gravity="center"
+                android:text="@string/cri"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                tools:ignore="TextContrastCheck" />
 
-                <TableRow
-                    android:layout_width="match_parent"
-                    android:layout_height="30dp"
-                    android:background="#F49907">
+            <TextView
+                android:id="@+id/cri36_id"
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:layout_column="2"
+                android:background="@drawable/border"
+                android:gravity="center"
+                android:text="@string/_36_00"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                tools:ignore="TextContrastCheck" />
 
-                    <TextView
-                        android:id="@+id/criJutsu_id"
-                        android:layout_width="100dp"
-                        android:layout_height="30dp"
-                        android:layout_column="1"
-                        android:background="@drawable/border"
-                        android:gravity="center"
-                        android:text="@string/cri"
-                        android:textColor="@color/white"
-                        android:textSize="20sp"
-                        tools:ignore="TextContrastCheck" />
+            <TextView
+                android:id="@+id/powJutsu_id"
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:layout_column="3"
+                android:background="@drawable/border"
+                android:gravity="center"
+                android:text="@string/pow"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                tools:ignore="TextContrastCheck" />
 
-                    <TextView
-                        android:id="@+id/cri36_id"
-                        android:layout_width="100dp"
-                        android:layout_height="30dp"
-                        android:layout_column="2"
-                        android:background="@drawable/border"
-                        android:gravity="center"
-                        android:text="@string/_36_00"
-                        android:textColor="@color/white"
-                        android:textSize="20sp"
-                        tools:ignore="TextContrastCheck" />
+            <TextView
+                android:id="@+id/pow_id"
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:layout_column="4"
+                android:background="@drawable/border"
+                android:gravity="center"
+                android:text="@string/_9820"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                tools:ignore="TextContrastCheck" />
+        </TableRow>
 
-                    <TextView
-                        android:id="@+id/powJutsu_id"
-                        android:layout_width="100dp"
-                        android:layout_height="30dp"
-                        android:layout_column="3"
-                        android:background="@drawable/border"
-                        android:gravity="center"
-                        android:text="@string/pow"
-                        android:textColor="@color/white"
-                        android:textSize="20sp"
-                        tools:ignore="TextContrastCheck" />
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:background="#F49907">
 
-                    <TextView
-                        android:id="@+id/pow_id"
-                        android:layout_width="100dp"
-                        android:layout_height="30dp"
-                        android:layout_column="4"
-                        android:background="@drawable/border"
-                        android:gravity="center"
-                        android:text="@string/_9820"
-                        android:textColor="@color/white"
-                        android:textSize="20sp"
-                        tools:ignore="TextContrastCheck" />
-                </TableRow>
+            <ImageView
+                android:id="@+id/recharge_time_id"
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:layout_column="1"
+                android:background="@drawable/border"
+                android:contentDescription="@string/todo"
+                app:srcCompat="@drawable/recharge_time" />
 
-                <TableRow
-                    android:layout_width="match_parent"
-                    android:layout_height="30dp"
-                    android:background="#F49907">
+            <TextView
+                android:id="@+id/rt53_id"
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:layout_column="2"
+                android:background="@drawable/border"
+                android:gravity="center"
+                android:text="@string/_53"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                tools:ignore="TextContrastCheck" />
 
-                    <ImageView
-                        android:id="@+id/recharge_time_id"
-                        android:layout_width="100dp"
-                        android:layout_height="30dp"
-                        android:layout_column="1"
-                        android:background="@drawable/border"
-                        android:contentDescription="@string/todo"
-                        app:srcCompat="@drawable/recharge_time" />
+            <TextView
+                android:id="@+id/equippable_by_id"
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:layout_column="3"
+                android:layout_span="2"
+                android:background="@drawable/border"
+                android:gravity="center"
+                android:text="@string/equippable_by"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                tools:ignore="TextContrastCheck" />
+        </TableRow>
 
-                    <TextView
-                        android:id="@+id/rt53_id"
-                        android:layout_width="100dp"
-                        android:layout_height="30dp"
-                        android:layout_column="2"
-                        android:background="@drawable/border"
-                        android:gravity="center"
-                        android:text="@string/_53"
-                        android:textColor="@color/white"
-                        android:textSize="20sp"
-                        tools:ignore="TextContrastCheck" />
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:background="#F49907">
 
-                    <TextView
-                        android:id="@+id/equippable_by_id"
-                        android:layout_width="100dp"
-                        android:layout_height="30dp"
-                        android:layout_column="3"
-                        android:layout_span="2"
-                        android:background="@drawable/border"
-                        android:gravity="center"
-                        android:text="@string/equippable_by"
-                        android:textColor="@color/white"
-                        android:textSize="20sp"
-                        tools:ignore="TextContrastCheck" />
-                </TableRow>
+            <TextView
+                android:id="@+id/naruto_uzumaki_id"
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:layout_column="1"
+                android:layout_span="4"
+                android:background="@drawable/border"
+                android:gravity="center"
+                android:text="@string/naruto_uzumaki"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                tools:ignore="TextContrastCheck" />
+        </TableRow>
 
-                <TableRow
-                    android:layout_width="match_parent"
-                    android:layout_height="30dp"
-                    android:background="#F49907">
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:background="#F49907">
 
-                    <TextView
-                        android:id="@+id/naruto_uzumaki_id"
-                        android:layout_width="100dp"
-                        android:layout_height="30dp"
-                        android:layout_column="1"
-                        android:layout_span="4"
-                        android:background="@drawable/border"
-                        android:gravity="center"
-                        android:text="@string/naruto_uzumaki"
-                        android:textColor="@color/white"
-                        android:textSize="20sp"
-                        tools:ignore="TextContrastCheck" />
-                </TableRow>
-
-                <TableRow
-                    android:layout_width="match_parent"
-                    android:layout_height="90dp"
-                    android:background="#F49907">
-
-                    <TextView
-                        android:id="@+id/info_id"
-                        android:layout_width="100dp"
-                        android:layout_height="90dp"
-                        android:layout_column="1"
-                        android:layout_span="4"
-                        android:background="@drawable/border"
-                        android:gravity="center"
-                        android:text="@string/a_swarm_of_naruto_shadow_clones_pummel_the_enemy_causing_a_huge_amount_of_damage"
-                        android:textColor="@color/white"
-                        android:textSize="20sp"
-                        tools:ignore="TextContrastCheck" />
-                </TableRow>
-            </TableLayout>
-        </LinearLayout>
-    </ScrollView>
-</LinearLayout>
+            <TextView
+                android:id="@+id/info_id"
+                android:layout_width="100dp"
+                android:layout_height="90dp"
+                android:layout_column="1"
+                android:layout_span="4"
+                android:background="@drawable/border"
+                android:gravity="center"
+                android:text="@string/a_swarm_of_naruto_shadow_clones_pummel_the_enemy_causing_a_huge_amount_of_damage"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                tools:ignore="TextContrastCheck" />
+        </TableRow>
+    </TableLayout>
+</ScrollView>
