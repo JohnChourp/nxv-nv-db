@@ -3,7 +3,10 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/jonhi/Documents/MyApplication2/app/src/main/res/layout/activity_main.xml" value="0.20539152759948653" />
+        <entry key="..\:/Users/jonhi/Documents/MyApplication2/app/src/main/res/layout-v28/activity_naruto_uzumaki.xml" value="0.25" />
+        <entry key="..\:/Users/jonhi/Documents/MyApplication2/app/src/main/res/layout/activity_main.xml" value="0.24742268041237114" />
+        <entry key="..\:/Users/jonhi/Documents/MyApplication2/app/src/main/res/layout/activity_naruto_uzumaki.xml" value="0.20521590423257802" />
+        <entry key="..\:/Users/jonhi/Documents/MyApplication2/app/src/main/res/layout/naruto_uzumaki.xml" value="0.20521590423257802" />
       </map>
     </option>
   </component>
