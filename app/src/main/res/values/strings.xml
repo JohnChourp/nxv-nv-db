@@ -15,5 +15,26 @@
     <string name="hp">HP</string>
     <string name="_1128">1128</string>
     <string name="cp">CP</string>
-    <string name="_102">1020</string>
+    <string name="_102">102</string>
+    <string name="atk">ATK</string>
+    <string name="_829">829</string>
+    <string name="def">DEF</string>
+    <string name="_534">534</string>
+    <string name="cri">CRI</string>
+    <string name="_1_30">1.30%</string>
+    <string name="max_jutsu_stats">Max Jutsu Stats</string>
+    <string name="eva">EVA</string>
+    <string name="rasengan">Rasengan</string>
+    <string name="release">Release</string>
+    <string name="lvl">LVL</string>
+    <string name="_8_8">8/8</string>
+    <string name="cp_cost">CP Cost</string>
+    <string name="_300">300</string>
+    <string name="_36_00">36.00%</string>
+    <string name="pow">POW</string>
+    <string name="_9320">9320</string>
+    <string name="_60">60</string>
+    <string name="equippable_by">Equippable By</string>
+    <string name="naruto_uzumaki">Naruto Uzumaki</string>
+    <string name="charges_ahead_and_strikes_with_rasengan_blows_enemies_back_and_causes_a_large_amount_of_damage">Charges ahead and strikes with Rasengan. Blows enemies back and causes a large amount of damage.</string>
 </resources>
