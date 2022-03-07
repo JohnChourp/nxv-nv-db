@@ -3,4 +3,9 @@
     <string name="todo">TODO</string>
     <string name="button">Button</string>
     <string name="ultimate_jutsus_5_star">Ultimate Jutsus 5 Star</string>
+    <string name="jutsus_4_star">Jutsus 4 Star</string>
+    <string name="jutsus_3_star">Jutsus 3 Star</string>
+    <string name="jutsus_1_star">Jutsus 1 Star</string>
+    <string name="tools_5_star">Tools 5 Star</string>
+    <string name="tools_factory_5_star">Tools Factory 5 Star</string>
 </resources>
