@@ -1,0 +1,1525 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0E191A"
+    android:orientation="vertical"
+    tools:context=".cards_tools.naruto_uzumaki.ninjutsus_4_star.BecauseYoureMeToo">
+
+    <TableLayout
+        android:layout_width="415dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:background="#EE3E19">
+
+            <TextView
+                android:id="@+id/card_id"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_column="1"
+                android:layout_span="4"
+                android:background="@drawable/border"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:textSize="20sp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:background="#F49907">
+
+            <TextView
+                android:id="@+id/type_id"
+                android:layout_width="110dp"
+                android:layout_height="30dp"
+                android:layout_column="1"
+                android:background="@drawable/border"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                tools:ignore="TextContrastCheck" />
+
+            <ImageView
+                android:id="@+id/type_image_id"
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:layout_column="2"
+                android:background="@drawable/border"
+                android:contentDescription="@string/todo" />
+
+            <TextView
+                android:id="@+id/lvl_card_id"
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:layout_column="3"
+                android:background="@drawable/border"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                tools:ignore="TextContrastCheck" />
+
+            <ImageView
+                android:id="@+id/rank_image_id"
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:layout_column="4"
+                android:background="@drawable/border"
+                android:contentDescription="@string/todo" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="311dp"
+            android:background="#F49907">
+
+            <ImageView
+                android:id="@+id/card_image_id"
+                android:layout_width="415dp"
+                android:layout_height="311dp"
+                android:layout_column="1"
+                android:layout_span="4"
+                android:scaleType="fitXY"
+                android:background="@drawable/border"
+                android:contentDescription="@string/todo"
+                app:srcCompat="@drawable/naruto_uzumaki_4_star_j1_artwork"
+                tools:ignore="ImageContrastCheck" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:background="#EE3E19">
+
+            <TextView
+                android:id="@+id/max_card_stats_id"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_column="1"
+                android:layout_span="4"
+                android:background="@drawable/border"
+                android:gravity="center"
+                android:text="@string/max_card_stats"
+                android:textColor="@color/white"
+                android:textSize="20sp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:background="#F49907">
+
+            <TextView
+                android:id="@+id/hp_id"
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:layout_column="1"
+                android:background="@drawable/border"
+                android:gravity="center"
+                android:text="@string/hp"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                tools:ignore="TextContrastCheck" />
+
+            <TextView
+                android:id="@+id/hp_value_id"
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:layout_column="2"
+                android:background="@drawable/border"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                tools:ignore="TextContrastCheck" />
+
+            <TextView
+                android:id="@+id/cp_id"
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:layout_column="3"
+                android:background="@drawable/border"
+                android:gravity="center"
+                android:text="@string/cp"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                tools:ignore="TextContrastCheck" />
+
+            <TextView
+                android:id="@+id/cp_value_id"
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:layout_column="4"
+                android:background="@drawable/border"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                tools:ignore="TextContrastCheck" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:background="#F49907">
+
+            <TextView
+                android:id="@+id/atk_id"
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:layout_column="1"
+                android:background="@drawable/border"
+                android:gravity="center"
+                android:text="@string/atk"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                tools:ignore="TextContrastCheck" />
+
+            <TextView
+                android:id="@+id/atk_value_id"
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:layout_column="2"
+                android:background="@drawable/border"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                tools:ignore="TextContrastCheck" />
+
+            <TextView
+                android:id="@+id/def_id"
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:layout_column="3"
+                android:background="@drawable/border"
+                android:gravity="center"
+                android:text="@string/def"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                tools:ignore="TextContrastCheck" />
+
+            <TextView
+                android:id="@+id/def_value_id"
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:layout_column="4"
+                android:background="@drawable/border"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                tools:ignore="TextContrastCheck" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:background="#F49907">
+
+            <TextView
+                android:id="@+id/cri_id"
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:layout_column="1"
+                android:background="@drawable/border"
+                android:gravity="center"
+                android:text="@string/cri"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                tools:ignore="TextContrastCheck" />
+
+            <TextView
+                android:id="@+id/cri_value_id"
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:layout_column="2"
+                android:background="@drawable/border"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                tools:ignore="TextContrastCheck" />
+
+            <TextView
+                android:id="@+id/eva_id"
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:layout_column="3"
+                android:background="@drawable/border"
+                android:gravity="center"
+                android:text="@string/eva"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                tools:ignore="TextContrastCheck" />
+
+            <TextView
+                android:id="@+id/eva_value_id"
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:layout_column="4"
+                android:background="@drawable/border"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                tools:ignore="TextContrastCheck" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:background="#EE3E19">
+
+            <TextView
+                android:id="@+id/max_jutsu_stats_id"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_column="1"
+                android:layout_span="4"
+                android:background="@drawable/border"
+                android:gravity="center"
+                android:text="@string/max_jutsu_stats"
+                android:textColor="@color/white"
+                android:textSize="20sp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:background="#F49907">
+
+            <TextView
+                android:id="@+id/ninjutsu_name_id"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_column="1"
+                android:layout_span="4"
+                android:background="@drawable/border"
+                android:gravity="center"
+                android:text="@string/clone_spin"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                tools:ignore="TextContrastCheck" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:background="#F49907">
+
+            <TextView
+                android:id="@+id/nature_id"
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:layout_column="1"
+                android:background="@drawable/border"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                tools:ignore="TextContrastCheck" />
+
+            <ImageView
+                android:id="@+id/nature_image_id"
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:layout_column="2"
+                android:background="@drawable/border"
+                android:contentDescription="@string/todo" />
+
+            <TextView
+                android:id="@+id/ninjutsu_lvl_id"
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:layout_column="3"
+                android:background="@drawable/border"
+                android:gravity="center"
+                android:text="@string/lvl"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                tools:ignore="TextContrastCheck" />
+
+            <TextView
+                android:id="@+id/ninjutsu_lvl_value_id"
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:layout_column="4"
+                android:background="@drawable/border"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                tools:ignore="TextContrastCheck" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:background="#F49907">
+
+            <ImageView
+                android:id="@+id/card_image_ninjutsu_id"
+                android:layout_width="200dp"
+                android:layout_height="70dp"
+                android:layout_column="1"
+                android:layout_span="2"
+                android:background="@drawable/border"
+                android:contentDescription="@string/todo"
+                app:srcCompat="@drawable/naruto_uzumaki_1_star_j3_jutsu" />
+
+            <TextView
+                android:id="@+id/cpcost_id"
+                android:layout_width="100dp"
+                android:layout_height="70dp"
+                android:layout_column="2"
+                android:background="@drawable/border"
+                android:gravity="center"
+                android:text="@string/cp_cost"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                tools:ignore="TextContrastCheck" />
+
+            <TextView
+                android:id="@+id/cpcost_value_id"
+                android:layout_width="100dp"
+                android:layout_height="70dp"
+                android:layout_column="3"
+                android:background="@drawable/border"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                tools:ignore="TextContrastCheck" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:background="#F49907">
+
+            <TextView
+                android:id="@+id/cri_jutsu_id"
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:layout_column="1"
+                android:background="@drawable/border"
+                android:gravity="center"
+                android:text="@string/cri"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                tools:ignore="TextContrastCheck" />
+
+            <TextView
+                android:id="@+id/cri_jutsu_value_id"
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:layout_column="2"
+                android:background="@drawable/border"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                tools:ignore="TextContrastCheck" />
+
+            <TextView
+                android:id="@+id/pow_jutsu_id"
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:layout_column="3"
+                android:background="@drawable/border"
+                android:gravity="center"
+                android:text="@string/pow"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                tools:ignore="TextContrastCheck" />
+
+            <TextView
+                android:id="@+id/pow_jutsu_value_id"
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:layout_column="4"
+                android:background="@drawable/border"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                tools:ignore="TextContrastCheck" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:background="#F49907">
+
+            <ImageView
+                android:id="@+id/rt_image_id"
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:layout_column="1"
+                android:background="@drawable/border"
+                android:contentDescription="@string/todo"
+                app:srcCompat="@drawable/recharge_time"/>
+
+            <TextView
+                android:id="@+id/rt_value_id"
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:layout_column="2"
+                android:background="@drawable/border"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                tools:ignore="TextContrastCheck" />
+
+            <TextView
+                android:id="@+id/equippable_by_id"
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:layout_column="3"
+                android:layout_span="2"
+                android:background="@drawable/border"
+                android:gravity="center"
+                android:text="@string/equippable_by"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                tools:ignore="TextContrastCheck" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:background="#F49907">
+
+            <TextView
+                android:id="@+id/equip_id"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_column="1"
+                android:layout_span="4"
+                android:background="@drawable/border"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:text="@string/naruto_uzumaki"
+                tools:ignore="TextContrastCheck" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:background="#F49907">
+
+            <TextView
+                android:id="@+id/info_id"
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:layout_column="1"
+                android:layout_span="4"
+                android:background="@drawable/border"
+                android:gravity="center"
+                android:text="@string/rotates_a_shadow_clone_blowing_away_surrounding_enemies_and_causing_damage"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                tools:ignore="TextContrastCheck" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:background="#EE3E19">
+
+            <TextView
+                android:id="@+id/check_by_lv_id"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_column="1"
+                android:layout_span="4"
+                android:background="@drawable/border"
+                android:gravity="center"
+                android:text="@string/check_by_lv"
+                android:textColor="@color/white"
+                android:textSize="20sp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:background="#F49907">
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:layout_column="1"
+                android:background="@drawable/border"
+                android:gravity="center"
+                android:text="@string/lv_1"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                tools:ignore="TextContrastCheck" />
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:layout_column="2"
+                android:layout_span="3"
+                android:background="@drawable/border"
+                android:contentDescription="@string/todo"
+                app:srcCompat="@drawable/icon4star" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:background="#F49907">
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:layout_column="1"
+                android:background="@drawable/border"
+                android:contentDescription="@string/todo"
+                app:srcCompat="@drawable/recharge_time" />
+
+            <TextView
+                android:id="@+id/rt_lvl_1_id"
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:layout_column="2"
+                android:background="@drawable/border"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                tools:ignore="TextContrastCheck" />
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:layout_column="3"
+                android:background="@drawable/border"
+                android:gravity="center"
+                android:text="@string/cp_cost"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                tools:ignore="TextContrastCheck" />
+
+            <TextView
+                android:id="@+id/cpcost_lvl_1_id"
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:layout_column="4"
+                android:background="@drawable/border"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                tools:ignore="TextContrastCheck" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:background="#F49907">
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:layout_column="1"
+                android:background="@drawable/border"
+                android:gravity="center"
+                android:text="@string/cri"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                tools:ignore="TextContrastCheck" />
+
+            <TextView
+                android:id="@+id/cri_lvl_1_id"
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:layout_column="2"
+                android:background="@drawable/border"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                tools:ignore="TextContrastCheck" />
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:layout_column="3"
+                android:background="@drawable/border"
+                android:gravity="center"
+                android:text="@string/pow"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                tools:ignore="TextContrastCheck" />
+
+            <TextView
+                android:id="@+id/pow_lvl_1_id"
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:layout_column="4"
+                android:background="@drawable/border"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                tools:ignore="TextContrastCheck" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:background="#F49907">
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:layout_column="1"
+                android:background="@drawable/border"
+                android:gravity="center"
+                android:text="@string/lv_2"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                tools:ignore="TextContrastCheck" />
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:layout_column="2"
+                android:layout_span="3"
+                android:background="@drawable/border"
+                android:contentDescription="@string/todo"
+                app:srcCompat="@drawable/icon4star" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:background="#F49907">
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:layout_column="1"
+                android:background="@drawable/border"
+                android:contentDescription="@string/todo"
+                app:srcCompat="@drawable/recharge_time" />
+
+            <TextView
+                android:id="@+id/rt_lvl_2_id"
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:layout_column="2"
+                android:background="@drawable/border"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                tools:ignore="TextContrastCheck" />
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:layout_column="3"
+                android:background="@drawable/border"
+                android:gravity="center"
+                android:text="@string/cp_cost"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                tools:ignore="TextContrastCheck" />
+
+            <TextView
+                android:id="@+id/cpcost_lvl_2_id"
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:layout_column="4"
+                android:background="@drawable/border"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                tools:ignore="TextContrastCheck" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:background="#F49907">
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:layout_column="1"
+                android:background="@drawable/border"
+                android:gravity="center"
+                android:text="@string/cri"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                tools:ignore="TextContrastCheck" />
+
+            <TextView
+                android:id="@+id/cri_lvl_2_id"
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:layout_column="2"
+                android:background="@drawable/border"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                tools:ignore="TextContrastCheck,TooManyViews" />
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:layout_column="3"
+                android:background="@drawable/border"
+                android:gravity="center"
+                android:text="@string/pow"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                tools:ignore="TextContrastCheck" />
+
+            <TextView
+                android:id="@+id/pow_lvl_2_id"
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:layout_column="4"
+                android:background="@drawable/border"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                tools:ignore="TextContrastCheck" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:background="#F49907">
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:layout_column="1"
+                android:background="@drawable/border"
+                android:gravity="center"
+                android:text="@string/lv_3"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                tools:ignore="TextContrastCheck" />
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:layout_column="2"
+                android:layout_span="3"
+                android:background="@drawable/border"
+                android:contentDescription="@string/todo"
+                app:srcCompat="@drawable/icon4star" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:background="#F49907">
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:layout_column="1"
+                android:background="@drawable/border"
+                android:contentDescription="@string/todo"
+                app:srcCompat="@drawable/recharge_time" />
+
+            <TextView
+                android:id="@+id/rt_lvl_3_id"
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:layout_column="2"
+                android:background="@drawable/border"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                tools:ignore="TextContrastCheck" />
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:layout_column="3"
+                android:background="@drawable/border"
+                android:gravity="center"
+                android:text="@string/cp_cost"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                tools:ignore="TextContrastCheck" />
+
+            <TextView
+                android:id="@+id/cpcost_lvl_3_id"
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:layout_column="4"
+                android:background="@drawable/border"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                tools:ignore="TextContrastCheck" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:background="#F49907">
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:layout_column="1"
+                android:background="@drawable/border"
+                android:gravity="center"
+                android:text="@string/cri"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                tools:ignore="TextContrastCheck" />
+
+            <TextView
+                android:id="@+id/cri_lvl_3_id"
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:layout_column="2"
+                android:background="@drawable/border"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                tools:ignore="TextContrastCheck" />
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:layout_column="3"
+                android:background="@drawable/border"
+                android:gravity="center"
+                android:text="@string/pow"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                tools:ignore="TextContrastCheck" />
+
+            <TextView
+                android:id="@+id/pow_lvl_3_id"
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:layout_column="4"
+                android:background="@drawable/border"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                tools:ignore="TextContrastCheck" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:background="#F49907">
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:layout_column="1"
+                android:background="@drawable/border"
+                android:gravity="center"
+                android:text="@string/lv_4"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                tools:ignore="TextContrastCheck" />
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:layout_column="2"
+                android:layout_span="3"
+                android:background="@drawable/border"
+                android:contentDescription="@string/todo"
+                app:srcCompat="@drawable/icon4star" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:background="#F49907">
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:layout_column="1"
+                android:background="@drawable/border"
+                android:contentDescription="@string/todo"
+                app:srcCompat="@drawable/recharge_time" />
+
+            <TextView
+                android:id="@+id/rt_lvl_4_id"
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:layout_column="2"
+                android:background="@drawable/border"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                tools:ignore="TextContrastCheck" />
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:layout_column="3"
+                android:background="@drawable/border"
+                android:gravity="center"
+                android:text="@string/cp_cost"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                tools:ignore="TextContrastCheck" />
+
+            <TextView
+                android:id="@+id/cpcost_lvl_4_id"
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:layout_column="4"
+                android:background="@drawable/border"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                tools:ignore="TextContrastCheck" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:background="#F49907">
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:layout_column="1"
+                android:background="@drawable/border"
+                android:gravity="center"
+                android:text="@string/cri"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                tools:ignore="TextContrastCheck" />
+
+            <TextView
+                android:id="@+id/cri_lvl_4_id"
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:layout_column="2"
+                android:background="@drawable/border"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                tools:ignore="TextContrastCheck" />
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:layout_column="3"
+                android:background="@drawable/border"
+                android:gravity="center"
+                android:text="@string/pow"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                tools:ignore="TextContrastCheck" />
+
+            <TextView
+                android:id="@+id/pow_lvl_4_id"
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:layout_column="4"
+                android:background="@drawable/border"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                tools:ignore="TextContrastCheck" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:background="#F49907">
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:layout_column="1"
+                android:background="@drawable/border"
+                android:gravity="center"
+                android:text="@string/lv_5"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                tools:ignore="TextContrastCheck" />
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:layout_column="2"
+                android:layout_span="3"
+                android:background="@drawable/border"
+                android:contentDescription="@string/todo"
+                app:srcCompat="@drawable/icon5star" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:background="#F49907">
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:layout_column="1"
+                android:background="@drawable/border"
+                android:contentDescription="@string/todo"
+                app:srcCompat="@drawable/recharge_time" />
+
+            <TextView
+                android:id="@+id/rt_lvl_5_id"
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:layout_column="2"
+                android:background="@drawable/border"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                tools:ignore="TextContrastCheck" />
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:layout_column="3"
+                android:background="@drawable/border"
+                android:gravity="center"
+                android:text="@string/cp_cost"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                tools:ignore="TextContrastCheck" />
+
+            <TextView
+                android:id="@+id/cpcost_lvl_5_id"
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:layout_column="4"
+                android:background="@drawable/border"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                tools:ignore="TextContrastCheck" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:background="#F49907">
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:layout_column="1"
+                android:background="@drawable/border"
+                android:gravity="center"
+                android:text="@string/cri"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                tools:ignore="TextContrastCheck" />
+
+            <TextView
+                android:id="@+id/cri_lvl_5_id"
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:layout_column="2"
+                android:background="@drawable/border"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                tools:ignore="TextContrastCheck" />
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:layout_column="3"
+                android:background="@drawable/border"
+                android:gravity="center"
+                android:text="@string/pow"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                tools:ignore="TextContrastCheck" />
+
+            <TextView
+                android:id="@+id/pow_lvl_5_id"
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:layout_column="4"
+                android:background="@drawable/border"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                tools:ignore="TextContrastCheck" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:background="#F49907">
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:layout_column="1"
+                android:background="@drawable/border"
+                android:gravity="center"
+                android:text="@string/lv_6"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                tools:ignore="TextContrastCheck" />
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:layout_column="2"
+                android:layout_span="3"
+                android:background="@drawable/border"
+                android:contentDescription="@string/todo"
+                app:srcCompat="@drawable/icon5star" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:background="#F49907">
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:layout_column="1"
+                android:background="@drawable/border"
+                android:contentDescription="@string/todo"
+                app:srcCompat="@drawable/recharge_time" />
+
+            <TextView
+                android:id="@+id/rt_lvl_6_id"
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:layout_column="2"
+                android:background="@drawable/border"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                tools:ignore="TextContrastCheck" />
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:layout_column="3"
+                android:background="@drawable/border"
+                android:gravity="center"
+                android:text="@string/cp_cost"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                tools:ignore="TextContrastCheck" />
+
+            <TextView
+                android:id="@+id/cpcost_lvl_6_id"
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:layout_column="4"
+                android:background="@drawable/border"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                tools:ignore="TextContrastCheck" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:background="#F49907">
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:layout_column="1"
+                android:background="@drawable/border"
+                android:gravity="center"
+                android:text="@string/cri"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                tools:ignore="TextContrastCheck" />
+
+            <TextView
+                android:id="@+id/cri_lvl_6_id"
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:layout_column="2"
+                android:background="@drawable/border"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                tools:ignore="TextContrastCheck" />
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:layout_column="3"
+                android:background="@drawable/border"
+                android:gravity="center"
+                android:text="@string/pow"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                tools:ignore="TextContrastCheck" />
+
+            <TextView
+                android:id="@+id/pow_lvl_6_id"
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:layout_column="4"
+                android:background="@drawable/border"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                tools:ignore="TextContrastCheck" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:background="#F49907">
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:layout_column="1"
+                android:background="@drawable/border"
+                android:gravity="center"
+                android:text="@string/lv_7"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                tools:ignore="TextContrastCheck" />
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:layout_column="2"
+                android:layout_span="3"
+                android:background="@drawable/border"
+                android:contentDescription="@string/todo"
+                app:srcCompat="@drawable/icon6star" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:background="#F49907">
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:layout_column="1"
+                android:background="@drawable/border"
+                android:contentDescription="@string/todo"
+                app:srcCompat="@drawable/recharge_time" />
+
+            <TextView
+                android:id="@+id/rt_lvl_7_id"
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:layout_column="2"
+                android:background="@drawable/border"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                tools:ignore="TextContrastCheck" />
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:layout_column="3"
+                android:background="@drawable/border"
+                android:gravity="center"
+                android:text="@string/cp_cost"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                tools:ignore="TextContrastCheck" />
+
+            <TextView
+                android:id="@+id/cpcost_lvl_7_id"
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:layout_column="4"
+                android:background="@drawable/border"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                tools:ignore="TextContrastCheck" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:background="#F49907">
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:layout_column="1"
+                android:background="@drawable/border"
+                android:gravity="center"
+                android:text="@string/cri"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                tools:ignore="TextContrastCheck" />
+
+            <TextView
+                android:id="@+id/cri_lvl_7_id"
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:layout_column="2"
+                android:background="@drawable/border"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                tools:ignore="TextContrastCheck" />
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:layout_column="3"
+                android:background="@drawable/border"
+                android:gravity="center"
+                android:text="@string/pow"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                tools:ignore="TextContrastCheck" />
+
+            <TextView
+                android:id="@+id/pow_lvl_7_id"
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:layout_column="4"
+                android:background="@drawable/border"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                tools:ignore="TextContrastCheck" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:background="#F49907">
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:layout_column="1"
+                android:background="@drawable/border"
+                android:gravity="center"
+                android:text="@string/lv_8"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                tools:ignore="TextContrastCheck" />
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:layout_column="2"
+                android:layout_span="3"
+                android:background="@drawable/border"
+                android:contentDescription="@string/todo"
+                app:srcCompat="@drawable/icon6star" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:background="#F49907">
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:layout_column="1"
+                android:background="@drawable/border"
+                android:contentDescription="@string/todo"
+                app:srcCompat="@drawable/recharge_time" />
+
+            <TextView
+                android:id="@+id/rt_lvl_8_id"
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:layout_column="2"
+                android:background="@drawable/border"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                tools:ignore="TextContrastCheck" />
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:layout_column="3"
+                android:background="@drawable/border"
+                android:gravity="center"
+                android:text="@string/cp_cost"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                tools:ignore="TextContrastCheck" />
+
+            <TextView
+                android:id="@+id/cpcost_lvl_8_id"
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:layout_column="4"
+                android:background="@drawable/border"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                tools:ignore="TextContrastCheck" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:background="#F49907">
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:layout_column="1"
+                android:background="@drawable/border"
+                android:gravity="center"
+                android:text="@string/cri"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                tools:ignore="TextContrastCheck" />
+
+            <TextView
+                android:id="@+id/cri_lvl_8_id"
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:layout_column="2"
+                android:background="@drawable/border"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                tools:ignore="TextContrastCheck" />
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:layout_column="3"
+                android:background="@drawable/border"
+                android:gravity="center"
+                android:text="@string/pow"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                tools:ignore="TextContrastCheck" />
+
+            <TextView
+                android:id="@+id/pow_lvl_8_id"
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:layout_column="4"
+                android:background="@drawable/border"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                tools:ignore="TextContrastCheck" />
+        </TableRow>
+    </TableLayout>
+
+</ScrollView>

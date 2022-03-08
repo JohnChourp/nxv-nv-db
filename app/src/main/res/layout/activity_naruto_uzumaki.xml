@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0E191A"
+    android:orientation="vertical"
+    tools:context=".characters.NarutoUzumaki">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/naruto_uzumaki_big_id"
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="16dp"
+            android:contentDescription="@string/todo"
+            app:srcCompat="@drawable/naruto_uzumaki_big" />
+
+        <TextView
+            android:id="@+id/ultimate_jutsus_5_star_id"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginTop="16dp"
+            android:background="#EE3E19"
+            android:gravity="center"
+            android:text="@string/ultimate_jutsus_5_star"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+        <ImageView
+            android:id="@+id/naruto_uzumaki_ult1_artwork_id"
+            android:layout_width="125dp"
+            android:layout_height="93dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginStart="-141dp"
+            android:layout_marginTop="16dp"
+            android:contentDescription="@string/todo"
+            app:srcCompat="@drawable/naruto_uzumaki_ult1_artwork" />
+
+        <ImageView
+            android:id="@+id/naruto_uzumaki_ult2_artwork_id"
+            android:layout_width="125dp"
+            android:layout_height="93dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="-94dp"
+            android:contentDescription="@string/todo"
+            app:srcCompat="@drawable/naruto_uzumaki_ult2_artwork" />
+
+        <ImageView
+            android:id="@+id/naruto_uzumaki_ult3_artwork_id"
+            android:layout_width="125dp"
+            android:layout_height="93dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginStart="141dp"
+            android:layout_marginTop="-94dp"
+            android:contentDescription="@string/todo"
+            app:srcCompat="@drawable/naruto_uzumaki_ult3_artwork" />
+
+        <TextView
+            android:id="@+id/jutsus_4_star_id"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginTop="16dp"
+            android:background="#EE3E19"
+            android:gravity="center"
+            android:text="@string/jutsus_4_star"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+        <ImageView
+            android:id="@+id/naruto_uzumaki_4_star_j1_artwork_id"
+            android:layout_width="125dp"
+            android:layout_height="93dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginStart="-141dp"
+            android:layout_marginTop="16dp"
+            android:contentDescription="@string/todo"
+            app:srcCompat="@drawable/naruto_uzumaki_4_star_j1_artwork" />
+
+        <ImageView
+            android:id="@+id/naruto_uzumaki_4_star_j2_artwork_id"
+            android:layout_width="125dp"
+            android:layout_height="93dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="-94dp"
+            android:contentDescription="@string/todo"
+            app:srcCompat="@drawable/naruto_uzumaki_4_star_j2_artwork" />
+
+        <ImageView
+            android:id="@+id/naruto_uzumaki_4_star_j3_artwork_id"
+            android:layout_width="125dp"
+            android:layout_height="93dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginStart="141dp"
+            android:layout_marginTop="-94dp"
+            android:contentDescription="@string/todo"
+            app:srcCompat="@drawable/naruto_uzumaki_4_star_j3_artwork" />
+
+        <ImageView
+            android:id="@+id/naruto_uzumaki_4_star_j4_artwork_id"
+            android:layout_width="125dp"
+            android:layout_height="93dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginStart="-141dp"
+            android:layout_marginTop="16dp"
+            android:contentDescription="@string/todo"
+            app:srcCompat="@drawable/naruto_uzumaki_4_star_j4_artwork" />
+
+        <TextView
+            android:id="@+id/jutsus_3_star_id"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginTop="16dp"
+            android:background="#EE3E19"
+            android:gravity="center"
+            android:text="@string/jutsus_3_star"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+        <ImageView
+            android:id="@+id/naruto_uzumaki_3_star_j1_artwork_id"
+            android:layout_width="125dp"
+            android:layout_height="93dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginStart="-141dp"
+            android:layout_marginTop="16dp"
+            android:contentDescription="@string/todo"
+            app:srcCompat="@drawable/naruto_uzumaki_3_star_j1_artwork" />
+
+        <ImageView
+            android:id="@+id/naruto_uzumaki_3_star_j2_artwork_id"
+            android:layout_width="125dp"
+            android:layout_height="93dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="-94dp"
+            android:contentDescription="@string/todo"
+            app:srcCompat="@drawable/naruto_uzumaki_3_star_j2_artwork" />
+
+        <TextView
+            android:id="@+id/jutsus_1_star_id"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginTop="16dp"
+            android:background="#EE3E19"
+            android:gravity="center"
+            android:text="@string/jutsus_1_star"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+        <ImageView
+            android:id="@+id/naruto_uzumaki_1_star_j1_artwork_id"
+            android:layout_width="125dp"
+            android:layout_height="93dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginStart="-141dp"
+            android:layout_marginTop="16dp"
+            android:contentDescription="@string/todo"
+            app:srcCompat="@drawable/naruto_uzumaki_1_star_j1_artwork" />
+
+        <ImageView
+            android:id="@+id/naruto_uzumaki_1_star_j2_artwork_id"
+            android:layout_width="125dp"
+            android:layout_height="93dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="-94dp"
+            android:contentDescription="@string/todo"
+            app:srcCompat="@drawable/naruto_uzumaki_1_star_j2_artwork"
+            tools:ignore="ImageContrastCheck" />
+
+        <ImageView
+            android:id="@+id/naruto_uzumaki_1_star_j3_artwork_id"
+            android:layout_width="125dp"
+            android:layout_height="93dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginStart="141dp"
+            android:layout_marginTop="-94dp"
+            android:contentDescription="@string/todo"
+            app:srcCompat="@drawable/naruto_uzumaki_1_star_j3_artwork" />
+
+        <ImageView
+            android:id="@+id/naruto_uzumaki_1_star_j4_artwork_id"
+            android:layout_width="125dp"
+            android:layout_height="93dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginStart="-141dp"
+            android:layout_marginTop="16dp"
+            android:contentDescription="@string/todo"
+            app:srcCompat="@drawable/naruto_uzumaki_1_star_j4_artwork"
+            tools:ignore="ImageContrastCheck" />
+
+        <ImageView
+            android:id="@+id/naruto_uzumaki_1_star_j5_artwork_id"
+            android:layout_width="125dp"
+            android:layout_height="93dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="-94dp"
+            android:contentDescription="@string/todo"
+            app:srcCompat="@drawable/naruto_uzumaki_1_star_j5_artwork" />
+
+        <TextView
+            android:id="@+id/tools_5_star_id"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginTop="16dp"
+            android:background="#EE3E19"
+            android:gravity="center"
+            android:text="@string/tools_5_star"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+        <ImageView
+            android:id="@+id/ichiraku_ramen_tool_id"
+            android:layout_width="125dp"
+            android:layout_height="125dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginStart="-141dp"
+            android:layout_marginTop="16dp"
+            android:contentDescription="@string/todo"
+            app:srcCompat="@drawable/ichiraku_ramen_tool" />
+
+        <TextView
+            android:id="@+id/tools_factory_5_star_id"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginTop="16dp"
+            android:background="#EE3E19"
+            android:gravity="center"
+            android:text="@string/tools_factory_5_star"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+        <ImageView
+            android:id="@+id/miso___prok_ichiraku_ramen_id"
+            android:layout_width="125dp"
+            android:layout_height="125dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginStart="-141dp"
+            android:layout_marginTop="16dp"
+            android:contentDescription="@string/todo"
+            app:srcCompat="@drawable/miso___prok_ichiraku_ramen" />
+    </LinearLayout>
+</ScrollView>
