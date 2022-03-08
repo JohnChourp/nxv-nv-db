@@ -57,4 +57,16 @@
     <string name="lv_7">Lv 7</string>
     <string name="lv_8">Lv 8</string>
     <string name="cp_cost">CP Cost</string>
+    <string name="rotates_a_shadow_clone_blowing_away_surrounding_enemies_and_causing_damage">Rotates a shadow clone, blowing away surrounding enemies and causing damage.</string>
+    <string name="a_crowd_of_naruto_shadow_clones_all_perform_the_sexy_jutsu_inflicting_paralysis_effect_medium">A crowd of Naruto shadow clones all perform the Sexy Jutsu, inflicting paralysis [Effect: Medium].</string>
+    <string name="sends_a_shadow_clone_of_naruto_speeding_ahead_causing_damage_and_setting_off_traps">Sends a shadow clone of Naruto speeding ahead, causing damage and setting off traps.</string>
+    <string name="shadow_clone_jutsu">Shadow Clone Jutsu</string>
+    <string name="harem_jutsu">Harem Jutsu</string>
+    <string name="clone_spin">Clone Spin</string>
+    <string name="wild_claw">Wild Claw</string>
+    <string name="uses_nine_tails_chakra_arms_to_deal_damage_and_decrease_the_enemies_defense_effect_small_increases_the_user_s_movement_speed_effect_large">Uses Nine Tails Chakra arms to deal damage and decrease the enemies\' defense [Effect: Small], Increases the user\'s movement speed [Effect: Large].</string>
+    <string name="clone_arrow">Clone Arrow</string>
+    <string name="hurls_a_shadow_clone_ahead_causing_damage">Hurls a shadow clone ahead, causing damage.</string>
+    <string name="shadow_clone_uppercut">Shadow Clone Uppercut</string>
+    <string name="forms_a_shadow_clone_ahead_that_performs_an_uppercut_causing_damage">Forms a shadow clone ahead that performs an uppercut, causing damage.</string>
 </resources>
