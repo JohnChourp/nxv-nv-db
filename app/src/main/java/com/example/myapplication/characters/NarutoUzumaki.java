@@ -7,7 +7,11 @@ import android.os.Bundle;
 import android.widget.ImageView;
 
 import com.example.myapplication.R;
+import com.example.myapplication.cards_tools.naruto_uzumaki.ninjutsus_1_star.AFriendsOutstretchedHand;
+import com.example.myapplication.cards_tools.naruto_uzumaki.ninjutsus_1_star.AHinttotheCipher;
+import com.example.myapplication.cards_tools.naruto_uzumaki.ninjutsus_1_star.Iacceptthatchallenge;
 import com.example.myapplication.cards_tools.naruto_uzumaki.ninjutsus_1_star.Itskindalikebam;
+import com.example.myapplication.cards_tools.naruto_uzumaki.ninjutsus_1_star.ThatWasntaCompliment;
 import com.example.myapplication.cards_tools.naruto_uzumaki.ninjutsus_3_star.AThousandYearsofDeath;
 import com.example.myapplication.cards_tools.naruto_uzumaki.ninjutsus_3_star.AWarmHand;
 import com.example.myapplication.cards_tools.naruto_uzumaki.ninjutsus_4_star.BecauseThatsWhoNarutoIs;
@@ -54,6 +58,18 @@ public class NarutoUzumaki extends AppCompatActivity {
 
         ImageView naruto_uzumaki_1_star_j1_artwork_id = findViewById(R.id.naruto_uzumaki_1_star_j1_artwork_id);
         naruto_uzumaki_1_star_j1_artwork_id.setOnClickListener(v -> openItskindalikebam());
+
+        ImageView naruto_uzumaki_1_star_j2_artwork_id = findViewById(R.id.naruto_uzumaki_1_star_j2_artwork_id);
+        naruto_uzumaki_1_star_j2_artwork_id.setOnClickListener(v -> openAHinttotheCipher());
+
+        ImageView naruto_uzumaki_1_star_j3_artwork_id = findViewById(R.id.naruto_uzumaki_1_star_j3_artwork_id);
+        naruto_uzumaki_1_star_j3_artwork_id.setOnClickListener(v -> openIacceptthatchallenge());
+
+        ImageView naruto_uzumaki_1_star_j4_artwork_id = findViewById(R.id.naruto_uzumaki_1_star_j4_artwork_id);
+        naruto_uzumaki_1_star_j4_artwork_id.setOnClickListener(v -> openAFriendsOutstretchedHand());
+
+        ImageView naruto_uzumaki_1_star_j5_artwork_id = findViewById(R.id.naruto_uzumaki_1_star_j5_artwork_id);
+        naruto_uzumaki_1_star_j5_artwork_id.setOnClickListener(v -> openThatWasntaCompliment());
     }
 
     private void openNarutovsPain() {
@@ -103,6 +119,26 @@ public class NarutoUzumaki extends AppCompatActivity {
 
     private void openItskindalikebam() {
         Intent intent = new Intent(this, Itskindalikebam.class);
+        startActivity(intent);
+    }
+
+    private void openAHinttotheCipher() {
+        Intent intent = new Intent(this, AHinttotheCipher.class);
+        startActivity(intent);
+    }
+
+    private void openIacceptthatchallenge() {
+        Intent intent = new Intent(this, Iacceptthatchallenge.class);
+        startActivity(intent);
+    }
+
+    private void openAFriendsOutstretchedHand() {
+        Intent intent = new Intent(this, AFriendsOutstretchedHand.class);
+        startActivity(intent);
+    }
+
+    private void openThatWasntaCompliment() {
+        Intent intent = new Intent(this, ThatWasntaCompliment.class);
         startActivity(intent);
     }
 }
