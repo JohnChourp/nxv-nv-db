@@ -1,4 +1,4 @@
-package com.example.myapplication.cards_tools.ultimate_jutsu;
+package com.example.myapplication.cards_tools.cards;
 
 import android.annotation.SuppressLint;
 
@@ -89,7 +89,7 @@ public class JutsuCards {
                 setNatureImage(R.drawable.ex_release);
                 break;
         }
-        switch (category){
+        switch (category) {
             case "Ultimate Jutsu":
                 switch (rank) {
                     case 6:

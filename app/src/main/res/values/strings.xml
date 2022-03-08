@@ -28,7 +28,6 @@
     <string name="release">Release</string>
     <string name="lvl">LVL</string>
     <string name="_8_8">8/8</string>
-    <string name="cp_cost">CP Cost</string>
     <string name="_300">300</string>
     <string name="_36_00">36.00%</string>
     <string name="pow">POW</string>
@@ -48,4 +47,14 @@
     <string name="_5100">5100</string>
     <string name="sends_out_a_shock_wave_causing_a_medium_amount_of_damage_and_inflicting_damage_over_time_effect_medium_also_increases_user_s_attack_power_and_critical_hit_rate_effect_large">Sends out a shock wave, causing a medium amount of damage and inflicting damage over time [Effect: Medium], Also increases user\'s attack power and critical hit rate [Effect: Large].</string>
     <string name="ultimate_jutsu">Ultimate Jutsu</string>
+    <string name="check_by_lv">Check By Lv</string>
+    <string name="lv_1">Lv 1</string>
+    <string name="lv_2">Lv 2</string>
+    <string name="lv_3">Lv 3</string>
+    <string name="lv_4">Lv 4</string>
+    <string name="lv_5">Lv 5</string>
+    <string name="lv_6">Lv 6</string>
+    <string name="lv_7">Lv 7</string>
+    <string name="lv_8">Lv 8</string>
+    <string name="cp_cost">CP Cost</string>
 </resources>

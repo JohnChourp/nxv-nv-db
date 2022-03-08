@@ -9,7 +9,8 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.example.myapplication.R;
-import com.example.myapplication.cards_tools.ultimate_jutsu.JutsuCards;
+import com.example.myapplication.cards_tools.cards.CheckByLvlCards;
+import com.example.myapplication.cards_tools.cards.JutsuCards;
 
 public class ARampagingPower extends AppCompatActivity {
 
@@ -19,6 +20,88 @@ public class ARampagingPower extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_arampaging_power);
         Resources res = getResources();
+
+        TextView rt_lvl_1_id = findViewById(R.id.rt_lvl_1_id);
+        TextView cpcost_lvl_1_id = findViewById(R.id.cpcost_lvl_1_id);
+        TextView cri_lvl_1_id = findViewById(R.id.cri_lvl_1_id);
+        TextView pow_lvl_1_id = findViewById(R.id.pow_lvl_1_id);
+
+        TextView rt_lvl_2_id = findViewById(R.id.rt_lvl_2_id);
+        TextView cpcost_lvl_2_id = findViewById(R.id.cpcost_lvl_2_id);
+        TextView cri_lvl_2_id = findViewById(R.id.cri_lvl_2_id);
+        TextView pow_lvl_2_id = findViewById(R.id.pow_lvl_2_id);
+
+        TextView rt_lvl_3_id = findViewById(R.id.rt_lvl_3_id);
+        TextView cpcost_lvl_3_id = findViewById(R.id.cpcost_lvl_3_id);
+        TextView cri_lvl_3_id = findViewById(R.id.cri_lvl_3_id);
+        TextView pow_lvl_3_id = findViewById(R.id.pow_lvl_3_id);
+
+        TextView rt_lvl_4_id = findViewById(R.id.rt_lvl_4_id);
+        TextView cpcost_lvl_4_id = findViewById(R.id.cpcost_lvl_4_id);
+        TextView cri_lvl_4_id = findViewById(R.id.cri_lvl_4_id);
+        TextView pow_lvl_4_id = findViewById(R.id.pow_lvl_4_id);
+
+        TextView rt_lvl_5_id = findViewById(R.id.rt_lvl_5_id);
+        TextView cpcost_lvl_5_id = findViewById(R.id.cpcost_lvl_5_id);
+        TextView cri_lvl_5_id = findViewById(R.id.cri_lvl_5_id);
+        TextView pow_lvl_5_id = findViewById(R.id.pow_lvl_5_id);
+
+        TextView rt_lvl_6_id = findViewById(R.id.rt_lvl_6_id);
+        TextView cpcost_lvl_6_id = findViewById(R.id.cpcost_lvl_6_id);
+        TextView cri_lvl_6_id = findViewById(R.id.cri_lvl_6_id);
+        TextView pow_lvl_6_id = findViewById(R.id.pow_lvl_6_id);
+
+        TextView rt_lvl_7_id = findViewById(R.id.rt_lvl_7_id);
+        TextView cpcost_lvl_7_id = findViewById(R.id.cpcost_lvl_7_id);
+        TextView cri_lvl_7_id = findViewById(R.id.cri_lvl_7_id);
+        TextView pow_lvl_7_id = findViewById(R.id.pow_lvl_7_id);
+
+        TextView rt_lvl_8_id = findViewById(R.id.rt_lvl_8_id);
+        TextView cpcost_lvl_8_id = findViewById(R.id.cpcost_lvl_8_id);
+        TextView cri_lvl_8_id = findViewById(R.id.cri_lvl_8_id);
+        TextView pow_lvl_8_id = findViewById(R.id.pow_lvl_8_id);
+
+        CheckByLvlCards checkByLvlCards = new CheckByLvlCards(6,60, 250, 1, 3000, 60, 250, 6, 3300);
+
+        rt_lvl_1_id.setText(String.valueOf(checkByLvlCards.getRt_lvl_1()));
+        cpcost_lvl_1_id.setText(String.valueOf(checkByLvlCards.getCpcost_lvl_1()));
+        cri_lvl_1_id.setText(checkByLvlCards.getCri_lvl_1() + ".00%");
+        pow_lvl_1_id.setText(String.valueOf(checkByLvlCards.getPow_lvl_1()));
+
+        rt_lvl_2_id.setText(String.valueOf(checkByLvlCards.getRt_lvl_2()));
+        cpcost_lvl_2_id.setText(String.valueOf(checkByLvlCards.getCpcost_lvl_2()));
+        cri_lvl_2_id.setText(checkByLvlCards.getCri_lvl_2() + ".00%");
+        pow_lvl_2_id.setText(String.valueOf(checkByLvlCards.getPow_lvl_2()));
+
+        rt_lvl_3_id.setText(String.valueOf(checkByLvlCards.getRt_lvl_3()));
+        cpcost_lvl_3_id.setText(String.valueOf(checkByLvlCards.getCpcost_lvl_3()));
+        cri_lvl_3_id.setText(checkByLvlCards.getCri_lvl_3() + ".00%");
+        pow_lvl_3_id.setText(String.valueOf(checkByLvlCards.getPow_lvl_3()));
+
+        rt_lvl_4_id.setText(String.valueOf(checkByLvlCards.getRt_lvl_4()));
+        cpcost_lvl_4_id.setText(String.valueOf(checkByLvlCards.getCpcost_lvl_4()));
+        cri_lvl_4_id.setText(checkByLvlCards.getCri_lvl_4() + ".00%");
+        pow_lvl_4_id.setText(String.valueOf(checkByLvlCards.getPow_lvl_4()));
+
+        rt_lvl_5_id.setText(String.valueOf(checkByLvlCards.getRt_lvl_5()));
+        cpcost_lvl_5_id.setText(String.valueOf(checkByLvlCards.getCpcost_lvl_5()));
+        cri_lvl_5_id.setText(checkByLvlCards.getCri_lvl_5() + ".00%");
+        pow_lvl_5_id.setText(String.valueOf(checkByLvlCards.getPow_lvl_5()));
+
+        rt_lvl_6_id.setText(String.valueOf(checkByLvlCards.getRt_lvl_6()));
+        cpcost_lvl_6_id.setText(String.valueOf(checkByLvlCards.getCpcost_lvl_6()));
+        cri_lvl_6_id.setText(checkByLvlCards.getCri_lvl_6() + ".00%");
+        pow_lvl_6_id.setText(String.valueOf(checkByLvlCards.getPow_lvl_6()));
+
+        rt_lvl_7_id.setText(String.valueOf(checkByLvlCards.getRt_lvl_7()));
+        cpcost_lvl_7_id.setText(String.valueOf(checkByLvlCards.getCpcost_lvl_7()));
+        cri_lvl_7_id.setText(checkByLvlCards.getCri_lvl_7() + ".00%");
+        pow_lvl_7_id.setText(String.valueOf(checkByLvlCards.getPow_lvl_7()));
+
+        rt_lvl_8_id.setText(String.valueOf(checkByLvlCards.getRt_lvl_8()));
+        cpcost_lvl_8_id.setText(String.valueOf(checkByLvlCards.getCpcost_lvl_8()));
+        cri_lvl_8_id.setText(checkByLvlCards.getCri_lvl_8() + ".00%");
+        pow_lvl_8_id.setText(String.valueOf(checkByLvlCards.getPow_lvl_8()));
 
         TextView type_id = findViewById(R.id.type_id);
         ImageView type_image_id = findViewById(R.id.type_image_id);
@@ -44,7 +127,7 @@ public class ARampagingPower extends AppCompatActivity {
 
         TextView rt_value_id = findViewById(R.id.rt_value_id);
 
-        JutsuCards jutsuCards = new JutsuCards("Ultimate Jutsu","Attack", 6, "Impact", 250, 36, 5100, 60);
+        JutsuCards jutsuCards = new JutsuCards("Ultimate Jutsu", "Attack", 6, "Impact", checkByLvlCards.getCpcost_lvl_8(), checkByLvlCards.getCri_lvl_8(), checkByLvlCards.getPow_lvl_8(), checkByLvlCards.getRt_lvl_8());
 
         type_id.setText(jutsuCards.getType());
 
@@ -55,13 +138,13 @@ public class ARampagingPower extends AppCompatActivity {
         cp_value_id.setText(String.valueOf(jutsuCards.getCp()));
         atk_value_id.setText(String.valueOf(jutsuCards.getAtk()));
         def_value_id.setText(String.valueOf(jutsuCards.getDef()));
-        cri_value_id.setText(jutsuCards.getCri()+"0%");
-        eva_value_id.setText(jutsuCards.getEva()+"0%");
+        cri_value_id.setText(jutsuCards.getCri() + "0%");
+        eva_value_id.setText(jutsuCards.getEva() + "0%");
 
         nature_id.setText(jutsuCards.getNature());
         ninjutsu_lvl_value_id.setText(jutsuCards.getLvlJutsu());
         cpcost_value_id.setText(String.valueOf(jutsuCards.getCpcost()));
-        cri_jutsu_value_id.setText(jutsuCards.getCriJutsu()+".00%");
+        cri_jutsu_value_id.setText(jutsuCards.getCriJutsu() + ".00%");
         pow_jutsu_value_id.setText(String.valueOf(jutsuCards.getPow()));
         rt_value_id.setText(String.valueOf(jutsuCards.getRt()));
 
