@@ -23,8 +23,8 @@ public class TheFinalGamble extends AppCompatActivity {
         TextView type_id = findViewById(R.id.type_id);
         ImageView type_image_id = findViewById(R.id.type_image_id);
 
-        TextView ninjutsu_id = findViewById(R.id.ninjutsu_id);
-        TextView lvl_ninjutsu_id = findViewById(R.id.lvl_ninjutsu_id);
+        TextView card_id = findViewById(R.id.card_id);
+        TextView lvl_card_id = findViewById(R.id.lvl_card_id);
         ImageView rank_image_id = findViewById(R.id.rank_image_id);
 
         TextView hp_value_id = findViewById(R.id.hp_value_id);
@@ -36,7 +36,7 @@ public class TheFinalGamble extends AppCompatActivity {
 
         TextView nature_id = findViewById(R.id.nature_id);
         ImageView nature_image_id = findViewById(R.id.nature_image_id);
-        TextView lvl_jutsu_id = findViewById(R.id.lvl_jutsu_id);
+        TextView ninjutsu_lvl_value_id = findViewById(R.id.ninjutsu_lvl_value_id);
 
         TextView cpcost_value_id = findViewById(R.id.cpcost_value_id);
         TextView cri_jutsu_value_id = findViewById(R.id.cri_jutsu_value_id);
@@ -48,8 +48,8 @@ public class TheFinalGamble extends AppCompatActivity {
 
         type_id.setText(jutsuCards.getType());
 
-        ninjutsu_id.setText(String.valueOf(jutsuCards.getCategory()));
-        lvl_ninjutsu_id.setText(jutsuCards.getLvlCard());
+        card_id.setText(String.valueOf(jutsuCards.getCategory()));
+        lvl_card_id.setText(jutsuCards.getLvlCard());
 
         hp_value_id.setText(String.valueOf(jutsuCards.getHp()));
         cp_value_id.setText(String.valueOf(jutsuCards.getCp()));
@@ -59,7 +59,7 @@ public class TheFinalGamble extends AppCompatActivity {
         eva_value_id.setText(jutsuCards.getEva()+"0%");
 
         nature_id.setText(jutsuCards.getNature());
-        lvl_jutsu_id.setText(jutsuCards.getLvlJutsu());
+        ninjutsu_lvl_value_id.setText(jutsuCards.getLvlJutsu());
         cpcost_value_id.setText(String.valueOf(jutsuCards.getCpcost()));
         cri_jutsu_value_id.setText(jutsuCards.getCriJutsu()+".00%");
         pow_jutsu_value_id.setText(String.valueOf(jutsuCards.getPow()));

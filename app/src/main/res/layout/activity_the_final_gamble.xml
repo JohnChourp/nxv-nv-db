@@ -19,7 +19,7 @@
             android:background="#EE3E19">
 
             <TextView
-                android:id="@+id/ninjutsu_id"
+                android:id="@+id/card_id"
                 android:layout_width="400dp"
                 android:layout_height="30dp"
                 android:layout_column="1"
@@ -55,7 +55,7 @@
                 android:contentDescription="@string/todo" />
 
             <TextView
-                android:id="@+id/lvl_ninjutsu_id"
+                android:id="@+id/lvl_card_id"
                 android:layout_width="100dp"
                 android:layout_height="30dp"
                 android:layout_column="3"
@@ -327,7 +327,7 @@
                 android:contentDescription="@string/todo" />
 
             <TextView
-                android:id="@+id/lvl_id"
+                android:id="@+id/ninjutsu_lvl_id"
                 android:layout_width="100dp"
                 android:layout_height="30dp"
                 android:layout_column="3"
@@ -339,7 +339,7 @@
                 tools:ignore="TextContrastCheck" />
 
             <TextView
-                android:id="@+id/lvl_jutsu_id"
+                android:id="@+id/ninjutsu_lvl_value_id"
                 android:layout_width="100dp"
                 android:layout_height="30dp"
                 android:layout_column="4"
@@ -356,7 +356,7 @@
             android:background="#F49907">
 
             <ImageView
-                android:id="@+id/card_image_jutsu_id"
+                android:id="@+id/card_image_ninjutsu_id"
                 android:layout_width="100dp"
                 android:layout_height="70dp"
                 android:layout_column="1"
