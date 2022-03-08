@@ -5,10 +5,11 @@ import android.annotation.SuppressLint;
 import com.example.myapplication.R;
 
 public class JutsuCards {
-    private String type;
+    private final String category;
+    private final String type;
     private int typeImage;
     private int rank;
-    private String nature;
+    private final String nature;
     private int natureImage;
 
     private String lvlCard;
@@ -20,19 +21,20 @@ public class JutsuCards {
     private int def;
     private double cri;
     private double eva;
-    private int cpcost;
-    private int criJutsu;
-    private int pow;
-    private int rt;
+    private final int cpcost;
+    private final int criJutsu;
+    private final int pow;
+    private final int rt;
 
     @SuppressLint("UseCompatLoadingForDrawables")
-    public JutsuCards(String type, int rank, String nature, int cpcost, int criJutsu, int pow, int rt) {
-        setType(type);
-        setNature(nature);
-        setCpcost(cpcost);
-        setCriJutsu(criJutsu);
-        setPow(pow);
-        setRt(rt);
+    public JutsuCards(String category, String type, int rank, String nature, int cpcost, int criJutsu, int pow, int rt) {
+        this.category = category;
+        this.type = type;
+        this.nature = nature;
+        this.cpcost = cpcost;
+        this.criJutsu = criJutsu;
+        this.pow = pow;
+        this.rt = rt;
 
         switch (type) {
             case "Assist":
@@ -87,95 +89,219 @@ public class JutsuCards {
                 setNatureImage(R.drawable.ex_release);
                 break;
         }
-
-        switch (rank) {
-            case 6:
-                setCri(1.3);
-                setEva(1.3);
-                setLvlJutsu("8/8");
-                setLvlCard("70/70");
-                setRank(R.drawable.icon6star);
-                switch (type) {
-                    case "Assist":
-                        setHp(1128);
-                        setCp(143);
-                        setAtk(480);
-                        setDef(607);
+        switch (category){
+            case "Ultimate Jutsu":
+                switch (rank) {
+                    case 6:
+                        setCri(1.3);
+                        setEva(1.3);
+                        setLvlJutsu("8/8");
+                        setLvlCard("70/70");
+                        setRank(R.drawable.icon6star);
+                        switch (type) {
+                            case "Assist":
+                                setHp(1128);
+                                setCp(143);
+                                setAtk(480);
+                                setDef(607);
+                                break;
+                            case "Attack":
+                                setHp(1128);
+                                setCp(102);
+                                setAtk(829);
+                                setDef(534);
+                                break;
+                            case "Defense":
+                                setHp(1296);
+                                setCp(85);
+                                setAtk(571);
+                                setDef(742);
+                                break;
+                            case "Skill":
+                                setHp(1029);
+                                setCp(165);
+                                setAtk(627);
+                                setDef(436);
+                                break;
+                            case "Utility":
+                                setHp(1218);
+                                setCp(112);
+                                setAtk(607);
+                                setDef(574);
+                                break;
+                        }
                         break;
-                    case "Attack":
-                        setHp(1128);
-                        setCp(102);
-                        setAtk(829);
-                        setDef(534);
-                        break;
-                    case "Defense":
-                        setHp(1296);
-                        setCp(85);
-                        setAtk(571);
-                        setDef(742);
-                        break;
-                    case "Skill":
-                        setHp(1029);
-                        setCp(165);
-                        setAtk(627);
-                        setDef(436);
-                        break;
-                    case "Utility":
-                        setHp(1218);
-                        setCp(112);
-                        setAtk(607);
-                        setDef(574);
+                    case 7:
+                        setCri(1.5);
+                        setEva(1.5);
+                        setLvlJutsu("15/15");
+                        setLvlCard("100/100");
+                        setRank(R.drawable.icon7star);
+                        switch (type) {
+                            case "Assist":
+                                setHp(1128);
+                                setCp(143);
+                                setAtk(480);
+                                setDef(607);
+                                break;
+                            case "Attack":
+                                setHp(1128);
+                                setCp(102);
+                                setAtk(829);
+                                setDef(534);
+                                break;
+                            case "Defense":
+                                setHp(1296);
+                                setCp(85);
+                                setAtk(571);
+                                setDef(742);
+                                break;
+                            case "Skill":
+                                setHp(1029);
+                                setCp(165);
+                                setAtk(627);
+                                setDef(436);
+                                break;
+                            case "Utility":
+                                setHp(1218);
+                                setCp(112);
+                                setAtk(607);
+                                setDef(574);
+                                break;
+                        }
                         break;
                 }
                 break;
-            case 7:
-                setCri(1.5);
-                setEva(1.5);
-                setLvlJutsu("15/15");
-                setLvlCard("100/100");
-                setRank(R.drawable.icon7star);
-                switch (type) {
-                    case "Assist":
-                        setHp(1128);
-                        setCp(143);
-                        setAtk(480);
-                        setDef(607);
+            case "Ninjutsu":
+                switch (rank) {
+                    case 6:
+                        setCri(1.1);
+                        setEva(1.1);
+                        setLvlJutsu("8/8");
+                        setLvlCard("70/70");
+                        setRank(R.drawable.icon6star);
+                        switch (type) {
+                            case "Assist":
+                                setHp(936);
+                                setCp(119);
+                                setAtk(393);
+                                setDef(499);
+                                break;
+                            case "Attack":
+                                setHp(936);
+                                setCp(84);
+                                setAtk(682);
+                                setDef(432);
+                                break;
+                            case "Defense":
+                                setHp(1083);
+                                setCp(64);
+                                setAtk(472);
+                                setDef(622);
+                                break;
+                            case "Skill":
+                                setHp(837);
+                                setCp(135);
+                                setAtk(525);
+                                setDef(349);
+                                break;
+                            case "Utility":
+                                setHp(999);
+                                setCp(94);
+                                setAtk(499);
+                                setDef(475);
+                                break;
+                        }
                         break;
-                    case "Attack":
-                        setHp(1128);
-                        setCp(102);
-                        setAtk(829);
-                        setDef(534);
+                    case 5:
+                        setCri(0.9);
+                        setEva(0.9);
+                        setLvlJutsu("6/6");
+                        setLvlCard("60/60");
+                        setRank(R.drawable.icon5star);
+                        switch (type) {
+                            case "Assist":
+                                setHp(695);
+                                setCp(87);
+                                setAtk(290);
+                                setDef(367);
+                                break;
+                            case "Attack":
+                                setHp(695);
+                                setCp(61);
+                                setAtk(504);
+                                setDef(313);
+                                break;
+                            case "Defense":
+                                setHp(809);
+                                setCp(44);
+                                setAtk(350);
+                                setDef(466);
+                                break;
+                            case "Skill":
+                                setHp(611);
+                                setCp(98);
+                                setAtk(394);
+                                setDef(251);
+                                break;
+                            case "Utility":
+                                setHp(735);
+                                setCp(69);
+                                setAtk(367);
+                                setDef(352);
+                                break;
+                        }
                         break;
-                    case "Defense":
-                        setHp(1296);
-                        setCp(85);
-                        setAtk(571);
-                        setDef(742);
-                        break;
-                    case "Skill":
-                        setHp(1029);
-                        setCp(165);
-                        setAtk(627);
-                        setDef(436);
-                        break;
-                    case "Utility":
-                        setHp(1218);
-                        setCp(112);
-                        setAtk(607);
-                        setDef(574);
+                    case 3:
+                        setCri(0.5);
+                        setEva(0.5);
+                        setLvlJutsu("2/2");
+                        setLvlCard("40/40");
+                        setRank(R.drawable.icon3star);
+                        switch (type) {
+                            case "Assist":
+                                setHp(408);
+                                setCp(50);
+                                setAtk(169);
+                                setDef(213);
+                                break;
+                            case "Attack":
+                                setHp(408);
+                                setCp(35);
+                                setAtk(294);
+                                setDef(181);
+                                break;
+                            case "Defense":
+                                setHp(477);
+                                setCp(24);
+                                setAtk(205);
+                                setDef(274);
+                                break;
+                            case "Skill":
+                                setHp(354);
+                                setCp(58);
+                                setAtk(234);
+                                setDef(144);
+                                break;
+                            case "Utility":
+                                setHp(427);
+                                setCp(40);
+                                setAtk(213);
+                                setDef(205);
+                                break;
+                        }
                         break;
                 }
                 break;
         }
     }
 
-    public String getType() {
-        return type;
+    public String getCategory() {
+        return category;
     }
 
-    public void setType(String type) {
-        this.type = type;
+    public String getType() {
+        return type;
     }
 
     public int getTypeImage() {
@@ -196,10 +322,6 @@ public class JutsuCards {
 
     public String getNature() {
         return nature;
-    }
-
-    public void setNature(String nature) {
-        this.nature = nature;
     }
 
     public int getNatureImage() {
@@ -278,31 +400,15 @@ public class JutsuCards {
         return cpcost;
     }
 
-    public void setCpcost(int cpcost) {
-        this.cpcost = cpcost;
-    }
-
     public int getCriJutsu() {
         return criJutsu;
-    }
-
-    public void setCriJutsu(int criJutsu) {
-        this.criJutsu = criJutsu;
     }
 
     public int getPow() {
         return pow;
     }
 
-    public void setPow(int pow) {
-        this.pow = pow;
-    }
-
     public int getRt() {
         return rt;
-    }
-
-    public void setRt(int rt) {
-        this.rt = rt;
     }
 }

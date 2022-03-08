@@ -23,6 +23,7 @@ public class NarutovsPain extends AppCompatActivity {
         TextView type_id = findViewById(R.id.type_id);
         ImageView type_image_id = findViewById(R.id.type_image_id);
 
+        TextView ninjutsu_id = findViewById(R.id.ninjutsu_id);
         TextView lvl_ninjutsu_id = findViewById(R.id.lvl_ninjutsu_id);
         ImageView rank_image_id = findViewById(R.id.rank_image_id);
 
@@ -43,10 +44,11 @@ public class NarutovsPain extends AppCompatActivity {
 
         TextView rt_value_id = findViewById(R.id.rt_value_id);
 
-        JutsuCards jutsuCards = new JutsuCards("Attack", 6, "Release", 300, 36, 9320, 60);
+        JutsuCards jutsuCards = new JutsuCards("Ultimate Jutsu","Attack", 6, "Release", 300, 36, 9320, 60);
 
         type_id.setText(jutsuCards.getType());
 
+        ninjutsu_id.setText(String.valueOf(jutsuCards.getCategory()));
         lvl_ninjutsu_id.setText(jutsuCards.getLvlCard());
 
         hp_value_id.setText(String.valueOf(jutsuCards.getHp()));
