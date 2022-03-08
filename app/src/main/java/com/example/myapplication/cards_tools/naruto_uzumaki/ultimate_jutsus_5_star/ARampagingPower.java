@@ -40,10 +40,7 @@ public class ARampagingPower extends AppCompatActivity {
         TextView cri_jutsu_value_id = findViewById(R.id.cri_jutsu_value_id);
         TextView pow_jutsu_value_id = findViewById(R.id.pow_jutsu_value_id);
 
-        ImageView rt_image_id = findViewById(R.id.rt_image_id);
         TextView rt_value_id = findViewById(R.id.rt_value_id);
-
-        TextView equip_id = findViewById(R.id.equip_id);
 
         type_id.setText(R.string.attack);
         type_image_id.setImageDrawable(res.getDrawable(R.drawable.attack));
@@ -66,8 +63,5 @@ public class ARampagingPower extends AppCompatActivity {
         cri_jutsu_value_id.setText(R.string._36_00);
         pow_jutsu_value_id.setText(R.string._5100);
         rt_value_id.setText(R.string._60);
-        rt_image_id.setImageDrawable(res.getDrawable(R.drawable.recharge_time));
-
-        equip_id.setText(R.string.naruto_uzumaki);
     }
 }

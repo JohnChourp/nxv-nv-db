@@ -9,6 +9,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.example.myapplication.R;
+import com.example.myapplication.cards_tools.ultimate_jutsu.UltimateJutsus;
 
 public class NarutovsPain extends AppCompatActivity {
 
@@ -40,37 +41,30 @@ public class NarutovsPain extends AppCompatActivity {
         TextView cri_jutsu_value_id = findViewById(R.id.cri_jutsu_value_id);
         TextView pow_jutsu_value_id = findViewById(R.id.pow_jutsu_value_id);
 
-        ImageView rt_image_id = findViewById(R.id.rt_image_id);
         TextView rt_value_id = findViewById(R.id.rt_value_id);
 
-        TextView equip_id = findViewById(R.id.equip_id);
+        UltimateJutsus ultimateJutsus = new UltimateJutsus("Attack", 6, "Release", 300, 36, 9320, 60);
 
-        type_id.setText(R.string.attack);
+        type_id.setText(ultimateJutsus.getType());
+
+        lvl_ninjutsu_id.setText(ultimateJutsus.getLvlCard());
+
+        hp_value_id.setText(String.valueOf(ultimateJutsus.getHp()));
+        cp_value_id.setText(String.valueOf(ultimateJutsus.getCp()));
+        atk_value_id.setText(String.valueOf(ultimateJutsus.getAtk()));
+        def_value_id.setText(String.valueOf(ultimateJutsus.getDef()));
+        cri_value_id.setText(String.valueOf(ultimateJutsus.getCri()));
+        eva_value_id.setText(String.valueOf(ultimateJutsus.getEva()));
+
+        nature_id.setText(ultimateJutsus.getNature());
+        lvl_jutsu_id.setText(ultimateJutsus.getLvlJutsu());
+        cpcost_value_id.setText(String.valueOf(ultimateJutsus.getCpcost()));
+        cri_jutsu_value_id.setText(String.valueOf(ultimateJutsus.getCriJutsu()));
+        pow_jutsu_value_id.setText(String.valueOf(ultimateJutsus.getPow()));
+        rt_value_id.setText(String.valueOf(ultimateJutsus.getRt()));
+
         type_image_id.setImageDrawable(res.getDrawable(R.drawable.attack));
-
-        lvl_ninjutsu_id.setText(R.string.lv_70_70);
         rank_image_id.setImageDrawable(res.getDrawable(R.drawable.icon6star));
-
-        hp_value_id.setText(R.string._1128);
-        cp_value_id.setText(R.string._102);
-        atk_value_id.setText(R.string._829);
-        def_value_id.setText(R.string._534);
-        cri_value_id.setText(R.string._1_30);
-        eva_value_id.setText(R.string._1_30);
-
-
-        nature_id.setText(R.string.release);
         nature_image_id.setImageDrawable(res.getDrawable(R.drawable.release));
-
-        lvl_jutsu_id.setText(R.string._8_8);
-
-        cpcost_value_id.setText(R.string._300);
-        cri_jutsu_value_id.setText(R.string._36_00);
-        pow_jutsu_value_id.setText(R.string._9320);
-
-        rt_image_id.setImageDrawable(res.getDrawable(R.drawable.recharge_time));
-        rt_value_id.setText(R.string._60);
-
-        equip_id.setText(R.string.naruto_uzumaki);
     }
 }

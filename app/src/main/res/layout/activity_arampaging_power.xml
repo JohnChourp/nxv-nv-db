@@ -496,6 +496,7 @@
                 android:gravity="center"
                 android:textColor="@color/white"
                 android:textSize="20sp"
+                android:text="@string/naruto_uzumaki"
                 tools:ignore="TextContrastCheck" />
         </TableRow>
 
