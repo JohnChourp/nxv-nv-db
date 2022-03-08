@@ -47,4 +47,5 @@
     <string name="_250">250</string>
     <string name="_5100">5100</string>
     <string name="sends_out_a_shock_wave_causing_a_medium_amount_of_damage_and_inflicting_damage_over_time_effect_medium_also_increases_user_s_attack_power_and_critical_hit_rate_effect_large">Sends out a shock wave, causing a medium amount of damage and inflicting damage over time [Effect: Medium], Also increases user\'s attack power and critical hit rate [Effect: Large].</string>
+    <string name="ultimate_jutsu">Ultimate Jutsu</string>
 </resources>

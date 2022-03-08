@@ -1,8 +1,15 @@
 package com.example.myapplication.cards_tools.ultimate_jutsu;
 
-public class UltimateJutsus {
+import android.annotation.SuppressLint;
+
+import com.example.myapplication.R;
+
+public class JutsuCards {
     private String type;
+    private int typeImage;
+    private int rank;
     private String nature;
+    private int natureImage;
 
     private String lvlCard;
     private String lvlJutsu;
@@ -11,26 +18,83 @@ public class UltimateJutsus {
     private int cp;
     private int atk;
     private int def;
-    private String cri;
-    private String eva;
+    private double cri;
+    private double eva;
     private int cpcost;
     private int criJutsu;
     private int pow;
     private int rt;
 
-    public UltimateJutsus(String type, int rank, String nature, int cpcost, int criJutsu, int pow, int rt) {
+    @SuppressLint("UseCompatLoadingForDrawables")
+    public JutsuCards(String type, int rank, String nature, int cpcost, int criJutsu, int pow, int rt) {
         setType(type);
         setNature(nature);
         setCpcost(cpcost);
         setCriJutsu(criJutsu);
         setPow(pow);
         setRt(rt);
+
+        switch (type) {
+            case "Assist":
+                setTypeImage(R.drawable.assist);
+                break;
+            case "Attack":
+                setTypeImage(R.drawable.attack);
+                break;
+            case "Defense":
+                setTypeImage(R.drawable.defense);
+                break;
+            case "Skill":
+                setTypeImage(R.drawable.skill);
+                break;
+            case "Utility":
+                setTypeImage(R.drawable.utility);
+                break;
+        }
+
+        switch (nature) {
+            case "Annihilation":
+                setNatureImage(R.drawable.annihilation);
+                break;
+            case "EX Annihilation":
+                setNatureImage(R.drawable.ex_annihilation);
+                break;
+            case "Lunge":
+                setNatureImage(R.drawable.lunge);
+                break;
+            case "EX Lunge":
+                setNatureImage(R.drawable.ex_lunge);
+                break;
+            case "Manipulate":
+                setNatureImage(R.drawable.manipulate);
+                break;
+            case "EX Manipulate":
+                setNatureImage(R.drawable.ex_manipulate);
+                break;
+            case "Normal":
+                setNatureImage(R.drawable.normal);
+                break;
+            case "Impact":
+                setNatureImage(R.drawable.impact);
+                break;
+            case "EX Impact":
+                setNatureImage(R.drawable.ex_impact);
+                break;
+            case "Release":
+                setNatureImage(R.drawable.release);
+                break;
+            case "EX Release":
+                setNatureImage(R.drawable.ex_release);
+                break;
+        }
+
         switch (rank) {
             case 6:
-                setCri("1.30%");
-                setEva("1.30%");
+                setCri(1.3);
+                setEva(1.3);
                 setLvlJutsu("8/8");
                 setLvlCard("70/70");
+                setRank(R.drawable.icon6star);
                 switch (type) {
                     case "Assist":
                         setHp(1128);
@@ -65,10 +129,11 @@ public class UltimateJutsus {
                 }
                 break;
             case 7:
-                setCri("1.50%");
-                setEva("1.50%");
+                setCri(1.5);
+                setEva(1.5);
                 setLvlJutsu("15/15");
                 setLvlCard("100/100");
+                setRank(R.drawable.icon7star);
                 switch (type) {
                     case "Assist":
                         setHp(1128);
@@ -113,12 +178,36 @@ public class UltimateJutsus {
         this.type = type;
     }
 
+    public int getTypeImage() {
+        return typeImage;
+    }
+
+    public void setTypeImage(int typeImage) {
+        this.typeImage = typeImage;
+    }
+
+    public int getRank() {
+        return rank;
+    }
+
+    public void setRank(int rank) {
+        this.rank = rank;
+    }
+
     public String getNature() {
         return nature;
     }
 
     public void setNature(String nature) {
         this.nature = nature;
+    }
+
+    public int getNatureImage() {
+        return natureImage;
+    }
+
+    public void setNatureImage(int natureImage) {
+        this.natureImage = natureImage;
     }
 
     public String getLvlCard() {
@@ -169,19 +258,19 @@ public class UltimateJutsus {
         this.def = def;
     }
 
-    public String getCri() {
+    public double getCri() {
         return cri;
     }
 
-    public void setCri(String cri) {
+    public void setCri(double cri) {
         this.cri = cri;
     }
 
-    public String getEva() {
+    public double getEva() {
         return eva;
     }
 
-    public void setEva(String eva) {
+    public void setEva(double eva) {
         this.eva = eva;
     }
 

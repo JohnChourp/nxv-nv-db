@@ -9,10 +9,11 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.example.myapplication.R;
+import com.example.myapplication.cards_tools.ultimate_jutsu.JutsuCards;
 
 public class TheFinalGamble extends AppCompatActivity {
 
-    @SuppressLint("UseCompatLoadingForDrawables")
+    @SuppressLint({"UseCompatLoadingForDrawables", "SetTextI18n"})
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -42,26 +43,28 @@ public class TheFinalGamble extends AppCompatActivity {
 
         TextView rt_value_id = findViewById(R.id.rt_value_id);
 
-        type_id.setText(R.string.attack);
-        type_image_id.setImageDrawable(res.getDrawable(R.drawable.attack));
+        JutsuCards jutsuCards = new JutsuCards("Attack", 6, "Impact", 350, 36, 9820, 53);
 
-        lvl_ninjutsu_id.setText(R.string.lv_70_70);
-        rank_image_id.setImageDrawable(res.getDrawable(R.drawable.icon6star));
+        type_id.setText(jutsuCards.getType());
 
-        hp_value_id.setText(R.string._1128);
-        cp_value_id.setText(R.string._102);
-        atk_value_id.setText(R.string._829);
-        def_value_id.setText(R.string._534);
-        cri_value_id.setText(R.string._1_30);
-        eva_value_id.setText(R.string._1_30);
+        lvl_ninjutsu_id.setText(jutsuCards.getLvlCard());
 
-        nature_id.setText(R.string.impact);
-        nature_image_id.setImageDrawable(res.getDrawable(R.drawable.impact));
+        hp_value_id.setText(String.valueOf(jutsuCards.getHp()));
+        cp_value_id.setText(String.valueOf(jutsuCards.getCp()));
+        atk_value_id.setText(String.valueOf(jutsuCards.getAtk()));
+        def_value_id.setText(String.valueOf(jutsuCards.getDef()));
+        cri_value_id.setText(jutsuCards.getCri()+"0%");
+        eva_value_id.setText(jutsuCards.getEva()+"0%");
 
-        lvl_jutsu_id.setText(R.string._8_8);
-        cpcost_value_id.setText(R.string._350);
-        cri_jutsu_value_id.setText(R.string._36_00);
-        pow_jutsu_value_id.setText(R.string._9820);
-        rt_value_id.setText(R.string._53);
+        nature_id.setText(jutsuCards.getNature());
+        lvl_jutsu_id.setText(jutsuCards.getLvlJutsu());
+        cpcost_value_id.setText(String.valueOf(jutsuCards.getCpcost()));
+        cri_jutsu_value_id.setText(jutsuCards.getCriJutsu()+".00%");
+        pow_jutsu_value_id.setText(String.valueOf(jutsuCards.getPow()));
+        rt_value_id.setText(String.valueOf(jutsuCards.getRt()));
+
+        type_image_id.setImageDrawable(res.getDrawable(jutsuCards.getTypeImage()));
+        rank_image_id.setImageDrawable(res.getDrawable(jutsuCards.getRank()));
+        nature_image_id.setImageDrawable(res.getDrawable(jutsuCards.getNatureImage()));
     }
 }
