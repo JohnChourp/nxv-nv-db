@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyApplication">
         <activity
+            android:name=".cards_tools.naruto_uzumaki.ninjutsus_1_star.Itskindalikebam"
+            android:exported="false" />
+        <activity
             android:name=".cards_tools.naruto_uzumaki.ninjutsus_3_star.AThousandYearsofDeath"
             android:exported="false" />
         <activity

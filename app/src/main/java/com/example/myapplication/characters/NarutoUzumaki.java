@@ -7,6 +7,7 @@ import android.os.Bundle;
 import android.widget.ImageView;
 
 import com.example.myapplication.R;
+import com.example.myapplication.cards_tools.naruto_uzumaki.ninjutsus_1_star.Itskindalikebam;
 import com.example.myapplication.cards_tools.naruto_uzumaki.ninjutsus_3_star.AThousandYearsofDeath;
 import com.example.myapplication.cards_tools.naruto_uzumaki.ninjutsus_3_star.AWarmHand;
 import com.example.myapplication.cards_tools.naruto_uzumaki.ninjutsus_4_star.BecauseThatsWhoNarutoIs;
@@ -50,6 +51,9 @@ public class NarutoUzumaki extends AppCompatActivity {
 
         ImageView naruto_uzumaki_3_star_j2_artwork_id = findViewById(R.id.naruto_uzumaki_3_star_j2_artwork_id);
         naruto_uzumaki_3_star_j2_artwork_id.setOnClickListener(v -> openAThousandYearsofDeath());
+
+        ImageView naruto_uzumaki_1_star_j1_artwork_id = findViewById(R.id.naruto_uzumaki_1_star_j1_artwork_id);
+        naruto_uzumaki_1_star_j1_artwork_id.setOnClickListener(v -> openItskindalikebam());
     }
 
     private void openNarutovsPain() {
@@ -94,6 +98,11 @@ public class NarutoUzumaki extends AppCompatActivity {
 
     private void openAThousandYearsofDeath() {
         Intent intent = new Intent(this, AThousandYearsofDeath.class);
+        startActivity(intent);
+    }
+
+    private void openItskindalikebam() {
+        Intent intent = new Intent(this, Itskindalikebam.class);
         startActivity(intent);
     }
 }

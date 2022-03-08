@@ -9,7 +9,7 @@
     tools:context=".cards_tools.naruto_uzumaki.ninjutsus_4_star.BecauseThatsWhoNarutoIs">
 
     <TableLayout
-        android:layout_width="400dp"
+        android:layout_width="415dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal">
 
@@ -20,7 +20,7 @@
 
             <TextView
                 android:id="@+id/card_id"
-                android:layout_width="400dp"
+                android:layout_width="match_parent"
                 android:layout_height="30dp"
                 android:layout_column="1"
                 android:layout_span="4"
@@ -37,7 +37,7 @@
 
             <TextView
                 android:id="@+id/type_id"
-                android:layout_width="100dp"
+                android:layout_width="110dp"
                 android:layout_height="30dp"
                 android:layout_column="1"
                 android:background="@drawable/border"
@@ -76,15 +76,16 @@
 
         <TableRow
             android:layout_width="match_parent"
-            android:layout_height="400dp"
+            android:layout_height="311dp"
             android:background="#F49907">
 
             <ImageView
                 android:id="@+id/card_image_id"
-                android:layout_width="400dp"
-                android:layout_height="307dp"
+                android:layout_width="415dp"
+                android:layout_height="311dp"
                 android:layout_column="1"
                 android:layout_span="4"
+                android:scaleType="fitXY"
                 android:background="@drawable/border"
                 android:contentDescription="@string/todo"
                 app:srcCompat="@drawable/naruto_uzumaki_4_star_j3_artwork"
@@ -98,7 +99,7 @@
 
             <TextView
                 android:id="@+id/max_card_stats_id"
-                android:layout_width="400dp"
+                android:layout_width="match_parent"
                 android:layout_height="30dp"
                 android:layout_column="1"
                 android:layout_span="4"
@@ -272,7 +273,7 @@
 
             <TextView
                 android:id="@+id/max_jutsu_stats_id"
-                android:layout_width="400dp"
+                android:layout_width="match_parent"
                 android:layout_height="30dp"
                 android:layout_column="1"
                 android:layout_span="4"
@@ -290,7 +291,7 @@
 
             <TextView
                 android:id="@+id/ninjutsu_name_id"
-                android:layout_width="400dp"
+                android:layout_width="match_parent"
                 android:layout_height="30dp"
                 android:layout_column="1"
                 android:layout_span="4"
@@ -309,7 +310,7 @@
 
             <TextView
                 android:id="@+id/nature_id"
-                android:layout_width="110dp"
+                android:layout_width="100dp"
                 android:layout_height="30dp"
                 android:layout_column="1"
                 android:background="@drawable/border"
@@ -320,7 +321,7 @@
 
             <ImageView
                 android:id="@+id/nature_image_id"
-                android:layout_width="90dp"
+                android:layout_width="100dp"
                 android:layout_height="30dp"
                 android:layout_column="2"
                 android:background="@drawable/border"
@@ -357,7 +358,7 @@
 
             <ImageView
                 android:id="@+id/card_image_ninjutsu_id"
-                android:layout_width="100dp"
+                android:layout_width="200dp"
                 android:layout_height="70dp"
                 android:layout_column="1"
                 android:layout_span="2"
@@ -487,7 +488,7 @@
 
             <TextView
                 android:id="@+id/equip_id"
-                android:layout_width="100dp"
+                android:layout_width="match_parent"
                 android:layout_height="30dp"
                 android:layout_column="1"
                 android:layout_span="4"
@@ -506,7 +507,7 @@
 
             <TextView
                 android:id="@+id/info_id"
-                android:layout_width="100dp"
+                android:layout_width="match_parent"
                 android:layout_height="90dp"
                 android:layout_column="1"
                 android:layout_span="4"
@@ -525,7 +526,7 @@
 
             <TextView
                 android:id="@+id/check_by_lv_id"
-                android:layout_width="400dp"
+                android:layout_width="match_parent"
                 android:layout_height="30dp"
                 android:layout_column="1"
                 android:layout_span="4"
