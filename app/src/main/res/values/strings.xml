@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">My Application</string>
+    <string name="app_name">NXB-NV DB</string>
     <string name="todo">TODO</string>
     <string name="button">Button</string>
     <string name="ultimate_jutsus_5_star">Ultimate Jutsus 5 Star</string>
@@ -69,4 +69,9 @@
     <string name="hurls_a_shadow_clone_ahead_causing_damage">Hurls a shadow clone ahead, causing damage.</string>
     <string name="shadow_clone_uppercut">Shadow Clone Uppercut</string>
     <string name="forms_a_shadow_clone_ahead_that_performs_an_uppercut_causing_damage">Forms a shadow clone ahead that performs an uppercut, causing damage.</string>
+    <string name="assist">Assist</string>
+    <string name="defense">Defense</string>
+    <string name="skill">Skill</string>
+    <string name="utility">Utility</string>
+    <string name="show_all">Show All</string>
 </resources>
