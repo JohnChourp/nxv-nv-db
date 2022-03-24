@@ -7,5 +7,6 @@
     <dimen name="minus80">-80dp</dimen>
     <dimen name="minus176">-176dp</dimen>
     <dimen name="minus272">-272dp</dimen>
+    <dimen name="minus368">-368dp</dimen>
     <dimen name="minus464">-464dp</dimen>
 </resources>
