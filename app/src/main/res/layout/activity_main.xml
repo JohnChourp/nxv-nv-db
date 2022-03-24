@@ -76,7 +76,8 @@
                 android:layout_marginLeft="20dp"
                 android:layout_marginTop="18dp"
                 android:text="@string/show_all"
-                android:textSize="12sp" />
+                android:textSize="12sp"
+                tools:ignore="TouchTargetSizeCheck" />
         </LinearLayout>
 
         <LinearLayout
