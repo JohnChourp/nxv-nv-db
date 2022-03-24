@@ -389,6 +389,117 @@ public class Main extends AppCompatActivity {
         });
 
         btn_attack.setOnClickListener(view -> {
+            //assist
+            sakura_haruno_Id.setVisibility(ImageView.VISIBLE);
+            LinearLayout.LayoutParams sakura_haruno_Id_Params = (LinearLayout.LayoutParams) sakura_haruno_Id.getLayoutParams();
+            sakura_haruno_Id_Params.setMargins(plus192, minus80, 0, 0);
+            sakura_haruno_Id.setLayoutParams(sakura_haruno_Id_Params);
+
+            hinata_hyuga_id.setVisibility(ImageView.VISIBLE);
+            LinearLayout.LayoutParams hinata_hyuga_id_Params = (LinearLayout.LayoutParams) hinata_hyuga_id.getLayoutParams();
+            hinata_hyuga_id_Params.setMargins(0, plus16, 0, 0);
+            hinata_hyuga_id.setLayoutParams(hinata_hyuga_id_Params);
+
+            ino_yamanaka_id.setVisibility(ImageView.VISIBLE);
+            LinearLayout.LayoutParams ino_yamanaka_id_Params = (LinearLayout.LayoutParams) ino_yamanaka_id.getLayoutParams();
+            ino_yamanaka_id_Params.setMargins(plus288, minus80, 0, 0);
+            ino_yamanaka_id.setLayoutParams(ino_yamanaka_id_Params);
+
+            shizune_id.setVisibility(ImageView.VISIBLE);
+            LinearLayout.LayoutParams shizune_id_Params = (LinearLayout.LayoutParams) shizune_id.getLayoutParams();
+            shizune_id_Params.setMargins(plus96, minus80, 0, 0);
+            shizune_id.setLayoutParams(shizune_id_Params);
+
+            haku_id.setVisibility(ImageView.VISIBLE);
+            LinearLayout.LayoutParams haku_id_Params = (LinearLayout.LayoutParams) haku_id.getLayoutParams();
+            haku_id_Params.setMargins(plus288, minus80, 0, 0);
+            haku_id.setLayoutParams(haku_id_Params);
+
+            tsunade_id.setVisibility(ImageView.VISIBLE);
+            LinearLayout.LayoutParams tsunade_id_Params = (LinearLayout.LayoutParams) tsunade_id.getLayoutParams();
+            tsunade_id_Params.setMargins(plus192, minus80, 0, 0);
+            tsunade_id.setLayoutParams(tsunade_id_Params);
+
+            sarada_uchiha__genin__id.setVisibility(ImageView.VISIBLE);
+            LinearLayout.LayoutParams sarada_uchiha__genin__id_Params = (LinearLayout.LayoutParams) sarada_uchiha__genin__id.getLayoutParams();
+            sarada_uchiha__genin__id_Params.setMargins(plus288, minus80, 0, 0);
+            sarada_uchiha__genin__id.setLayoutParams(sarada_uchiha__genin__id_Params);
+
+            karin_id.setVisibility(ImageView.VISIBLE);
+            LinearLayout.LayoutParams karin_id_Params = (LinearLayout.LayoutParams) karin_id.getLayoutParams();
+            karin_id_Params.setMargins(plus288, minus80, 0, 0);
+            karin_id.setLayoutParams(karin_id_Params);
+
+            hanabi_hyuga_id.setVisibility(ImageView.VISIBLE);
+            LinearLayout.LayoutParams hanabi_hyuga_id_Params = (LinearLayout.LayoutParams) hanabi_hyuga_id.getLayoutParams();
+            hanabi_hyuga_id_Params.setMargins(plus192, minus80, 0, 0);
+            hanabi_hyuga_id.setLayoutParams(hanabi_hyuga_id_Params);
+
+            shisui_uchiha_id.setVisibility(ImageView.VISIBLE);
+            LinearLayout.LayoutParams shisui_uchiha_id_Params = (LinearLayout.LayoutParams) shisui_uchiha_id.getLayoutParams();
+            shisui_uchiha_id_Params.setMargins(plus192, minus80, 0, 0);
+            shisui_uchiha_id.setLayoutParams(shisui_uchiha_id_Params);
+
+            naruto_uzumaki__kurama_link_mode__id.setVisibility(ImageView.VISIBLE);
+            LinearLayout.LayoutParams naruto_uzumaki__kurama_link_mode__id_Params = (LinearLayout.LayoutParams) naruto_uzumaki__kurama_link_mode__id.getLayoutParams();
+            naruto_uzumaki__kurama_link_mode__id_Params.setMargins(plus96, minus80, 0, 0);
+            naruto_uzumaki__kurama_link_mode__id.setLayoutParams(naruto_uzumaki__kurama_link_mode__id_Params);
+
+            ohnoki_id.setVisibility(ImageView.VISIBLE);
+            LinearLayout.LayoutParams ohnoki_id_Params = (LinearLayout.LayoutParams) ohnoki_id.getLayoutParams();
+            ohnoki_id_Params.setMargins(plus192, minus80, 0, 0);
+            ohnoki_id.setLayoutParams(ohnoki_id_Params);
+
+            rin_nohara_id.setVisibility(ImageView.VISIBLE);
+            LinearLayout.LayoutParams rin_nohara_id_Params = (LinearLayout.LayoutParams) rin_nohara_id.getLayoutParams();
+            rin_nohara_id_Params.setMargins(plus96, minus80, 0, 0);
+            rin_nohara_id.setLayoutParams(rin_nohara_id_Params);
+
+            sasuke_uchiha__rinne_sharingan__id.setVisibility(ImageView.VISIBLE);
+            LinearLayout.LayoutParams sasuke_uchiha__rinne_sharingan__id_Params = (LinearLayout.LayoutParams) sasuke_uchiha__rinne_sharingan__id.getLayoutParams();
+            sasuke_uchiha__rinne_sharingan__id_Params.setMargins(0, plus16, 0, 0);
+            sasuke_uchiha__rinne_sharingan__id.setLayoutParams(sasuke_uchiha__rinne_sharingan__id_Params);
+
+            ashura_otsutsuki_id.setVisibility(ImageView.VISIBLE);
+            LinearLayout.LayoutParams ashura_otsutsuki_id_Params = (LinearLayout.LayoutParams) ashura_otsutsuki_id.getLayoutParams();
+            ashura_otsutsuki_id_Params.setMargins(plus288, minus80, 0, 0);
+            ashura_otsutsuki_id.setLayoutParams(ashura_otsutsuki_id_Params);
+
+            hashirama_senju__reanimation_sage_mode__id.setVisibility(ImageView.VISIBLE);
+            LinearLayout.LayoutParams hashirama_senju__reanimation_sage_mode__id_Params = (LinearLayout.LayoutParams) hashirama_senju__reanimation_sage_mode__id.getLayoutParams();
+            hashirama_senju__reanimation_sage_mode__id_Params.setMargins(plus96, minus80, 0, 0);
+            hashirama_senju__reanimation_sage_mode__id.setLayoutParams(hashirama_senju__reanimation_sage_mode__id_Params);
+
+            sakura_haruno__great_ninja_war__id.setVisibility(ImageView.VISIBLE);
+            LinearLayout.LayoutParams sakura_haruno__great_ninja_war__id_Params = (LinearLayout.LayoutParams) sakura_haruno__great_ninja_war__id.getLayoutParams();
+            sakura_haruno__great_ninja_war__id_Params.setMargins(plus192, minus80, 0, 0);
+            sakura_haruno__great_ninja_war__id.setLayoutParams(sakura_haruno__great_ninja_war__id_Params);
+
+            kaguya_otsutsuki_id.setVisibility(ImageView.VISIBLE);
+            LinearLayout.LayoutParams kaguya_otsutsuki_id_Params = (LinearLayout.LayoutParams) kaguya_otsutsuki_id.getLayoutParams();
+            kaguya_otsutsuki_id_Params.setMargins(plus288, minus80, 0, 0);
+            kaguya_otsutsuki_id.setLayoutParams(kaguya_otsutsuki_id_Params);
+
+            konan__summer_break__id.setVisibility(ImageView.VISIBLE);
+            LinearLayout.LayoutParams konan__summer_break__id_Params = (LinearLayout.LayoutParams) konan__summer_break__id.getLayoutParams();
+            konan__summer_break__id_Params.setMargins(plus192, minus80, 0, 0);
+            konan__summer_break__id.setLayoutParams(konan__summer_break__id_Params);
+
+            kakashi_hatake__sixth_hokage__thumb_id.setVisibility(ImageView.VISIBLE);
+            LinearLayout.LayoutParams kakashi_hatake__sixth_hokage__thumb_id_Params = (LinearLayout.LayoutParams) kakashi_hatake__sixth_hokage__thumb_id.getLayoutParams();
+            kakashi_hatake__sixth_hokage__thumb_id_Params.setMargins(plus96, minus80, 0, 0);
+            kakashi_hatake__sixth_hokage__thumb_id.setLayoutParams(kakashi_hatake__sixth_hokage__thumb_id_Params);
+
+            kushina_uzumaki_thumb_id.setVisibility(ImageView.VISIBLE);
+            LinearLayout.LayoutParams kushina_uzumaki_thumb_id_Params = (LinearLayout.LayoutParams) kushina_uzumaki_thumb_id.getLayoutParams();
+            kushina_uzumaki_thumb_id_Params.setMargins(plus96, minus80, 0, 0);
+            kushina_uzumaki_thumb_id.setLayoutParams(kushina_uzumaki_thumb_id_Params);
+
+            sakura_uchiha_thumb_id.setVisibility(ImageView.VISIBLE);
+            LinearLayout.LayoutParams sakura_uchiha_thumb_id_Params = (LinearLayout.LayoutParams) sakura_uchiha_thumb_id.getLayoutParams();
+            sakura_uchiha_thumb_id_Params.setMargins(plus192, minus80, 0, 0);
+            sakura_uchiha_thumb_id.setLayoutParams(sakura_uchiha_thumb_id_Params);
+            //assist
             params.height = 1800;
             charactersLinearLayout.setLayoutParams(params);
 
@@ -490,6 +601,117 @@ public class Main extends AppCompatActivity {
         });
 
         btn_assist.setOnClickListener(view -> {
+            //attack
+            boruto_uzumaki_id.setVisibility(ImageView.VISIBLE);
+            LinearLayout.LayoutParams boruto_uzumaki_id_Params = (LinearLayout.LayoutParams) boruto_uzumaki_id.getLayoutParams();
+            boruto_uzumaki_id_Params.setMargins(0, plus16, 0, 0);
+            boruto_uzumaki_id.setLayoutParams(boruto_uzumaki_id_Params);
+
+            choji_akimichi_id.setVisibility(ImageView.VISIBLE);
+            LinearLayout.LayoutParams choji_akimichi_id_Params = (LinearLayout.LayoutParams) choji_akimichi_id.getLayoutParams();
+            choji_akimichi_id_Params.setMargins(0, plus16, 0, 0);
+            choji_akimichi_id.setLayoutParams(choji_akimichi_id_Params);
+
+            kiba_inuzuka_id.setVisibility(ImageView.VISIBLE);
+            LinearLayout.LayoutParams kiba_inuzuka_id_Params = (LinearLayout.LayoutParams) kiba_inuzuka_id.getLayoutParams();
+            kiba_inuzuka_id_Params.setMargins(plus96, minus80, 0, 0);
+            kiba_inuzuka_id.setLayoutParams(kiba_inuzuka_id_Params);
+
+            temari_id.setVisibility(ImageView.VISIBLE);
+            LinearLayout.LayoutParams temari_id_Params = (LinearLayout.LayoutParams) temari_id.getLayoutParams();
+            temari_id_Params.setMargins(0, plus16, 0, 0);
+            temari_id.setLayoutParams(temari_id_Params);
+
+            might_guy_id.setVisibility(ImageView.VISIBLE);
+            LinearLayout.LayoutParams might_guy_id_Params = (LinearLayout.LayoutParams) might_guy_id.getLayoutParams();
+            might_guy_id_Params.setMargins(0, plus16, 0, 0);
+            might_guy_id.setLayoutParams(might_guy_id_Params);
+
+            deidara_id.setVisibility(ImageView.VISIBLE);
+            LinearLayout.LayoutParams deidara_id_Params = (LinearLayout.LayoutParams) deidara_id.getLayoutParams();
+            deidara_id_Params.setMargins(plus192, minus80, 0, 0);
+            deidara_id.setLayoutParams(deidara_id_Params);
+
+            hidan_id.setVisibility(ImageView.VISIBLE);
+            LinearLayout.LayoutParams hidan_id_Params = (LinearLayout.LayoutParams) hidan_id.getLayoutParams();
+            hidan_id_Params.setMargins(plus96, minus80, 0, 0);
+            hidan_id.setLayoutParams(hidan_id_Params);
+
+            suigetsu_hozuki_id.setVisibility(ImageView.VISIBLE);
+            LinearLayout.LayoutParams suigetsu_hozuki_id_Params = (LinearLayout.LayoutParams) suigetsu_hozuki_id.getLayoutParams();
+            suigetsu_hozuki_id_Params.setMargins(plus96, minus80, 0, 0);
+            suigetsu_hozuki_id.setLayoutParams(suigetsu_hozuki_id_Params);
+
+            killer_bee_id.setVisibility(ImageView.VISIBLE);
+            LinearLayout.LayoutParams killer_bee_id_Params = (LinearLayout.LayoutParams) killer_bee_id.getLayoutParams();
+            killer_bee_id_Params.setMargins(plus96, minus80, 0, 0);
+            killer_bee_id.setLayoutParams(killer_bee_id_Params);
+
+            darui_id.setVisibility(ImageView.VISIBLE);
+            LinearLayout.LayoutParams darui_id_Params = (LinearLayout.LayoutParams) darui_id.getLayoutParams();
+            darui_id_Params.setMargins(0, plus16, 0, 0);
+            darui_id.setLayoutParams(darui_id_Params);
+
+            minato_namikaze__reanimation__id.setVisibility(ImageView.VISIBLE);
+            LinearLayout.LayoutParams minato_namikaze__reanimation__id_Params = (LinearLayout.LayoutParams) minato_namikaze__reanimation__id.getLayoutParams();
+            minato_namikaze__reanimation__id_Params.setMargins(plus192, minus80, 0, 0);
+            minato_namikaze__reanimation__id.setLayoutParams(minato_namikaze__reanimation__id_Params);
+
+            obito_uchiha__ten_tails_jinchuriki__id.setVisibility(ImageView.VISIBLE);
+            LinearLayout.LayoutParams obito_uchiha__ten_tails_jinchuriki__id_Params = (LinearLayout.LayoutParams) obito_uchiha__ten_tails_jinchuriki__id.getLayoutParams();
+            obito_uchiha__ten_tails_jinchuriki__id_Params.setMargins(plus96, minus80, 0, 0);
+            obito_uchiha__ten_tails_jinchuriki__id.setLayoutParams(obito_uchiha__ten_tails_jinchuriki__id_Params);
+
+            naruto_uzumaki__nine_tails_chakra_mode__id.setVisibility(ImageView.VISIBLE);
+            LinearLayout.LayoutParams naruto_uzumaki__nine_tails_chakra_mode__id_Params = (LinearLayout.LayoutParams) naruto_uzumaki__nine_tails_chakra_mode__id.getLayoutParams();
+            naruto_uzumaki__nine_tails_chakra_mode__id_Params.setMargins(0, plus16, 0, 0);
+            naruto_uzumaki__nine_tails_chakra_mode__id.setLayoutParams(naruto_uzumaki__nine_tails_chakra_mode__id_Params);
+
+            sasuke_uchiha__hebi__id.setVisibility(ImageView.VISIBLE);
+            LinearLayout.LayoutParams sasuke_uchiha__hebi__id_Params = (LinearLayout.LayoutParams) sasuke_uchiha__hebi__id.getLayoutParams();
+            sasuke_uchiha__hebi__id_Params.setMargins(plus96, minus80, 0, 0);
+            sasuke_uchiha__hebi__id.setLayoutParams(sasuke_uchiha__hebi__id_Params);
+
+            tsunade__great_ninja_war__id.setVisibility(ImageView.VISIBLE);
+            LinearLayout.LayoutParams tsunade__great_ninja_war__id_Params = (LinearLayout.LayoutParams) tsunade__great_ninja_war__id.getLayoutParams();
+            tsunade__great_ninja_war__id_Params.setMargins(plus288, minus80, 0, 0);
+            tsunade__great_ninja_war__id.setLayoutParams(tsunade__great_ninja_war__id_Params);
+
+            kimimaro__reanimation__id.setVisibility(ImageView.VISIBLE);
+            LinearLayout.LayoutParams kimimaro__reanimation__id_Params = (LinearLayout.LayoutParams) kimimaro__reanimation__id.getLayoutParams();
+            kimimaro__reanimation__id_Params.setMargins(0, plus16, 0, 0);
+            kimimaro__reanimation__id.setLayoutParams(kimimaro__reanimation__id_Params);
+
+            kinkaku__reanimation__id.setVisibility(ImageView.VISIBLE);
+            LinearLayout.LayoutParams kinkaku__reanimation__id_Params = (LinearLayout.LayoutParams) kinkaku__reanimation__id.getLayoutParams();
+            kinkaku__reanimation__id_Params.setMargins(plus96, minus80, 0, 0);
+            kinkaku__reanimation__id.setLayoutParams(kinkaku__reanimation__id_Params);
+
+            madara_uchiha__six_paths__id.setVisibility(ImageView.VISIBLE);
+            LinearLayout.LayoutParams madara_uchiha__six_paths__id_Params = (LinearLayout.LayoutParams) madara_uchiha__six_paths__id.getLayoutParams();
+            madara_uchiha__six_paths__id_Params.setMargins(plus288, minus80, 0, 0);
+            madara_uchiha__six_paths__id.setLayoutParams(madara_uchiha__six_paths__id_Params);
+
+            sakura_uchiha__new_year_s_games__id.setVisibility(ImageView.VISIBLE);
+            LinearLayout.LayoutParams sakura_uchiha__new_year_s_games__id_Params = (LinearLayout.LayoutParams) sakura_uchiha__new_year_s_games__id.getLayoutParams();
+            sakura_uchiha__new_year_s_games__id_Params.setMargins(0, plus16, 0, 0);
+            sakura_uchiha__new_year_s_games__id.setLayoutParams(sakura_uchiha__new_year_s_games__id_Params);
+
+            madara_uchiha__illusionary_world_outfit__thumb_id.setVisibility(ImageView.VISIBLE);
+            LinearLayout.LayoutParams madara_uchiha__illusionary_world_outfit__thumb_id_Params = (LinearLayout.LayoutParams) madara_uchiha__illusionary_world_outfit__thumb_id.getLayoutParams();
+            madara_uchiha__illusionary_world_outfit__thumb_id_Params.setMargins(plus96, minus80, 0, 0);
+            madara_uchiha__illusionary_world_outfit__thumb_id.setLayoutParams(madara_uchiha__illusionary_world_outfit__thumb_id_Params);
+
+            itachi_uchiha__illusionary_world_outfit__thumb_id.setVisibility(ImageView.VISIBLE);
+            LinearLayout.LayoutParams itachi_uchiha__illusionary_world_outfit__thumb_id_Params = (LinearLayout.LayoutParams) itachi_uchiha__illusionary_world_outfit__thumb_id.getLayoutParams();
+            itachi_uchiha__illusionary_world_outfit__thumb_id_Params.setMargins(plus192, minus80, 0, 0);
+            itachi_uchiha__illusionary_world_outfit__thumb_id.setLayoutParams(itachi_uchiha__illusionary_world_outfit__thumb_id_Params);
+
+            sasuke_uchiha__the_final_showdown__thumb_id.setVisibility(ImageView.VISIBLE);
+            LinearLayout.LayoutParams sasuke_uchiha__the_final_showdown__thumb_id_Params = (LinearLayout.LayoutParams) sasuke_uchiha__the_final_showdown__thumb_id.getLayoutParams();
+            sasuke_uchiha__the_final_showdown__thumb_id_Params.setMargins(0, plus16, 0, 0);
+            sasuke_uchiha__the_final_showdown__thumb_id.setLayoutParams(sasuke_uchiha__the_final_showdown__thumb_id_Params);
+            //attack
             params.height = 1500;
             charactersLinearLayout.setLayoutParams(params);
 
