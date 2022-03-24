@@ -1,9 +1,13 @@
 package com.example.myapplication;
 
 import androidx.appcompat.app.AppCompatActivity;
+
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.ViewGroup;
+import android.view.animation.Animation;
+import android.view.animation.AnimationUtils;
+import android.view.animation.ScaleAnimation;
 import android.widget.Button;
 import android.widget.ImageButton;
 import android.widget.ImageView;
@@ -156,6 +160,12 @@ public class Main extends AppCompatActivity {
         ImageButton btn_skill = findViewById(R.id.btn_skill);
         ImageButton btn_utility = findViewById(R.id.btn_utility);
 
+        Animation anim_type_attack = AnimationUtils.loadAnimation(this,R.anim.scale_type_anim);
+        Animation anim_type_assist = AnimationUtils.loadAnimation(this,R.anim.scale_type_anim);
+        Animation anim_type_defense = AnimationUtils.loadAnimation(this,R.anim.scale_type_anim);
+        Animation anim_type_skill = AnimationUtils.loadAnimation(this,R.anim.scale_type_anim);
+        Animation anim_type_utility = AnimationUtils.loadAnimation(this,R.anim.scale_type_anim);
+
         btn_show_all.setOnClickListener(view -> {
             attackDefault(setParams, plus16, plus96, plus192, plus288, minus80, naruto_uzumaki_Id, sasuke_uchiha_Id, boruto_uzumaki_id, choji_akimichi_id, kiba_inuzuka_id, temari_id, might_guy_id, deidara_id, hidan_id, suigetsu_hozuki_id, killer_bee_id, kabuto_yakushi__snake_cloak__id, darui_id, minato_namikaze__reanimation__id, obito_uchiha__ten_tails_jinchuriki__id, naruto_uzumaki__nine_tails_chakra_mode__id, sasuke_uchiha__hebi__id, tsunade__great_ninja_war__id, kimimaro__reanimation__id, kinkaku__reanimation__id, madara_uchiha__six_paths__id, sakura_uchiha__new_year_s_games__id, madara_uchiha__illusionary_world_outfit__thumb_id, itachi_uchiha__illusionary_world_outfit__thumb_id, sasuke_uchiha__the_final_showdown__thumb_id);
             assistDefault(setParams, plus16, plus96, plus192, plus288, minus80, sakura_haruno_Id, hinata_hyuga_id, ino_yamanaka_id, shizune_id, haku_id, tsunade_id, sarada_uchiha__genin__id, karin_id, hanabi_hyuga_id, shisui_uchiha_id, naruto_uzumaki__kurama_link_mode__id, ohnoki_id, rin_nohara_id, sasuke_uchiha__rinne_sharingan__id, ashura_otsutsuki_id, hashirama_senju__reanimation_sage_mode__id, sakura_haruno__great_ninja_war__id, kaguya_otsutsuki_id, konan__summer_break__id, kakashi_hatake__sixth_hokage__thumb_id, kushina_uzumaki_thumb_id, sakura_uchiha_thumb_id);
@@ -172,6 +182,10 @@ public class Main extends AppCompatActivity {
         });
 
         btn_attack.setOnClickListener(view -> {
+            anim_type_attack.setFillAfter(true);
+            anim_type_attack.setDuration(1000);
+            btn_attack.startAnimation(anim_type_attack);
+
             assistDefault(setParams, plus16, plus96, plus192, plus288, minus80, sakura_haruno_Id, hinata_hyuga_id, ino_yamanaka_id, shizune_id, haku_id, tsunade_id, sarada_uchiha__genin__id, karin_id, hanabi_hyuga_id, shisui_uchiha_id, naruto_uzumaki__kurama_link_mode__id, ohnoki_id, rin_nohara_id, sasuke_uchiha__rinne_sharingan__id, ashura_otsutsuki_id, hashirama_senju__reanimation_sage_mode__id, sakura_haruno__great_ninja_war__id, kaguya_otsutsuki_id, konan__summer_break__id, kakashi_hatake__sixth_hokage__thumb_id, kushina_uzumaki_thumb_id, sakura_uchiha_thumb_id);
             defenseDefault(setParams, plus16, plus96, plus192, plus288, minus80, gaara_id, kisame_hoshigaki_id, rock_lee_id, asuma_sarutobi_id, zabuza_momochi_id, kakuzu_id, jiraiya_id, itachi_uchiha__vs_sasuke__id, jugo_id, naruto_uzumaki__7th_hokage__id, tobirama_senju_id, hashirama_senju_id, sasuke_uchiha__eternal_mangekyo_sharingan__id, gaara__allied_shinobi_forces_commander__id, nagato__reanimation__id, sasuke_uchiha__rinne_sharingan_shadow__id, naruto_uzumaki__warrior_spirit__id, boruto_uzumaki__warrior_spirit__id, naruto_uzumaki__the_final_showdown__thumb_id, boruto_uzumaki__karma__thumb_id);
             skillDefault(setParams, plus16, plus96, plus192, plus288, minus80, kankuro_id, shino_aburame_id, sarada_uchiha_id, neji_hyuga_id, itachi_uchiha_id, sasori_id, sai_id, minato_namikaze_id, mitsuki_id, sasuke_uchiha__vs_itachi__id, pain__tendo_id, konan_id, hiruzen_sarutobi_id, obito_uchiha_id, kakashi_hatake__double_sharingan__id, naruto_uzumaki__six_paths_sage_mode__id, indra_otsutsuki_id, raikage_ay_id, hinata_hyuga__summer_break__id, sakura_haruno__summer_break__id, madara_uchiha__white_mask__id, kabuto_yakushi__sage_mode__id, might_guy__eight_inner_gates__id, shikamaru_nara__bestowed_outfit__id, jiraiya__warrior_spirit__id, sasuke_uchiha__warrior_spirit__id, itachi_uchiha__anbu__thumb_id);
@@ -286,6 +300,10 @@ public class Main extends AppCompatActivity {
         });
 
         btn_assist.setOnClickListener(view -> {
+            anim_type_assist.setFillAfter(true);
+            anim_type_assist.setDuration(1000);
+            btn_assist.startAnimation(anim_type_assist);
+
             attackDefault(setParams, plus16, plus96, plus192, plus288, minus80, naruto_uzumaki_Id, sasuke_uchiha_Id, boruto_uzumaki_id, choji_akimichi_id, kiba_inuzuka_id, temari_id, might_guy_id, deidara_id, hidan_id, suigetsu_hozuki_id, killer_bee_id, kabuto_yakushi__snake_cloak__id, darui_id, minato_namikaze__reanimation__id, obito_uchiha__ten_tails_jinchuriki__id, naruto_uzumaki__nine_tails_chakra_mode__id, sasuke_uchiha__hebi__id, tsunade__great_ninja_war__id, kimimaro__reanimation__id, kinkaku__reanimation__id, madara_uchiha__six_paths__id, sakura_uchiha__new_year_s_games__id, madara_uchiha__illusionary_world_outfit__thumb_id, itachi_uchiha__illusionary_world_outfit__thumb_id, sasuke_uchiha__the_final_showdown__thumb_id);
             defenseDefault(setParams, plus16, plus96, plus192, plus288, minus80, gaara_id, kisame_hoshigaki_id, rock_lee_id, asuma_sarutobi_id, zabuza_momochi_id, kakuzu_id, jiraiya_id, itachi_uchiha__vs_sasuke__id, jugo_id, naruto_uzumaki__7th_hokage__id, tobirama_senju_id, hashirama_senju_id, sasuke_uchiha__eternal_mangekyo_sharingan__id, gaara__allied_shinobi_forces_commander__id, nagato__reanimation__id, sasuke_uchiha__rinne_sharingan_shadow__id, naruto_uzumaki__warrior_spirit__id, boruto_uzumaki__warrior_spirit__id, naruto_uzumaki__the_final_showdown__thumb_id, boruto_uzumaki__karma__thumb_id);
             skillDefault(setParams, plus16, plus96, plus192, plus288, minus80, kankuro_id, shino_aburame_id, sarada_uchiha_id, neji_hyuga_id, itachi_uchiha_id, sasori_id, sai_id, minato_namikaze_id, mitsuki_id, sasuke_uchiha__vs_itachi__id, pain__tendo_id, konan_id, hiruzen_sarutobi_id, obito_uchiha_id, kakashi_hatake__double_sharingan__id, naruto_uzumaki__six_paths_sage_mode__id, indra_otsutsuki_id, raikage_ay_id, hinata_hyuga__summer_break__id, sakura_haruno__summer_break__id, madara_uchiha__white_mask__id, kabuto_yakushi__sage_mode__id, might_guy__eight_inner_gates__id, shikamaru_nara__bestowed_outfit__id, jiraiya__warrior_spirit__id, sasuke_uchiha__warrior_spirit__id, itachi_uchiha__anbu__thumb_id);
@@ -388,6 +406,10 @@ public class Main extends AppCompatActivity {
         });
 
         btn_defense.setOnClickListener(view -> {
+            anim_type_defense.setFillAfter(true);
+            anim_type_defense.setDuration(1000);
+            btn_defense.startAnimation(anim_type_defense);
+
             attackDefault(setParams, plus16, plus96, plus192, plus288, minus80, naruto_uzumaki_Id, sasuke_uchiha_Id, boruto_uzumaki_id, choji_akimichi_id, kiba_inuzuka_id, temari_id, might_guy_id, deidara_id, hidan_id, suigetsu_hozuki_id, killer_bee_id, kabuto_yakushi__snake_cloak__id, darui_id, minato_namikaze__reanimation__id, obito_uchiha__ten_tails_jinchuriki__id, naruto_uzumaki__nine_tails_chakra_mode__id, sasuke_uchiha__hebi__id, tsunade__great_ninja_war__id, kimimaro__reanimation__id, kinkaku__reanimation__id, madara_uchiha__six_paths__id, sakura_uchiha__new_year_s_games__id, madara_uchiha__illusionary_world_outfit__thumb_id, itachi_uchiha__illusionary_world_outfit__thumb_id, sasuke_uchiha__the_final_showdown__thumb_id);
             assistDefault(setParams, plus16, plus96, plus192, plus288, minus80, sakura_haruno_Id, hinata_hyuga_id, ino_yamanaka_id, shizune_id, haku_id, tsunade_id, sarada_uchiha__genin__id, karin_id, hanabi_hyuga_id, shisui_uchiha_id, naruto_uzumaki__kurama_link_mode__id, ohnoki_id, rin_nohara_id, sasuke_uchiha__rinne_sharingan__id, ashura_otsutsuki_id, hashirama_senju__reanimation_sage_mode__id, sakura_haruno__great_ninja_war__id, kaguya_otsutsuki_id, konan__summer_break__id, kakashi_hatake__sixth_hokage__thumb_id, kushina_uzumaki_thumb_id, sakura_uchiha_thumb_id);
             skillDefault(setParams, plus16, plus96, plus192, plus288, minus80, kankuro_id, shino_aburame_id, sarada_uchiha_id, neji_hyuga_id, itachi_uchiha_id, sasori_id, sai_id, minato_namikaze_id, mitsuki_id, sasuke_uchiha__vs_itachi__id, pain__tendo_id, konan_id, hiruzen_sarutobi_id, obito_uchiha_id, kakashi_hatake__double_sharingan__id, naruto_uzumaki__six_paths_sage_mode__id, indra_otsutsuki_id, raikage_ay_id, hinata_hyuga__summer_break__id, sakura_haruno__summer_break__id, madara_uchiha__white_mask__id, kabuto_yakushi__sage_mode__id, might_guy__eight_inner_gates__id, shikamaru_nara__bestowed_outfit__id, jiraiya__warrior_spirit__id, sasuke_uchiha__warrior_spirit__id, itachi_uchiha__anbu__thumb_id);
@@ -482,6 +504,10 @@ public class Main extends AppCompatActivity {
         });
 
         btn_skill.setOnClickListener(view -> {
+            anim_type_skill.setFillAfter(true);
+            anim_type_skill.setDuration(1000);
+            btn_skill.startAnimation(anim_type_skill);
+
             attackDefault(setParams, plus16, plus96, plus192, plus288, minus80, naruto_uzumaki_Id, sasuke_uchiha_Id, boruto_uzumaki_id, choji_akimichi_id, kiba_inuzuka_id, temari_id, might_guy_id, deidara_id, hidan_id, suigetsu_hozuki_id, killer_bee_id, kabuto_yakushi__snake_cloak__id, darui_id, minato_namikaze__reanimation__id, obito_uchiha__ten_tails_jinchuriki__id, naruto_uzumaki__nine_tails_chakra_mode__id, sasuke_uchiha__hebi__id, tsunade__great_ninja_war__id, kimimaro__reanimation__id, kinkaku__reanimation__id, madara_uchiha__six_paths__id, sakura_uchiha__new_year_s_games__id, madara_uchiha__illusionary_world_outfit__thumb_id, itachi_uchiha__illusionary_world_outfit__thumb_id, sasuke_uchiha__the_final_showdown__thumb_id);
             assistDefault(setParams, plus16, plus96, plus192, plus288, minus80, sakura_haruno_Id, hinata_hyuga_id, ino_yamanaka_id, shizune_id, haku_id, tsunade_id, sarada_uchiha__genin__id, karin_id, hanabi_hyuga_id, shisui_uchiha_id, naruto_uzumaki__kurama_link_mode__id, ohnoki_id, rin_nohara_id, sasuke_uchiha__rinne_sharingan__id, ashura_otsutsuki_id, hashirama_senju__reanimation_sage_mode__id, sakura_haruno__great_ninja_war__id, kaguya_otsutsuki_id, konan__summer_break__id, kakashi_hatake__sixth_hokage__thumb_id, kushina_uzumaki_thumb_id, sakura_uchiha_thumb_id);
             defenseDefault(setParams, plus16, plus96, plus192, plus288, minus80, gaara_id, kisame_hoshigaki_id, rock_lee_id, asuma_sarutobi_id, zabuza_momochi_id, kakuzu_id, jiraiya_id, itachi_uchiha__vs_sasuke__id, jugo_id, naruto_uzumaki__7th_hokage__id, tobirama_senju_id, hashirama_senju_id, sasuke_uchiha__eternal_mangekyo_sharingan__id, gaara__allied_shinobi_forces_commander__id, nagato__reanimation__id, sasuke_uchiha__rinne_sharingan_shadow__id, naruto_uzumaki__warrior_spirit__id, boruto_uzumaki__warrior_spirit__id, naruto_uzumaki__the_final_showdown__thumb_id, boruto_uzumaki__karma__thumb_id);
@@ -604,6 +630,10 @@ public class Main extends AppCompatActivity {
         });
 
         btn_utility.setOnClickListener(view -> {
+            anim_type_utility.setFillAfter(true);
+            anim_type_utility.setDuration(1000);
+            btn_utility.startAnimation(anim_type_utility);
+
             attackDefault(setParams, plus16, plus96, plus192, plus288, minus80, naruto_uzumaki_Id, sasuke_uchiha_Id, boruto_uzumaki_id, choji_akimichi_id, kiba_inuzuka_id, temari_id, might_guy_id, deidara_id, hidan_id, suigetsu_hozuki_id, killer_bee_id, kabuto_yakushi__snake_cloak__id, darui_id, minato_namikaze__reanimation__id, obito_uchiha__ten_tails_jinchuriki__id, naruto_uzumaki__nine_tails_chakra_mode__id, sasuke_uchiha__hebi__id, tsunade__great_ninja_war__id, kimimaro__reanimation__id, kinkaku__reanimation__id, madara_uchiha__six_paths__id, sakura_uchiha__new_year_s_games__id, madara_uchiha__illusionary_world_outfit__thumb_id, itachi_uchiha__illusionary_world_outfit__thumb_id, sasuke_uchiha__the_final_showdown__thumb_id);
             assistDefault(setParams, plus16, plus96, plus192, plus288, minus80, sakura_haruno_Id, hinata_hyuga_id, ino_yamanaka_id, shizune_id, haku_id, tsunade_id, sarada_uchiha__genin__id, karin_id, hanabi_hyuga_id, shisui_uchiha_id, naruto_uzumaki__kurama_link_mode__id, ohnoki_id, rin_nohara_id, sasuke_uchiha__rinne_sharingan__id, ashura_otsutsuki_id, hashirama_senju__reanimation_sage_mode__id, sakura_haruno__great_ninja_war__id, kaguya_otsutsuki_id, konan__summer_break__id, kakashi_hatake__sixth_hokage__thumb_id, kushina_uzumaki_thumb_id, sakura_uchiha_thumb_id);
             defenseDefault(setParams, plus16, plus96, plus192, plus288, minus80, gaara_id, kisame_hoshigaki_id, rock_lee_id, asuma_sarutobi_id, zabuza_momochi_id, kakuzu_id, jiraiya_id, itachi_uchiha__vs_sasuke__id, jugo_id, naruto_uzumaki__7th_hokage__id, tobirama_senju_id, hashirama_senju_id, sasuke_uchiha__eternal_mangekyo_sharingan__id, gaara__allied_shinobi_forces_commander__id, nagato__reanimation__id, sasuke_uchiha__rinne_sharingan_shadow__id, naruto_uzumaki__warrior_spirit__id, boruto_uzumaki__warrior_spirit__id, naruto_uzumaki__the_final_showdown__thumb_id, boruto_uzumaki__karma__thumb_id);
@@ -700,17 +730,6 @@ public class Main extends AppCompatActivity {
             setParams.setImageIdVisible();
             setParams.setImageId_Params().setMargins(0, minus80, 0, 0);
         });
-        //Setup anim
-//        AlphaAnimation alphaAnimation = new AlphaAnimation(1, (float) 0.5);
-//
-//        //Setup anim with desired properties
-//        alphaAnimation.setInterpolator(new LinearInterpolator());
-//        alphaAnimation.setRepeatCount(Animation.INFINITE); //Repeat animation indefinitely
-//        alphaAnimation.setDuration(1000); //Put desired duration per anim cycle here, in milliseconds
-//
-//        //Start animation
-//        naruto_uzumaki.startAnimation(alphaAnimation);
-        //Later on, use view.setAnimation(null) to stop it.
 
         naruto_uzumaki_Id.setOnClickListener(v -> openNarutoUzumaki());
     }
