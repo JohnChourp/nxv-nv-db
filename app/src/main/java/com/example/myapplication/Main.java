@@ -161,6 +161,7 @@ public class Main extends AppCompatActivity {
             assistDefault(setParams, plus16, plus96, plus192, plus288, minus80, sakura_haruno_Id, hinata_hyuga_id, ino_yamanaka_id, shizune_id, haku_id, tsunade_id, sarada_uchiha__genin__id, karin_id, hanabi_hyuga_id, shisui_uchiha_id, naruto_uzumaki__kurama_link_mode__id, ohnoki_id, rin_nohara_id, sasuke_uchiha__rinne_sharingan__id, ashura_otsutsuki_id, hashirama_senju__reanimation_sage_mode__id, sakura_haruno__great_ninja_war__id, kaguya_otsutsuki_id, konan__summer_break__id, kakashi_hatake__sixth_hokage__thumb_id, kushina_uzumaki_thumb_id, sakura_uchiha_thumb_id);
             defenseDefault(setParams, plus16, plus96, plus192, plus288, minus80, gaara_id, kisame_hoshigaki_id, rock_lee_id, asuma_sarutobi_id, zabuza_momochi_id, kakuzu_id, jiraiya_id, itachi_uchiha__vs_sasuke__id, jugo_id, naruto_uzumaki__7th_hokage__id, tobirama_senju_id, hashirama_senju_id, sasuke_uchiha__eternal_mangekyo_sharingan__id, gaara__allied_shinobi_forces_commander__id, nagato__reanimation__id, sasuke_uchiha__rinne_sharingan_shadow__id, naruto_uzumaki__warrior_spirit__id, boruto_uzumaki__warrior_spirit__id, naruto_uzumaki__the_final_showdown__thumb_id, boruto_uzumaki__karma__thumb_id);
             skillDefault(setParams, plus16, plus96, plus192, plus288, minus80, kankuro_id, shino_aburame_id, sarada_uchiha_id, neji_hyuga_id, itachi_uchiha_id, sasori_id, sai_id, minato_namikaze_id, mitsuki_id, sasuke_uchiha__vs_itachi__id, pain__tendo_id, konan_id, hiruzen_sarutobi_id, obito_uchiha_id, kakashi_hatake__double_sharingan__id, naruto_uzumaki__six_paths_sage_mode__id, indra_otsutsuki_id, raikage_ay_id, hinata_hyuga__summer_break__id, sakura_haruno__summer_break__id, madara_uchiha__white_mask__id, kabuto_yakushi__sage_mode__id, might_guy__eight_inner_gates__id, shikamaru_nara__bestowed_outfit__id, jiraiya__warrior_spirit__id, sasuke_uchiha__warrior_spirit__id, itachi_uchiha__anbu__thumb_id);
+            utilityDefault(setParams, plus16, plus96, plus192, plus288, minus80, kakashi_hatake_Id, konohamaru_sarutobi_id, tenten_id, orochimaru_id, tobi_id, shikamaru_nara_id, boruto_uzumaki__genin__id, yamato_id, sasuke_uchiha__wandering_ninja__id, naruto_uzumaki__sage_mode__id, madara_uchiha_id, danzo_shimura_id, itachi_uchiha__reanimation__id, mei_terumi_id, madara_uchiha__reanimation__id, minato_namikaze__reanimation_kurama_link_mode__id, utakata__reanimation__id, naruto_uzumaki__six_paths_sage_mode_light__id, obito_uchiha__illusionary_world_outfit__id, sasuke_uchiha__illusionary_world_outfit__id, kawaki_thumb_id);
 
             params.height = defaultLayoutParamHeight;
             charactersLinearLayout.setLayoutParams(params);
@@ -174,6 +175,7 @@ public class Main extends AppCompatActivity {
             assistDefault(setParams, plus16, plus96, plus192, plus288, minus80, sakura_haruno_Id, hinata_hyuga_id, ino_yamanaka_id, shizune_id, haku_id, tsunade_id, sarada_uchiha__genin__id, karin_id, hanabi_hyuga_id, shisui_uchiha_id, naruto_uzumaki__kurama_link_mode__id, ohnoki_id, rin_nohara_id, sasuke_uchiha__rinne_sharingan__id, ashura_otsutsuki_id, hashirama_senju__reanimation_sage_mode__id, sakura_haruno__great_ninja_war__id, kaguya_otsutsuki_id, konan__summer_break__id, kakashi_hatake__sixth_hokage__thumb_id, kushina_uzumaki_thumb_id, sakura_uchiha_thumb_id);
             defenseDefault(setParams, plus16, plus96, plus192, plus288, minus80, gaara_id, kisame_hoshigaki_id, rock_lee_id, asuma_sarutobi_id, zabuza_momochi_id, kakuzu_id, jiraiya_id, itachi_uchiha__vs_sasuke__id, jugo_id, naruto_uzumaki__7th_hokage__id, tobirama_senju_id, hashirama_senju_id, sasuke_uchiha__eternal_mangekyo_sharingan__id, gaara__allied_shinobi_forces_commander__id, nagato__reanimation__id, sasuke_uchiha__rinne_sharingan_shadow__id, naruto_uzumaki__warrior_spirit__id, boruto_uzumaki__warrior_spirit__id, naruto_uzumaki__the_final_showdown__thumb_id, boruto_uzumaki__karma__thumb_id);
             skillDefault(setParams, plus16, plus96, plus192, plus288, minus80, kankuro_id, shino_aburame_id, sarada_uchiha_id, neji_hyuga_id, itachi_uchiha_id, sasori_id, sai_id, minato_namikaze_id, mitsuki_id, sasuke_uchiha__vs_itachi__id, pain__tendo_id, konan_id, hiruzen_sarutobi_id, obito_uchiha_id, kakashi_hatake__double_sharingan__id, naruto_uzumaki__six_paths_sage_mode__id, indra_otsutsuki_id, raikage_ay_id, hinata_hyuga__summer_break__id, sakura_haruno__summer_break__id, madara_uchiha__white_mask__id, kabuto_yakushi__sage_mode__id, might_guy__eight_inner_gates__id, shikamaru_nara__bestowed_outfit__id, jiraiya__warrior_spirit__id, sasuke_uchiha__warrior_spirit__id, itachi_uchiha__anbu__thumb_id);
+            utilityDefault(setParams, plus16, plus96, plus192, plus288, minus80, kakashi_hatake_Id, konohamaru_sarutobi_id, tenten_id, orochimaru_id, tobi_id, shikamaru_nara_id, boruto_uzumaki__genin__id, yamato_id, sasuke_uchiha__wandering_ninja__id, naruto_uzumaki__sage_mode__id, madara_uchiha_id, danzo_shimura_id, itachi_uchiha__reanimation__id, mei_terumi_id, madara_uchiha__reanimation__id, minato_namikaze__reanimation_kurama_link_mode__id, utakata__reanimation__id, naruto_uzumaki__six_paths_sage_mode_light__id, obito_uchiha__illusionary_world_outfit__id, sasuke_uchiha__illusionary_world_outfit__id, kawaki_thumb_id);
 
             params.height = 1800;
             charactersLinearLayout.setLayoutParams(params);
@@ -287,6 +289,7 @@ public class Main extends AppCompatActivity {
             attackDefault(setParams, plus16, plus96, plus192, plus288, minus80, naruto_uzumaki_Id, sasuke_uchiha_Id, boruto_uzumaki_id, choji_akimichi_id, kiba_inuzuka_id, temari_id, might_guy_id, deidara_id, hidan_id, suigetsu_hozuki_id, killer_bee_id, kabuto_yakushi__snake_cloak__id, darui_id, minato_namikaze__reanimation__id, obito_uchiha__ten_tails_jinchuriki__id, naruto_uzumaki__nine_tails_chakra_mode__id, sasuke_uchiha__hebi__id, tsunade__great_ninja_war__id, kimimaro__reanimation__id, kinkaku__reanimation__id, madara_uchiha__six_paths__id, sakura_uchiha__new_year_s_games__id, madara_uchiha__illusionary_world_outfit__thumb_id, itachi_uchiha__illusionary_world_outfit__thumb_id, sasuke_uchiha__the_final_showdown__thumb_id);
             defenseDefault(setParams, plus16, plus96, plus192, plus288, minus80, gaara_id, kisame_hoshigaki_id, rock_lee_id, asuma_sarutobi_id, zabuza_momochi_id, kakuzu_id, jiraiya_id, itachi_uchiha__vs_sasuke__id, jugo_id, naruto_uzumaki__7th_hokage__id, tobirama_senju_id, hashirama_senju_id, sasuke_uchiha__eternal_mangekyo_sharingan__id, gaara__allied_shinobi_forces_commander__id, nagato__reanimation__id, sasuke_uchiha__rinne_sharingan_shadow__id, naruto_uzumaki__warrior_spirit__id, boruto_uzumaki__warrior_spirit__id, naruto_uzumaki__the_final_showdown__thumb_id, boruto_uzumaki__karma__thumb_id);
             skillDefault(setParams, plus16, plus96, plus192, plus288, minus80, kankuro_id, shino_aburame_id, sarada_uchiha_id, neji_hyuga_id, itachi_uchiha_id, sasori_id, sai_id, minato_namikaze_id, mitsuki_id, sasuke_uchiha__vs_itachi__id, pain__tendo_id, konan_id, hiruzen_sarutobi_id, obito_uchiha_id, kakashi_hatake__double_sharingan__id, naruto_uzumaki__six_paths_sage_mode__id, indra_otsutsuki_id, raikage_ay_id, hinata_hyuga__summer_break__id, sakura_haruno__summer_break__id, madara_uchiha__white_mask__id, kabuto_yakushi__sage_mode__id, might_guy__eight_inner_gates__id, shikamaru_nara__bestowed_outfit__id, jiraiya__warrior_spirit__id, sasuke_uchiha__warrior_spirit__id, itachi_uchiha__anbu__thumb_id);
+            utilityDefault(setParams, plus16, plus96, plus192, plus288, minus80, kakashi_hatake_Id, konohamaru_sarutobi_id, tenten_id, orochimaru_id, tobi_id, shikamaru_nara_id, boruto_uzumaki__genin__id, yamato_id, sasuke_uchiha__wandering_ninja__id, naruto_uzumaki__sage_mode__id, madara_uchiha_id, danzo_shimura_id, itachi_uchiha__reanimation__id, mei_terumi_id, madara_uchiha__reanimation__id, minato_namikaze__reanimation_kurama_link_mode__id, utakata__reanimation__id, naruto_uzumaki__six_paths_sage_mode_light__id, obito_uchiha__illusionary_world_outfit__id, sasuke_uchiha__illusionary_world_outfit__id, kawaki_thumb_id);
 
             params.height = 1500;
             charactersLinearLayout.setLayoutParams(params);
@@ -388,6 +391,7 @@ public class Main extends AppCompatActivity {
             attackDefault(setParams, plus16, plus96, plus192, plus288, minus80, naruto_uzumaki_Id, sasuke_uchiha_Id, boruto_uzumaki_id, choji_akimichi_id, kiba_inuzuka_id, temari_id, might_guy_id, deidara_id, hidan_id, suigetsu_hozuki_id, killer_bee_id, kabuto_yakushi__snake_cloak__id, darui_id, minato_namikaze__reanimation__id, obito_uchiha__ten_tails_jinchuriki__id, naruto_uzumaki__nine_tails_chakra_mode__id, sasuke_uchiha__hebi__id, tsunade__great_ninja_war__id, kimimaro__reanimation__id, kinkaku__reanimation__id, madara_uchiha__six_paths__id, sakura_uchiha__new_year_s_games__id, madara_uchiha__illusionary_world_outfit__thumb_id, itachi_uchiha__illusionary_world_outfit__thumb_id, sasuke_uchiha__the_final_showdown__thumb_id);
             assistDefault(setParams, plus16, plus96, plus192, plus288, minus80, sakura_haruno_Id, hinata_hyuga_id, ino_yamanaka_id, shizune_id, haku_id, tsunade_id, sarada_uchiha__genin__id, karin_id, hanabi_hyuga_id, shisui_uchiha_id, naruto_uzumaki__kurama_link_mode__id, ohnoki_id, rin_nohara_id, sasuke_uchiha__rinne_sharingan__id, ashura_otsutsuki_id, hashirama_senju__reanimation_sage_mode__id, sakura_haruno__great_ninja_war__id, kaguya_otsutsuki_id, konan__summer_break__id, kakashi_hatake__sixth_hokage__thumb_id, kushina_uzumaki_thumb_id, sakura_uchiha_thumb_id);
             skillDefault(setParams, plus16, plus96, plus192, plus288, minus80, kankuro_id, shino_aburame_id, sarada_uchiha_id, neji_hyuga_id, itachi_uchiha_id, sasori_id, sai_id, minato_namikaze_id, mitsuki_id, sasuke_uchiha__vs_itachi__id, pain__tendo_id, konan_id, hiruzen_sarutobi_id, obito_uchiha_id, kakashi_hatake__double_sharingan__id, naruto_uzumaki__six_paths_sage_mode__id, indra_otsutsuki_id, raikage_ay_id, hinata_hyuga__summer_break__id, sakura_haruno__summer_break__id, madara_uchiha__white_mask__id, kabuto_yakushi__sage_mode__id, might_guy__eight_inner_gates__id, shikamaru_nara__bestowed_outfit__id, jiraiya__warrior_spirit__id, sasuke_uchiha__warrior_spirit__id, itachi_uchiha__anbu__thumb_id);
+            utilityDefault(setParams, plus16, plus96, plus192, plus288, minus80, kakashi_hatake_Id, konohamaru_sarutobi_id, tenten_id, orochimaru_id, tobi_id, shikamaru_nara_id, boruto_uzumaki__genin__id, yamato_id, sasuke_uchiha__wandering_ninja__id, naruto_uzumaki__sage_mode__id, madara_uchiha_id, danzo_shimura_id, itachi_uchiha__reanimation__id, mei_terumi_id, madara_uchiha__reanimation__id, minato_namikaze__reanimation_kurama_link_mode__id, utakata__reanimation__id, naruto_uzumaki__six_paths_sage_mode_light__id, obito_uchiha__illusionary_world_outfit__id, sasuke_uchiha__illusionary_world_outfit__id, kawaki_thumb_id);
 
             params.height = 1300;
             charactersLinearLayout.setLayoutParams(params);
@@ -481,6 +485,7 @@ public class Main extends AppCompatActivity {
             attackDefault(setParams, plus16, plus96, plus192, plus288, minus80, naruto_uzumaki_Id, sasuke_uchiha_Id, boruto_uzumaki_id, choji_akimichi_id, kiba_inuzuka_id, temari_id, might_guy_id, deidara_id, hidan_id, suigetsu_hozuki_id, killer_bee_id, kabuto_yakushi__snake_cloak__id, darui_id, minato_namikaze__reanimation__id, obito_uchiha__ten_tails_jinchuriki__id, naruto_uzumaki__nine_tails_chakra_mode__id, sasuke_uchiha__hebi__id, tsunade__great_ninja_war__id, kimimaro__reanimation__id, kinkaku__reanimation__id, madara_uchiha__six_paths__id, sakura_uchiha__new_year_s_games__id, madara_uchiha__illusionary_world_outfit__thumb_id, itachi_uchiha__illusionary_world_outfit__thumb_id, sasuke_uchiha__the_final_showdown__thumb_id);
             assistDefault(setParams, plus16, plus96, plus192, plus288, minus80, sakura_haruno_Id, hinata_hyuga_id, ino_yamanaka_id, shizune_id, haku_id, tsunade_id, sarada_uchiha__genin__id, karin_id, hanabi_hyuga_id, shisui_uchiha_id, naruto_uzumaki__kurama_link_mode__id, ohnoki_id, rin_nohara_id, sasuke_uchiha__rinne_sharingan__id, ashura_otsutsuki_id, hashirama_senju__reanimation_sage_mode__id, sakura_haruno__great_ninja_war__id, kaguya_otsutsuki_id, konan__summer_break__id, kakashi_hatake__sixth_hokage__thumb_id, kushina_uzumaki_thumb_id, sakura_uchiha_thumb_id);
             defenseDefault(setParams, plus16, plus96, plus192, plus288, minus80, gaara_id, kisame_hoshigaki_id, rock_lee_id, asuma_sarutobi_id, zabuza_momochi_id, kakuzu_id, jiraiya_id, itachi_uchiha__vs_sasuke__id, jugo_id, naruto_uzumaki__7th_hokage__id, tobirama_senju_id, hashirama_senju_id, sasuke_uchiha__eternal_mangekyo_sharingan__id, gaara__allied_shinobi_forces_commander__id, nagato__reanimation__id, sasuke_uchiha__rinne_sharingan_shadow__id, naruto_uzumaki__warrior_spirit__id, boruto_uzumaki__warrior_spirit__id, naruto_uzumaki__the_final_showdown__thumb_id, boruto_uzumaki__karma__thumb_id);
+            utilityDefault(setParams, plus16, plus96, plus192, plus288, minus80, kakashi_hatake_Id, konohamaru_sarutobi_id, tenten_id, orochimaru_id, tobi_id, shikamaru_nara_id, boruto_uzumaki__genin__id, yamato_id, sasuke_uchiha__wandering_ninja__id, naruto_uzumaki__sage_mode__id, madara_uchiha_id, danzo_shimura_id, itachi_uchiha__reanimation__id, mei_terumi_id, madara_uchiha__reanimation__id, minato_namikaze__reanimation_kurama_link_mode__id, utakata__reanimation__id, naruto_uzumaki__six_paths_sage_mode_light__id, obito_uchiha__illusionary_world_outfit__id, sasuke_uchiha__illusionary_world_outfit__id, kawaki_thumb_id);
 
             params.height = 1800;
             charactersLinearLayout.setLayoutParams(params);
@@ -596,6 +601,104 @@ public class Main extends AppCompatActivity {
             setParams.setImageId(itachi_uchiha__anbu__thumb_id);
             setParams.setImageIdVisible();
             setParams.setImageId_Params().setMargins(plus192, minus272, 0, 0);
+        });
+
+        btn_utility.setOnClickListener(view -> {
+            attackDefault(setParams, plus16, plus96, plus192, plus288, minus80, naruto_uzumaki_Id, sasuke_uchiha_Id, boruto_uzumaki_id, choji_akimichi_id, kiba_inuzuka_id, temari_id, might_guy_id, deidara_id, hidan_id, suigetsu_hozuki_id, killer_bee_id, kabuto_yakushi__snake_cloak__id, darui_id, minato_namikaze__reanimation__id, obito_uchiha__ten_tails_jinchuriki__id, naruto_uzumaki__nine_tails_chakra_mode__id, sasuke_uchiha__hebi__id, tsunade__great_ninja_war__id, kimimaro__reanimation__id, kinkaku__reanimation__id, madara_uchiha__six_paths__id, sakura_uchiha__new_year_s_games__id, madara_uchiha__illusionary_world_outfit__thumb_id, itachi_uchiha__illusionary_world_outfit__thumb_id, sasuke_uchiha__the_final_showdown__thumb_id);
+            assistDefault(setParams, plus16, plus96, plus192, plus288, minus80, sakura_haruno_Id, hinata_hyuga_id, ino_yamanaka_id, shizune_id, haku_id, tsunade_id, sarada_uchiha__genin__id, karin_id, hanabi_hyuga_id, shisui_uchiha_id, naruto_uzumaki__kurama_link_mode__id, ohnoki_id, rin_nohara_id, sasuke_uchiha__rinne_sharingan__id, ashura_otsutsuki_id, hashirama_senju__reanimation_sage_mode__id, sakura_haruno__great_ninja_war__id, kaguya_otsutsuki_id, konan__summer_break__id, kakashi_hatake__sixth_hokage__thumb_id, kushina_uzumaki_thumb_id, sakura_uchiha_thumb_id);
+            defenseDefault(setParams, plus16, plus96, plus192, plus288, minus80, gaara_id, kisame_hoshigaki_id, rock_lee_id, asuma_sarutobi_id, zabuza_momochi_id, kakuzu_id, jiraiya_id, itachi_uchiha__vs_sasuke__id, jugo_id, naruto_uzumaki__7th_hokage__id, tobirama_senju_id, hashirama_senju_id, sasuke_uchiha__eternal_mangekyo_sharingan__id, gaara__allied_shinobi_forces_commander__id, nagato__reanimation__id, sasuke_uchiha__rinne_sharingan_shadow__id, naruto_uzumaki__warrior_spirit__id, boruto_uzumaki__warrior_spirit__id, naruto_uzumaki__the_final_showdown__thumb_id, boruto_uzumaki__karma__thumb_id);
+            skillDefault(setParams, plus16, plus96, plus192, plus288, minus80, kankuro_id, shino_aburame_id, sarada_uchiha_id, neji_hyuga_id, itachi_uchiha_id, sasori_id, sai_id, minato_namikaze_id, mitsuki_id, sasuke_uchiha__vs_itachi__id, pain__tendo_id, konan_id, hiruzen_sarutobi_id, obito_uchiha_id, kakashi_hatake__double_sharingan__id, naruto_uzumaki__six_paths_sage_mode__id, indra_otsutsuki_id, raikage_ay_id, hinata_hyuga__summer_break__id, sakura_haruno__summer_break__id, madara_uchiha__white_mask__id, kabuto_yakushi__sage_mode__id, might_guy__eight_inner_gates__id, shikamaru_nara__bestowed_outfit__id, jiraiya__warrior_spirit__id, sasuke_uchiha__warrior_spirit__id, itachi_uchiha__anbu__thumb_id);
+
+            params.height = 1500;
+            charactersLinearLayout.setLayoutParams(params);
+
+            for (int i = 0; i < charactersLinearLayout.getChildCount(); i++) {
+                charactersLinearLayout.getChildAt(i).setVisibility(ImageView.INVISIBLE);
+            }
+
+            setParams.setImageId(kakashi_hatake_Id);
+            setParams.setImageIdVisible();
+            setParams.setImageId_Params().setMargins(0, minus80, 0, 0);
+
+            setParams.setImageId(konohamaru_sarutobi_id);
+            setParams.setImageIdVisible();
+            setParams.setImageId_Params().setMargins(plus96, minus272, 0, 0);
+
+            setParams.setImageId(tenten_id);
+            setParams.setImageIdVisible();
+            setParams.setImageId_Params().setMargins(plus192, minus176, 0, 0);
+
+            setParams.setImageId(orochimaru_id);
+            setParams.setImageIdVisible();
+            setParams.setImageId_Params().setMargins(plus288, minus368, 0, 0);
+
+            setParams.setImageId(tobi_id);
+            setParams.setImageIdVisible();
+            setParams.setImageId_Params().setMargins(0, plus16, 0, 0);
+
+            setParams.setImageId(shikamaru_nara_id);
+            setParams.setImageIdVisible();
+            setParams.setImageId_Params().setMargins(plus96, minus80, 0, 0);
+
+            setParams.setImageId(boruto_uzumaki__genin__id);
+            setParams.setImageIdVisible();
+            setParams.setImageId_Params().setMargins(plus192, minus272, 0, 0);
+
+            setParams.setImageId(yamato_id);
+            setParams.setImageIdVisible();
+            setParams.setImageId_Params().setMargins(plus288, minus80, 0, 0);
+
+            setParams.setImageId(sasuke_uchiha__wandering_ninja__id);
+            setParams.setImageIdVisible();
+            setParams.setImageId_Params().setMargins(0, minus176, 0, 0);
+
+            setParams.setImageId(naruto_uzumaki__sage_mode__id);
+            setParams.setImageIdVisible();
+            setParams.setImageId_Params().setMargins(plus96, minus176, 0, 0);
+
+            setParams.setImageId(madara_uchiha_id);
+            setParams.setImageIdVisible();
+            setParams.setImageId_Params().setMargins(plus192, minus176, 0, 0);
+
+            setParams.setImageId(danzo_shimura_id);
+            setParams.setImageIdVisible();
+            setParams.setImageId_Params().setMargins(plus288, minus272, 0, 0);
+
+            setParams.setImageId(itachi_uchiha__reanimation__id);
+            setParams.setImageIdVisible();
+            setParams.setImageId_Params().setMargins(0, minus176, 0, 0);
+
+            setParams.setImageId(mei_terumi_id);
+            setParams.setImageIdVisible();
+            setParams.setImageId_Params().setMargins(plus96, minus272, 0, 0);
+
+            setParams.setImageId(madara_uchiha__reanimation__id);
+            setParams.setImageIdVisible();
+            setParams.setImageId_Params().setMargins(plus192, minus176, 0, 0);
+
+            setParams.setImageId(minato_namikaze__reanimation_kurama_link_mode__id);
+            setParams.setImageIdVisible();
+            setParams.setImageId_Params().setMargins(plus288, minus80, 0, 0);
+
+            setParams.setImageId(utakata__reanimation__id);
+            setParams.setImageIdVisible();
+            setParams.setImageId_Params().setMargins(0, plus16, 0, 0);
+
+            setParams.setImageId(naruto_uzumaki__six_paths_sage_mode_light__id);
+            setParams.setImageIdVisible();
+            setParams.setImageId_Params().setMargins(plus96, minus176, 0, 0);
+
+            setParams.setImageId(obito_uchiha__illusionary_world_outfit__id);
+            setParams.setImageIdVisible();
+            setParams.setImageId_Params().setMargins(plus192, minus272, 0, 0);
+
+            setParams.setImageId(sasuke_uchiha__illusionary_world_outfit__id);
+            setParams.setImageIdVisible();
+            setParams.setImageId_Params().setMargins(plus288, minus80, 0, 0);
+
+            setParams.setImageId(kawaki_thumb_id);
+            setParams.setImageIdVisible();
+            setParams.setImageId_Params().setMargins(0, minus80, 0, 0);
         });
         //Setup anim
 //        AlphaAnimation alphaAnimation = new AlphaAnimation(1, (float) 0.5);
@@ -1000,6 +1103,94 @@ public class Main extends AppCompatActivity {
         setParams.setImageIdVisible();
         setParams.setImageId_Params().setMargins(0, plus16, 0, 0);
         //skill
+    }
+
+    private void utilityDefault(SetParamsForCharThumb setParams, int plus16, int plus96, int plus192, int plus288, int minus80, ImageView kakashi_hatake_Id, ImageView konohamaru_sarutobi_id, ImageView tenten_id, ImageView orochimaru_id, ImageView tobi_id, ImageView shikamaru_nara_id, ImageView boruto_uzumaki__genin__id, ImageView yamato_id, ImageView sasuke_uchiha__wandering_ninja__id, ImageView naruto_uzumaki__sage_mode__id, ImageView madara_uchiha_id, ImageView danzo_shimura_id, ImageView itachi_uchiha__reanimation__id, ImageView mei_terumi_id, ImageView madara_uchiha__reanimation__id, ImageView minato_namikaze__reanimation_kurama_link_mode__id, ImageView utakata__reanimation__id, ImageView naruto_uzumaki__six_paths_sage_mode_light__id, ImageView obito_uchiha__illusionary_world_outfit__id, ImageView sasuke_uchiha__illusionary_world_outfit__id, ImageView kawaki_thumb_id) {
+        //utility
+        setParams.setImageId(kakashi_hatake_Id);
+        setParams.setImageIdVisible();
+        setParams.setImageId_Params().setMargins(plus288, minus80, 0, 0);
+
+        setParams.setImageId(konohamaru_sarutobi_id);
+        setParams.setImageIdVisible();
+        setParams.setImageId_Params().setMargins(plus96, minus80, 0, 0);
+
+        setParams.setImageId(tenten_id);
+        setParams.setImageIdVisible();
+        setParams.setImageId_Params().setMargins(plus288, minus80, 0, 0);
+
+        setParams.setImageId(orochimaru_id);
+        setParams.setImageIdVisible();
+        setParams.setImageId_Params().setMargins(plus96, minus80, 0, 0);
+
+        setParams.setImageId(tobi_id);
+        setParams.setImageIdVisible();
+        setParams.setImageId_Params().setMargins(plus288, minus80, 0, 0);
+
+        setParams.setImageId(shikamaru_nara_id);
+        setParams.setImageIdVisible();
+        setParams.setImageId_Params().setMargins(0, plus16, 0, 0);
+
+        setParams.setImageId(boruto_uzumaki__genin__id);
+        setParams.setImageIdVisible();
+        setParams.setImageId_Params().setMargins(plus96, minus80, 0, 0);
+
+        setParams.setImageId(yamato_id);
+        setParams.setImageIdVisible();
+        setParams.setImageId_Params().setMargins(plus192, minus80, 0, 0);
+
+        setParams.setImageId(sasuke_uchiha__wandering_ninja__id);
+        setParams.setImageIdVisible();
+        setParams.setImageId_Params().setMargins(plus288, minus80, 0, 0);
+
+        setParams.setImageId(naruto_uzumaki__sage_mode__id);
+        setParams.setImageIdVisible();
+        setParams.setImageId_Params().setMargins(plus192, minus80, 0, 0);
+
+        setParams.setImageId(madara_uchiha_id);
+        setParams.setImageIdVisible();
+        setParams.setImageId_Params().setMargins(plus192, minus80, 0, 0);
+
+        setParams.setImageId(danzo_shimura_id);
+        setParams.setImageIdVisible();
+        setParams.setImageId_Params().setMargins(plus288, minus80, 0, 0);
+
+        setParams.setImageId(itachi_uchiha__reanimation__id);
+        setParams.setImageIdVisible();
+        setParams.setImageId_Params().setMargins(plus288, minus80, 0, 0);
+
+        setParams.setImageId(mei_terumi_id);
+        setParams.setImageIdVisible();
+        setParams.setImageId_Params().setMargins(plus192, minus80, 0, 0);
+
+        setParams.setImageId(madara_uchiha__reanimation__id);
+        setParams.setImageIdVisible();
+        setParams.setImageId_Params().setMargins(plus96, minus80, 0, 0);
+
+        setParams.setImageId(minato_namikaze__reanimation_kurama_link_mode__id);
+        setParams.setImageIdVisible();
+        setParams.setImageId_Params().setMargins(0, plus16, 0, 0);
+
+        setParams.setImageId(utakata__reanimation__id);
+        setParams.setImageIdVisible();
+        setParams.setImageId_Params().setMargins(plus192, minus80, 0, 0);
+
+        setParams.setImageId(naruto_uzumaki__six_paths_sage_mode_light__id);
+        setParams.setImageIdVisible();
+        setParams.setImageId_Params().setMargins(0, plus16, 0, 0);
+
+        setParams.setImageId(obito_uchiha__illusionary_world_outfit__id);
+        setParams.setImageIdVisible();
+        setParams.setImageId_Params().setMargins(plus288, minus80, 0, 0);
+
+        setParams.setImageId(sasuke_uchiha__illusionary_world_outfit__id);
+        setParams.setImageIdVisible();
+        setParams.setImageId_Params().setMargins(0, plus16, 0, 0);
+
+        setParams.setImageId(kawaki_thumb_id);
+        setParams.setImageIdVisible();
+        setParams.setImageId_Params().setMargins(plus288, minus80, 0, 0);
+        //utility
     }
 
     private void openNarutoUzumaki() {
